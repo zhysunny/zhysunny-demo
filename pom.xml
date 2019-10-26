@@ -114,11 +114,20 @@
                 <version>6.4.1</version>
             </dependency>
             <!-- lucene end -->
+            <!-- statistic start -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-math3</artifactId>
                 <version>3.6.1</version>
             </dependency>
+            <!-- statistic end -->
+            <!-- 可视化 start -->
+            <dependency>
+                <groupId>de.erichseifert.gral</groupId>
+                <artifactId>gral-core</artifactId>
+                <version>0.11</version>
+            </dependency>
+            <!-- 可视化 end -->
             <!-- science end -->
             <!-- junit start -->
             <dependency>

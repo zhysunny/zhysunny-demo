@@ -63,9 +63,10 @@
 
 ## science
 
-* java获取数据的方法
-* lucene索引创建
-* 统计学
+* java获取数据的方法 com.zhysunny.science.data.get
+* lucene索引创建 com.zhysunny.science.data.index
+* 统计分析 com.zhysunny.science.data.statistic
+* 数据可视化 com.zhysunny.science.data.visualization
 
 ## server
 
