@@ -59,6 +59,18 @@
             <artifactId>gral-core</artifactId>
         </dependency>
         <!-- 可视化 end -->
+        <!-- 机器学习 start -->
+        <dependency>
+            <groupId>weka</groupId>
+            <artifactId>weka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javaml</groupId>
+            <artifactId>javaml</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/javaml-0.1.7.jar</systemPath>
+        </dependency>
+        <!-- 机器学习 end -->
         <!-- science end -->
         <!-- junit start -->
         <dependency>
