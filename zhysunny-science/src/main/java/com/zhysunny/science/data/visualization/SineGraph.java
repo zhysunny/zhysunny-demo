@@ -20,7 +20,7 @@ public class SineGraph extends JFrame {
         setSize(1000, 800);
 
         DataTable data = new DataTable(Double.class, Double.class);
-        for (double x = -5.0; x < 5.0; x += 0.01) {
+        for (double x = 0; x < 2*Math.PI; x += 0.01) {
             // y = 5*sin(x)
             double y = 5.0 * Math.sin(x);
             data.add(x, y);
@@ -35,8 +35,8 @@ public class SineGraph extends JFrame {
     }
 
     public static void main(String[] args) {
-        SineGraph sineGraph = new SineGraph();
-        sineGraph.setVisible(true);
+        SineGraph plot = new SineGraph();
+        plot.setVisible(true);
     }
 
 }
