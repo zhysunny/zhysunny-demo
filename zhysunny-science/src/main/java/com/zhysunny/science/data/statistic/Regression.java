@@ -7,6 +7,8 @@ import java.util.Arrays;
 
 /**
  * 简单回归
+ * 普通最小二乘法
+ * 广义最小二乘法
  * @author 章云
  * @date 2019/10/23 15:59
  */

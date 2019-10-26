@@ -31,4 +31,8 @@ public class DataSet {
     public static final double[][] OMEGA = { { 1.1, 0, 0, 0, 0, 0 }, { 0, 2.2, 0, 0, 0, 0 }, { 0, 0, 3.3, 0, 0, 0 }, { 0, 0, 0, 4.4, 0, 0 },
     { 0, 0, 0, 0, 5.5, 0 }, { 0, 0, 0, 0, 0, 6.6 } };
 
+    public static final double[] SAMPLE_X = { 43, 21, 25, 42, 57, 59 };
+    public static final double[] SAMPLE_Y = { 99, 65, 79, 75, 87, 81 };
+    public static final long[] SAMPLE_Z = { 43, 21, 25, 42, 57, 59 };
+
 }
