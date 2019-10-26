@@ -19,20 +19,20 @@ public class WekaBayesTest {
         NaiveBayes nb = new NaiveBayes();
         // 这里使用训练集训练模型，也可以加载已有的模型
         // 加载模型文件
-        // nb = (NaiveBayes)SerializationHelper.read("zhysunny-science/src/main/resources/data/iris.model");
+        // nb = (NaiveBayes)SerializationHelper.read("zhysunny-science/src/main/resources/iris/model/iris.model");
         // 训练数据
-        BufferedReader reader = new BufferedReader(new FileReader("zhysunny-science/src/main/resources/data/iris.train.arff"));
+        BufferedReader reader = new BufferedReader(new FileReader("zhysunny-science/src/main/resources/iris/data/iris.train.arff"));
         Instances train = new Instances(reader);
         train.setClassIndex(train.numAttributes() - 1);
         // 测试数据
-        reader = new BufferedReader(new FileReader("zhysunny-science/src/main/resources/data/iris.test.arff"));
+        reader = new BufferedReader(new FileReader("zhysunny-science/src/main/resources/iris/data/iris.test.arff"));
         Instances test = new Instances(reader);
         test.setClassIndex(train.numAttributes() - 1);
         reader.close();
         // 分类预测
         nb.buildClassifier(train);
         // 保存模型
-        SerializationHelper.write("zhysunny-science/src/main/resources/data/iris.train.model", nb);
+        SerializationHelper.write("zhysunny-science/src/main/resources/iris/model/iris.train.model", nb);
         Instances labeled = new Instances(test);
         for (int i = 0; i < test.numInstances(); i++) {
             double clsLabel = nb.classifyInstance(test.instance(i));
@@ -42,7 +42,7 @@ public class WekaBayesTest {
             System.out.println(predict);
         }
         // 测试结果写入arff文件中
-        BufferedWriter writer = new BufferedWriter(new FileWriter("zhysunny-science/src/main/resources/data/iris.test.predict.arff"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("zhysunny-science/src/main/resources/iris/data/iris.test.predict.arff"));
         writer.write(labeled.toString());
         writer.close();
     }

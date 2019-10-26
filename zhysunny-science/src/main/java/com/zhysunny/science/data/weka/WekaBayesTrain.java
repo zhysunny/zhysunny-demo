@@ -16,7 +16,7 @@ public class WekaBayesTrain {
 
     public static void main(String[] args) throws Exception {
         // 加载arff文件
-        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/data/iris.arff");
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/iris/data/iris.arff");
         Instances iris = source.getDataSet();
         if (iris.classIndex() == -1) {
             // 设置分类标签位置
@@ -26,7 +26,7 @@ public class WekaBayesTrain {
         NaiveBayes nb = new NaiveBayes();
         nb.buildClassifier(iris);
         // 保存模型
-        SerializationHelper.write("zhysunny-science/src/main/resources/data/iris.model", nb);
+        SerializationHelper.write("zhysunny-science/src/main/resources/iris/model/iris.model", nb);
         // 交叉验证
         Evaluation eval = new Evaluation(iris);
         eval.crossValidateModel(nb, iris, 10, new Random(1));

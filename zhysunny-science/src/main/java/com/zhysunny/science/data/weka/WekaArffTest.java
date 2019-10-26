@@ -49,7 +49,7 @@ public class WekaArffTest {
         }
         br.close();
         // 把arff文件写到磁盘
-        BufferedWriter writer = new BufferedWriter(new FileWriter("zhysunny-science/src/main/resources/data/iris.arff"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("zhysunny-science/src/main/resources/iris/data/iris.arff"));
         writer.write(data.toString());
         writer.close();
         System.out.println(data);
