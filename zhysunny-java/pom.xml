@@ -13,4 +13,20 @@
     <name>Zhysunny Demo: Java</name>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <!-- java start -->
+        <!-- metrics -->
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+        </dependency>
+        <!-- java end -->
+        <!-- logger start -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <!-- logger end -->
+    </dependencies>
+
 </project>

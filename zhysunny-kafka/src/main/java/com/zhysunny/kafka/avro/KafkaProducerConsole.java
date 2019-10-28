@@ -27,11 +27,11 @@ public class KafkaProducerConsole {
 
     public KafkaProducerConsole() {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "10.45.154.216:9092");
+        properties.put("bootstrap.servers", "10.45.157.112:9092");
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        properties.put("value.serializer", "com.zhysunny.tool.kafka.avro.KafkaAvroSerializer");
+        properties.put("value.serializer", "com.zhysunny.kafka.avro.KafkaAvroSerializer");
         producer = new KafkaProducer<>(properties);
-        topic = "fss-history-n-project-v1-2-production-test";
+        topic = "fss-history-n-project-v1-2-production";
     }
 
     public void start() throws ExecutionException, InterruptedException {
@@ -52,6 +52,17 @@ public class KafkaProducerConsole {
             record = new ProducerRecord<>(topic, history.get(index));
             producer.send(record).get();
         }
+        update.forEach(json -> {
+            ProducerRecord<String, JSONObject> message = new ProducerRecord<>(topic, json);
+            try {
+                producer.send(message).get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+            System.out.println(message);
+        });
         producer.close();
         System.out.println("关闭生产者");
     }

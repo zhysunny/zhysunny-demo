@@ -36,6 +36,14 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- java start -->
+            <!-- metrics -->
+            <dependency>
+                <groupId>io.dropwizard.metrics</groupId>
+                <artifactId>metrics-core</artifactId>
+                <version>3.1.2</version>
+            </dependency>
+            <!-- java end -->
             <!-- kafka start -->
             <dependency>
                 <groupId>com.zhysunny</groupId>
@@ -165,6 +173,13 @@
                 <version>1.2.17</version>
             </dependency>
             <!-- json end -->
+            <!-- logger start -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.25</version>
+            </dependency>
+            <!-- logger end -->
         </dependencies>
     </dependencyManagement>
 

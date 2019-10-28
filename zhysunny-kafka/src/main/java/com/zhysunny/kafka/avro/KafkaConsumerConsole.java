@@ -23,14 +23,14 @@ public class KafkaConsumerConsole {
 
     public KafkaConsumerConsole() {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "10.45.154.216:9092");
+        properties.put("bootstrap.servers", "10.45.154.210:9092");
         properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        properties.put("value.deserializer", "com.zhysunny.tool.kafka.avro.KafkaAvroDeserializer");
+        properties.put("value.deserializer", "com.zhysunny.kafka.avro.KafkaAvroDeserializer");
         properties.put("auto.offset.reset", "earliest");
         properties.put("enable.auto.commit", "false");
         properties.put("group.id", FinalConstants.DEFAULT_GROUP_ID);
         consumer = new KafkaConsumer<>(properties);
-        topic = "fss-history-n-project-v1-2-production";
+        topic = "fss-facecluster-src-production-fusion-test";
     }
 
     public void start() {
@@ -42,6 +42,7 @@ public class KafkaConsumerConsole {
             // 读取数据，读取超时时间为100ms
             ConsumerRecords<String, JSONObject> records = consumer.poll(60000);
             records.forEach(record -> datas.add(record.value()));
+            System.out.println(datas);
             // 告警表数据
             List<JSONObject> alarmDatas = datas.stream()
             .filter(json -> json.get("alarm_type") != null && json.getIntValue("alarm_type") == 3).collect(Collectors.toList());
