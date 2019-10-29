@@ -2,8 +2,7 @@ package com.zhysunny.java.metrics;
 
 import com.codahale.metrics.*;
 import org.slf4j.LoggerFactory;
-import javax.management.*;
-import java.lang.management.ManagementFactory;
+import javax.management.ObjectName;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
@@ -58,54 +57,27 @@ public class TestReporter {
     }
 
     private static void jmxReporter() throws Exception {
-        MBeanServer server = ManagementFactory.getPlatformMBeanServer();
-        ObjectName name = new ObjectName("HelloAgent:type=Hello");
-        MBean mBean = new MBean();
-        server.registerMBean(mBean, name);
         JmxReporter reporter = JmxReporter.forRegistry(metrics).build();
         reporter.start();
         while (true) {
             add("1");
             Thread.sleep(1000);
-            System.out.println(mBean);
+            System.out.println(metrics);
         }
     }
 
 }
 
-class MBean {
+class MBean implements JmxReporter.JmxCounterMBean {
 
-    private int count;
-    private String name;
-    private String type;
-
-    public int getCount() {
-        return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+    @Override
+    public long getCount() {
+        return 0;
     }
 
     @Override
-    public String toString() {
-        return "MBean{" + "count=" + count + ", name='" + name + '\'' + ", type='" + type + '\'' + '}';
+    public ObjectName objectName() {
+        return null;
     }
 
 }
