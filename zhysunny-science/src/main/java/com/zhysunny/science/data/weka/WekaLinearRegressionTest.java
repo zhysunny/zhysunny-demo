@@ -12,7 +12,7 @@ import weka.core.converters.ConverterUtils;
 public class WekaLinearRegressionTest {
 
     public static void main(String[] args) throws Exception {
-        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/cpu/cpu.arff");
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/arff/cpu.arff");
         Instances cpu = source.getDataSet();
         cpu.setClassIndex(cpu.numAttributes() - 1);
         LinearRegression lReg = new LinearRegression();

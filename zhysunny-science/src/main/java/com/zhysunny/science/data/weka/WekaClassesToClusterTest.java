@@ -18,7 +18,7 @@ public class WekaClassesToClusterTest {
 
     public static void main(String[] args) throws Exception {
         ConverterUtils.DataSource source = new ConverterUtils.DataSource(
-        "zhysunny-science/src/main/resources/weather/weather.nominal.arff");
+        "zhysunny-science/src/main/resources/arff/weather.nominal.arff");
         Instances weather = source.getDataSet();
         weather.setClassIndex(weather.numAttributes() - 1);
         Remove filter = new Remove();

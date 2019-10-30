@@ -20,7 +20,7 @@ import java.util.Random;
 public class WekaFeatureSelectionTest {
 
     public static void main(String[] args) throws Exception {
-        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/iris/data/iris.arff");
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/arff/iris.arff");
         Instances iris = source.getDataSet();
         iris.setClassIndex(iris.numAttributes() - 1);
         // 低层方法选择特征

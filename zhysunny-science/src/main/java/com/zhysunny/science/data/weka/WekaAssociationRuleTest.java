@@ -12,7 +12,7 @@ import weka.core.converters.ConverterUtils;
 public class WekaAssociationRuleTest {
 
     public static void main(String[] args) throws Exception {
-        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/supermarket/supermarket.arff");
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/arff/supermarket.arff");
         Instances supermarket = source.getDataSet();
         Apriori apriori = new Apriori();
         apriori.buildAssociations(supermarket);

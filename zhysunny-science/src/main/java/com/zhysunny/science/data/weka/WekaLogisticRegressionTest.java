@@ -13,7 +13,7 @@ import weka.core.converters.ConverterUtils;
 public class WekaLogisticRegressionTest {
 
     public static void main(String[] args) throws Exception {
-        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/iris/data/iris.arff");
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/arff/iris.arff");
         Instances iris = source.getDataSet();
         iris.setClassIndex(iris.numAttributes() - 1);
         Logistic logReg = new Logistic();

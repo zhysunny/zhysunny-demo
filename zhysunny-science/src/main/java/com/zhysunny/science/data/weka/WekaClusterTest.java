@@ -13,7 +13,7 @@ import weka.core.converters.ConverterUtils;
 public class WekaClusterTest {
 
     public static void main(String[] args) throws Exception {
-        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/cpu/cpu.arff");
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("zhysunny-science/src/main/resources/arff/cpu.arff");
         Instances cpu = source.getDataSet();
         SimpleKMeans kmeans = new SimpleKMeans();
         // 种子值，用来产生随机数
