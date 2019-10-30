@@ -22,6 +22,7 @@ public class KafkaProducerConsole {
     private List<JSONObject> alarm;
     private List<JSONObject> guard;
     private List<JSONObject> history;
+    private List<JSONObject> clustering;
     private List<JSONObject> update;
     private int dataNum = 1000;
 
@@ -63,6 +64,17 @@ public class KafkaProducerConsole {
             }
             System.out.println(message);
         });
+        clustering.forEach(json -> {
+            ProducerRecord<String, JSONObject> message = new ProducerRecord<>(topic, json);
+            try {
+                producer.send(message).get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+            System.out.println(message);
+        });
         producer.close();
         System.out.println("关闭生产者");
     }
@@ -75,6 +87,8 @@ public class KafkaProducerConsole {
         guard = readLines(file);
         file = new File(path, "history.txt");
         history = readLines(file);
+        file = new File(path, "clustering.txt");
+        clustering = readLines(file);
         file = new File(path, "update.txt");
         update = readLines(file);
     }
