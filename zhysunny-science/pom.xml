@@ -70,6 +70,18 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/javaml-0.1.7.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>javaml</groupId>
+            <artifactId>ajt</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/ajt-2.9.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>javaml</groupId>
+            <artifactId>libsvm</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/libsvm.jar</systemPath>
+        </dependency>
         <!-- 机器学习 end -->
         <!-- science end -->
         <!-- junit start -->

@@ -142,11 +142,6 @@
                 <artifactId>weka</artifactId>
                 <version>3.6.2</version>
             </dependency>
-            <dependency>
-                <groupId>javaml</groupId>
-                <artifactId>javaml</artifactId>
-                <version>0.17</version>
-            </dependency>
             <!-- 机器学习 end -->
             <!-- science end -->
             <!-- junit start -->

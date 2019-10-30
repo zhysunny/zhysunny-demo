@@ -63,10 +63,12 @@
 
 ## science
 
-* java获取数据的方法 com.zhysunny.science.data.get
-* lucene索引创建 com.zhysunny.science.data.index
-* 统计分析 com.zhysunny.science.data.statistic
-* 数据可视化 com.zhysunny.science.data.visualization
+* java获取数据的方法 com.zhysunny.science.get
+* lucene索引创建 com.zhysunny.science.index
+* 统计分析 com.zhysunny.science.statistic
+* 数据可视化 com.zhysunny.science.visualization
+* weka机器学习 com.zhysunny.science.weka
+* javaml机器学习 com.zhysunny.science.javaml
 
 ## server
 
