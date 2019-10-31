@@ -94,6 +94,12 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/moa/moa.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>mulan</groupId>
+            <artifactId>mulan</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/mulan/mulan.jar</systemPath>
+        </dependency>
         <!-- 机器学习 end -->
         <!-- science end -->
         <!-- junit start -->
