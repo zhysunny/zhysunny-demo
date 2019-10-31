@@ -68,19 +68,31 @@
             <groupId>javaml</groupId>
             <artifactId>javaml</artifactId>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/javaml-0.1.7.jar</systemPath>
+            <systemPath>${basedir}/lib/javaml/javaml-0.1.7.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javaml</groupId>
             <artifactId>ajt</artifactId>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/ajt-2.9.jar</systemPath>
+            <systemPath>${basedir}/lib/javaml/ajt-2.9.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javaml</groupId>
             <artifactId>libsvm</artifactId>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/libsvm.jar</systemPath>
+            <systemPath>${basedir}/lib/javaml/libsvm.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>stanford</groupId>
+            <artifactId>stanford-classifier</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/stanford/stanford-classifier-3.6.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>moa</groupId>
+            <artifactId>moa</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/moa/moa.jar</systemPath>
         </dependency>
         <!-- 机器学习 end -->
         <!-- science end -->

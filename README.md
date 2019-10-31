@@ -69,6 +69,8 @@
 * 数据可视化 com.zhysunny.science.visualization
 * weka机器学习 com.zhysunny.science.weka
 * javaml机器学习 com.zhysunny.science.javaml
+* stanford分类器 com.zhysunny.science.stanford
+* moa分类器 com.zhysunny.science.moa
 
 ## server
 
