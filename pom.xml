@@ -15,6 +15,7 @@
         <module>zhysunny-java</module>
         <module>zhysunny-scala</module>
         <module>zhysunny-pattern</module>
+        <module>zhysunny-elasticsearch</module>
     </modules>
     <name>Zhysunny Demo</name>
     <description>我的测试类</description>
@@ -24,6 +25,9 @@
         <compiler.encoding>UTF-8</compiler.encoding>
         <zhysunny.common.version>1.0</zhysunny.common.version>
         <kafka.version>0.9.0.1</kafka.version>
+        <elasticsearch.version>5.4.0</elasticsearch.version>
+        <lucene.version>6.5.0</lucene.version>
+        <elasticsearch.log4j.version>2.7</elasticsearch.log4j.version>
     </properties>
 
     <repositories>
@@ -36,6 +40,28 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- elasticsearch start -->
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>transport</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>${elasticsearch.log4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>${elasticsearch.log4j.version}</version>
+            </dependency>
+            <!-- elasticsearch end -->
             <!-- java start -->
             <!-- metrics -->
             <dependency>
@@ -109,17 +135,17 @@
             <dependency>
                 <groupId>org.apache.lucene</groupId>
                 <artifactId>lucene-core</artifactId>
-                <version>6.4.1</version>
+                <version>${lucene.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.lucene</groupId>
                 <artifactId>lucene-queryparser</artifactId>
-                <version>6.4.1</version>
+                <version>${lucene.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.lucene</groupId>
                 <artifactId>lucene-analyzers-common</artifactId>
-                <version>6.4.1</version>
+                <version>${lucene.version}</version>
             </dependency>
             <!-- lucene end -->
             <!-- statistic start -->
@@ -175,6 +201,13 @@
                 <version>1.7.25</version>
             </dependency>
             <!-- logger end -->
+            <!-- zhysunny start -->
+            <dependency>
+                <groupId>com.zhysunny</groupId>
+                <artifactId>zhysunny-common</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <!-- zhysunny end -->
         </dependencies>
     </dependencyManagement>
 
