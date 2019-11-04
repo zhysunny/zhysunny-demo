@@ -102,12 +102,6 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/mulan/mulan.jar</systemPath>
         </dependency>
-        <dependency>
-            <groupId>stanford</groupId>
-            <artifactId>stanford-corenlp</artifactId>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/corenlp/stanford-english-corenlp-2016-10-31-models.jar</systemPath>
-        </dependency>
         <!-- 机器学习 end -->
         <!-- 大数据 start -->
         <dependency>
