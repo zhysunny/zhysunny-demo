@@ -28,6 +28,7 @@
         <elasticsearch.version>5.4.0</elasticsearch.version>
         <lucene.version>6.5.0</lucene.version>
         <elasticsearch.log4j.version>2.7</elasticsearch.log4j.version>
+        <mahout.version>0.9</mahout.version>
     </properties>
 
     <repositories>
@@ -162,13 +163,23 @@
                 <version>0.11</version>
             </dependency>
             <!-- 可视化 end -->
-            <!-- 机器学习 start -->
+            <!-- 大数据 start -->
             <dependency>
-                <groupId>weka</groupId>
-                <artifactId>weka</artifactId>
-                <version>3.6.2</version>
+                <groupId>org.apache.mahout</groupId>
+                <artifactId>mahout-core</artifactId>
+                <version>${mahout.version}</version>
             </dependency>
-            <!-- 机器学习 end -->
+            <dependency>
+                <groupId>org.apache.mahout</groupId>
+                <artifactId>mahout-examples</artifactId>
+                <version>${mahout.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.mahout</groupId>
+                <artifactId>mahout-math</artifactId>
+                <version>${mahout.version}</version>
+            </dependency>
+            <!-- 大数据 end -->
             <!-- science end -->
             <!-- junit start -->
             <dependency>
