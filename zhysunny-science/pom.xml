@@ -63,6 +63,8 @@
         <dependency>
             <groupId>weka</groupId>
             <artifactId>weka</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/weka/weka.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javaml</groupId>

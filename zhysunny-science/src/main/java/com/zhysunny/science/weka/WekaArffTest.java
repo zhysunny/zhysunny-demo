@@ -1,11 +1,10 @@
 package com.zhysunny.science.weka;
 
-import weka.core.Attribute;
-import weka.core.FastVector;
-import weka.core.Instance;
-import weka.core.Instances;
+import weka.core.*;
 import java.io.*;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 生成arff文件
@@ -17,17 +16,17 @@ public class WekaArffTest {
 
     public static void main(String[] args) throws IOException {
         // 分类标签
-        FastVector classVals = new FastVector();
-        classVals.addElement("Iris-setosa");
-        classVals.addElement("Iris-versicolor");
-        classVals.addElement("Iris-virginica");
+        List<String> classVals = new ArrayList<>();
+        classVals.add("Iris-setosa");
+        classVals.add("Iris-versicolor");
+        classVals.add("Iris-virginica");
         // 属性
-        FastVector attributes = new FastVector();
-        attributes.addElement(new Attribute("sepallength"));
-        attributes.addElement(new Attribute("sepalwidth"));
-        attributes.addElement(new Attribute("petallength"));
-        attributes.addElement(new Attribute("petalwidth"));
-        attributes.addElement(new Attribute("class", classVals));
+        ArrayList<Attribute> attributes = new ArrayList<>();
+        attributes.add(new Attribute("sepallength"));
+        attributes.add(new Attribute("sepalwidth"));
+        attributes.add(new Attribute("petallength"));
+        attributes.add(new Attribute("petalwidth"));
+        attributes.add(new Attribute("class", classVals));
         // 创建实例
         Instances data = new Instances("iris", attributes, 0);
         double[] values;
@@ -44,7 +43,7 @@ public class WekaArffTest {
                 values[2] = Double.parseDouble(split[2]);
                 values[3] = Double.parseDouble(split[3]);
                 values[4] = classVals.indexOf(split[4]);
-                data.add(new Instance(1.0, values));
+                data.add(new DenseInstance(1.0, values));
             }
         }
         br.close();

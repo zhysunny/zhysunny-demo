@@ -3,15 +3,13 @@ package com.zhysunny.science.mulan;
 import mulan.classifier.lazy.MLkNN;
 import mulan.classifier.meta.RAkEL;
 import mulan.classifier.transformation.LabelPowerset;
-import mulan.data.InvalidDataFormatException;
 import mulan.data.MultiLabelInstances;
-import mulan.evaluation.Evaluation;
 import mulan.evaluation.Evaluator;
 import mulan.evaluation.MultipleEvaluation;
 import weka.classifiers.trees.J48;
-
 /**
  * Mulan对多标签数据点进行分类
+ * 需要3.7.10的weka才能跑通
  * @author 章云
  * @date 2019/10/31 18:13
  */
