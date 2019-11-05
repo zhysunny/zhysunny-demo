@@ -16,6 +16,7 @@
         <module>zhysunny-scala</module>
         <module>zhysunny-pattern</module>
         <module>zhysunny-elasticsearch</module>
+        <module>zhysunny-spark</module>
     </modules>
     <name>Zhysunny Demo</name>
     <description>我的测试类</description>

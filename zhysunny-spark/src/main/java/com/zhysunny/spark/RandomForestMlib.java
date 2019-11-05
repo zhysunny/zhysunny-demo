@@ -1,18 +1,13 @@
-package com.zhysunny.science.spark;
+package com.zhysunny.spark;
 
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaDoubleRDD;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.mllib.linalg.Vectors;
 import org.apache.spark.mllib.regression.LabeledPoint;
-import org.apache.spark.mllib.regression.LinearRegressionModel;
-import org.apache.spark.mllib.regression.LinearRegressionWithSGD;
 import org.apache.spark.mllib.tree.RandomForest;
 import org.apache.spark.mllib.tree.model.RandomForestModel;
 import org.apache.spark.mllib.util.MLUtils;
-import org.apache.spark.sql.sources.In;
 import scala.Tuple2;
 import java.util.HashMap;
 
@@ -26,7 +21,7 @@ public class RandomForestMlib {
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setMaster("local[4]").setAppName("KMeansClustering");
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
-        String inputFile = "zhysunny-science/src/main/resources/spark/sample_binary_classification_data.txt";
+        String inputFile = "zhysunny-spark/src/main/resources/spark/sample_binary_classification_data.txt";
         JavaRDD<LabeledPoint> data = MLUtils.loadLibSVMFile(sparkContext.sc(), inputFile).toJavaRDD();
         // 70%数据训练，30%数据测试
         JavaRDD<LabeledPoint>[] dataSplits = data.randomSplit(new double[]{ 0.7, 0.3 });

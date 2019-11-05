@@ -1,12 +1,9 @@
-package com.zhysunny.science.spark;
+package com.zhysunny.spark;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaDoubleRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.mllib.clustering.KMeans;
-import org.apache.spark.mllib.clustering.KMeansModel;
-import org.apache.spark.mllib.linalg.Vector;
 import org.apache.spark.mllib.linalg.Vectors;
 import org.apache.spark.mllib.regression.LabeledPoint;
 import org.apache.spark.mllib.regression.LinearRegressionModel;
@@ -23,7 +20,7 @@ public class LinearRegressionMlib {
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setMaster("local[4]").setAppName("KMeansClustering");
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
-        String inputFile = "zhysunny-science/src/main/resources/spark/lpsa.data";
+        String inputFile = "zhysunny-spark/src/main/resources/spark/lpsa.data";
         JavaRDD<String> rdd = sparkContext.textFile(inputFile);
         JavaRDD<LabeledPoint> parseData = rdd.map(s -> {
             String[] array = s.split(",");

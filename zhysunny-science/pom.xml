@@ -128,16 +128,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-mllib_2.11</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-api</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
         <!-- 大数据 end -->
         <!-- corenlp start -->
         <!-- models 太大，没上传git -->
@@ -175,12 +165,6 @@
             <artifactId>fastjson</artifactId>
         </dependency>
         <!-- json end -->
-        <!-- logger start -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-        </dependency>
-        <!-- logger end -->
     </dependencies>
 
 </project>

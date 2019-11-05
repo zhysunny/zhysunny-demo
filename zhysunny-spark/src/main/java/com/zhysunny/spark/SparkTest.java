@@ -1,10 +1,9 @@
-package com.zhysunny.science.spark;
+package com.zhysunny.spark;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.api.java.function.Function;
 import scala.Tuple2;
 import java.util.Arrays;
 import java.util.Map;
@@ -18,7 +17,7 @@ import java.util.Map;
 public class SparkTest {
 
     public static void main(String[] args) {
-        String inputFile = "zhysunny-science/src/main/resources/spark/shakespeare.txt";
+        String inputFile = "zhysunny-spark/src/main/resources/spark/shakespeare.txt";
         SparkConf conf = new SparkConf().setMaster("local[4]").setAppName("My app");
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
         JavaRDD<String> rdd = sparkContext.textFile(inputFile).cache();

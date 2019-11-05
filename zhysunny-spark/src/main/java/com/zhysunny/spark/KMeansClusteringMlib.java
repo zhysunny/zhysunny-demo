@@ -1,4 +1,4 @@
-package com.zhysunny.science.spark;
+package com.zhysunny.spark;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
@@ -18,7 +18,7 @@ public class KMeansClusteringMlib {
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setMaster("local[4]").setAppName("KMeansClustering");
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
-        String inputFile = "zhysunny-science/src/main/resources/spark/kmeans_data.txt";
+        String inputFile = "zhysunny-spark/src/main/resources/spark/kmeans_data.txt";
         JavaRDD<String> rdd = sparkContext.textFile(inputFile);
         JavaRDD<Vector> parseData = rdd.map(s -> {
             String[] array = s.split(" ");
