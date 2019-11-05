@@ -1,4 +1,4 @@
-package com.zhysunny.spark;
+package com.zhysunny.spark.mllib;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaDoubleRDD;
