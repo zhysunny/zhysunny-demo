@@ -22,12 +22,7 @@ public class SparkTest {
         SparkConf conf = new SparkConf().setMaster("local[4]").setAppName("My app");
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
         JavaRDD<String> rdd = sparkContext.textFile(inputFile).cache();
-        long emptyLines = rdd.filter(new Function<String, Boolean>() {
-            @Override
-            public Boolean call(String s) throws Exception {
-                return s.length() == 0;
-            }
-        }).count();
+        long emptyLines = rdd.filter(s -> s.length() == 0).count();
         System.out.println("Empty Lines: " + emptyLines);
         JavaPairRDD<String, Integer> wordCounts = rdd.flatMap(s -> Arrays.asList(s.toLowerCase().split(" ")))
         .mapToPair(word -> new Tuple2<>(word, 1)).reduceByKey((a, b) -> a + b);
