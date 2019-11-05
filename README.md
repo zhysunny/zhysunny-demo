@@ -2,6 +2,10 @@
 
 该工程用于封装一些组件的测试demo，只在本地运行
 
+## dl4j
+
+* Deep Learning for Java
+
 ## java
 
 * 存放普通的java demo
@@ -26,7 +30,15 @@
 
 * tcp、udp协议服务端
 
+## spark
+
+* 存放spark demo，包含mllib、streaming、sparksql等
+
 # v1.0
+
+## dl4j
+
+* Deep Learning for Java
 
 ## java
 
@@ -65,14 +77,22 @@
 
 * java获取数据的方法 com.zhysunny.science.get
 * lucene索引创建 com.zhysunny.science.index
+* javaml机器学习 com.zhysunny.science.javaml
+* mahout大数据处理 com.zhysunny.science.mahout
+* mallet文本分类 com.zhysunny.science.mallet
+* moa分类器 com.zhysunny.science.moa
+* mulan多标签分类 com.zhysunny.science.mulan
+* java分词分句 com.zhysunny.science.nlp
+* stanford分类器，关键词提取 com.zhysunny.science.stanford
 * 统计分析 com.zhysunny.science.statistic
 * 数据可视化 com.zhysunny.science.visualization
 * weka机器学习 com.zhysunny.science.weka
-* javaml机器学习 com.zhysunny.science.javaml
-* stanford分类器 com.zhysunny.science.stanford
-* moa分类器 com.zhysunny.science.moa
 
 ## server
 
 * tcp服务demo
 * udp服务demo
+
+## spark
+
+* mllib机器学习 com.zhysunny.spark.mllib

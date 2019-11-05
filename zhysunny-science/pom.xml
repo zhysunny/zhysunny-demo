@@ -13,50 +13,64 @@
     <name>Zhysunny Demo: Science</name>
     <packaging>jar</packaging>
 
+    <properties>
+        <lucene.version>6.5.0</lucene.version>
+        <mahout.version>0.9</mahout.version>
+    </properties>
+
     <dependencies>
         <!-- science start -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
+            <version>2.5</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-app</artifactId>
+            <version>1.2</version>
         </dependency>
         <!-- java 爬虫 start -->
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
+            <version>1.9.2</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server-standalone</artifactId>
+            <version>2.53.0</version>
         </dependency>
         <!-- java 爬虫 end -->
         <!-- lucene start -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
+            <version>${lucene.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-queryparser</artifactId>
+            <version>${lucene.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-common</artifactId>
+            <version>${lucene.version}</version>
         </dependency>
         <!-- lucene end -->
         <!-- statistic start -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version>
         </dependency>
         <!-- statistic end -->
         <!-- 可视化 start -->
         <dependency>
             <groupId>de.erichseifert.gral</groupId>
             <artifactId>gral-core</artifactId>
+            <version>0.11</version>
         </dependency>
         <!-- 可视化 end -->
         <!-- 机器学习 start -->
@@ -101,6 +115,7 @@
         <dependency>
             <groupId>org.apache.mahout</groupId>
             <artifactId>mahout-core</artifactId>
+            <version>${mahout.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
@@ -111,6 +126,7 @@
         <dependency>
             <groupId>org.apache.mahout</groupId>
             <artifactId>mahout-examples</artifactId>
+            <version>${mahout.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
@@ -121,6 +137,7 @@
         <dependency>
             <groupId>org.apache.mahout</groupId>
             <artifactId>mahout-math</artifactId>
+            <version>${mahout.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
