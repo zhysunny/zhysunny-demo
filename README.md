@@ -6,6 +6,10 @@
 
 * Deep Learning for Java
 
+## elasticsearch
+
+* 存放普通的elasticsearch demo
+
 ## java
 
 * 存放普通的java demo
@@ -38,17 +42,23 @@
 
 ## dl4j
 
-* Deep Learning for Java
+* java深度学习demo
+
+## elasticsearch
+
+* elasticsearch restful api
+* elasticsearch java api
 
 ## java
 
-数据结构：
-
-* 数组
-* 链表
-* 队列
-* 栈
-* 树
+* 数据结构：
+    * 数组
+    * 链表
+    * 队列
+    * 栈
+    * 树
+* metrics监控统计
+* tdd demo
 
 ## kafka
 
@@ -96,3 +106,8 @@
 ## spark
 
 * mllib机器学习 com.zhysunny.spark.mllib
+
+# v1.1 计划
+
+* 完善设计模式
+* 将以前写的demo加入相应的工程
