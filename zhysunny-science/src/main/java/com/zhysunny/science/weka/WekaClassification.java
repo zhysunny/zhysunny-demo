@@ -12,6 +12,7 @@ import java.util.Random;
 
 /**
  * weka对文本文档分类
+ * 没有合适的数据测试
  * @author 章云
  * @date 2019/11/4 18:09
  */

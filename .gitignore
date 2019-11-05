@@ -29,6 +29,5 @@ hs_err_pid*
 logs
 target
 dependency-reduced-pom.xml
-stanford-chinese-corenlp-2016-10-31-models.jar
-stanford-english-corenlp-2016-10-31-models.jar
+stanford-corenlp-3.7.0-models.jar
 

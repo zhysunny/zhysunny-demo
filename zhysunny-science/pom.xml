@@ -85,12 +85,6 @@
             <systemPath>${basedir}/lib/javaml/libsvm.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>stanford</groupId>
-            <artifactId>stanford-classifier</artifactId>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/stanford/stanford-classifier-3.6.0.jar</systemPath>
-        </dependency>
-        <dependency>
             <groupId>moa</groupId>
             <artifactId>moa</artifactId>
             <scope>system</scope>
@@ -145,6 +139,21 @@
             </exclusions>
         </dependency>
         <!-- 大数据 end -->
+        <!-- corenlp start -->
+        <!-- models 太大，没上传git -->
+        <dependency>
+            <groupId>stanford</groupId>
+            <artifactId>stanford-corenlp-models</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/stanford/corenlp/stanford-corenlp-3.7.0-models.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>stanford</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/stanford/corenlp/stanford-corenlp-3.7.0.jar</systemPath>
+        </dependency>
+        <!-- corenlp end -->
         <!-- science end -->
         <!-- junit start -->
         <dependency>
