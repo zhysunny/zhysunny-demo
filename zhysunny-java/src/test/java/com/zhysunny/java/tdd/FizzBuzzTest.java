@@ -5,15 +5,13 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 /**
- * FizzBuzzTest Test.
- * @author 章云
- * @date 2019/10/31 13:55
+ * FizzBuzz Test.
  */
 public class FizzBuzzTest {
 
     @BeforeClass
     public static void beforeClass() throws Exception {
-        System.out.println("Test FizzBuzzTest Class Start...");
+        System.out.println("Test FizzBuzz Class Start...");
     }
 
     @Before
@@ -26,15 +24,26 @@ public class FizzBuzzTest {
 
     @AfterClass
     public static void afterClass() throws Exception {
-        System.out.println("Test FizzBuzzTest Class End...");
+        System.out.println("Test FizzBuzz Class End...");
     }
 
+    /**
+     * Method: main(String[] args)
+     */
     @Test
-    public void test() throws Exception {
-        assertEquals(getFizzBuzz(1), "1");
-        assertEquals(getFizzBuzz(15), "FizzBuzz");
-        assertEquals(getFizzBuzz(5), "Buzz");
-        assertEquals(getFizzBuzz(3), "Fizz");
+    public void testMain() throws Exception {
+        //TODO: Test goes here...
     }
 
-}
+    /**
+     * Method: getFizzBuzz(int i)
+     */
+    @Test
+    public void testGetFizzBuzz() throws Exception {
+        assertEquals(getFizzBuzz(1), "1");
+        assertEquals(getFizzBuzz(3), "Fizz");
+        assertEquals(getFizzBuzz(5), "Buzz");
+        assertEquals(getFizzBuzz(15), "FizzBuzz");
+    }
+
+} 
