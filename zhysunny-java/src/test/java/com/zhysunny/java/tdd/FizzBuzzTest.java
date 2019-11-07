@@ -30,11 +30,27 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void test() throws Exception {
-        assertEquals(getFizzBuzz(1), "1");
-        assertEquals(getFizzBuzz(15), "FizzBuzz");
-        assertEquals(getFizzBuzz(5), "Buzz");
-        assertEquals(getFizzBuzz(3), "Fizz");
+    public void testNumber() throws Exception {
+        assertEquals(new FizzBuzz(1).toString(), "1");
+        assertEquals(new FizzBuzz(4).toString(), "4");
+    }
+
+    @Test
+    public void testFizz() throws Exception {
+        assertEquals(new FizzBuzz(3).toString(), "Fizz");
+        assertEquals(new FizzBuzz(12).toString(), "Fizz");
+    }
+
+    @Test
+    public void testBuzz() throws Exception {
+        assertEquals(new FizzBuzz(5).toString(), "Buzz");
+        assertEquals(new FizzBuzz(25).toString(), "Buzz");
+    }
+
+    @Test
+    public void testFizzBuzz() throws Exception {
+        assertEquals(new FizzBuzz(15).toString(), "FizzBuzz");
+        assertEquals(new FizzBuzz(45).toString(), "FizzBuzz");
     }
 
 }

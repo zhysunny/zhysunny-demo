@@ -1,5 +1,7 @@
 package com.zhysunny.java.tdd;
 
+import static java.lang.String.*;
+
 /**
  * FizzBuzz问题：
  * 给你一个整数n. 从 1 到 n 按照下面的规则打印每个数：
@@ -13,19 +15,32 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
-            System.out.println(getFizzBuzz(i));
+            System.out.println(new FizzBuzz(i));
         }
     }
 
-    public static String getFizzBuzz(int num) {
-        if (num % 15 == 0) {
+    private int num;
+
+    public FizzBuzz(int num) {
+        this.num = num;
+    }
+
+    @Override
+    public String toString() {
+        if (isMultiple(3) && isMultiple(5)) {
             return "FizzBuzz";
-        } else if (num % 5 == 0) {
-            return "Buzz";
-        } else if (num % 3 == 0) {
+        }
+        if (isMultiple(3)) {
             return "Fizz";
         }
-        return num + "";
+        if (isMultiple(5)) {
+            return "Buzz";
+        }
+        return valueOf(num);
+    }
+
+    private boolean isMultiple(int i) {
+        return num % i == 0;
     }
 
 }
