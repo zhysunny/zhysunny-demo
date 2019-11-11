@@ -18,6 +18,7 @@
         <module>zhysunny-elasticsearch</module>
         <module>zhysunny-spark</module>
         <module>zhysunny-dl4j</module>
+        <module>zhysunny-hive</module>
     </modules>
     <name>Zhysunny Demo</name>
     <description>我的测试类</description>
