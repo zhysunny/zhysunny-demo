@@ -18,6 +18,7 @@
         <module>zhysunny-elasticsearch</module>
         <module>zhysunny-spark</module>
         <module>zhysunny-dl4j</module>
+        <module>zhysunny-hive</module>
     </modules>
     <name>Zhysunny Demo</name>
     <description>我的测试类</description>
@@ -26,6 +27,7 @@
         <jdk.version>1.8</jdk.version>
         <compiler.encoding>UTF-8</compiler.encoding>
         <zhysunny.common.version>1.0</zhysunny.common.version>
+        <scala.version>2.11</scala.version>
     </properties>
 
     <repositories>
@@ -53,6 +55,16 @@
                 <groupId>org.hamcrest</groupId>
                 <artifactId>hamcrest-library</artifactId>
                 <version>1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-api-mockito2</artifactId>
+                <version>2.0.4</version>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-module-junit4</artifactId>
+                <version>2.0.4</version>
             </dependency>
             <!-- junit end -->
             <!-- json start -->
