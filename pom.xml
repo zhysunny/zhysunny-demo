@@ -27,6 +27,7 @@
         <jdk.version>1.8</jdk.version>
         <compiler.encoding>UTF-8</compiler.encoding>
         <zhysunny.common.version>1.0</zhysunny.common.version>
+        <scala.version>2.11</scala.version>
     </properties>
 
     <repositories>
