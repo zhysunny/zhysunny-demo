@@ -1,4 +1,4 @@
-package com.zhysunny.server.udp;
+package com.zhysunny.network.io.udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

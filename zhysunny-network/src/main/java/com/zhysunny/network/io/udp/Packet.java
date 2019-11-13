@@ -1,4 +1,4 @@
-package com.zhysunny.server.udp;
+package com.zhysunny.network.io.udp;
 
 import java.net.DatagramPacket;
 import java.net.InetAddress;

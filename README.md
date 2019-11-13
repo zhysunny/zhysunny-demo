@@ -30,9 +30,9 @@
 
 * java数据科学，包含大数据处理，javaml等
 
-## server
+## network
 
-* tcp、udp协议服务端
+* 网络编程
 
 ## spark
 
@@ -98,7 +98,7 @@
 * 数据可视化 com.zhysunny.science.visualization
 * weka机器学习 com.zhysunny.science.weka
 
-## server
+## network
 
 * tcp服务demo
 * udp服务demo
