@@ -1,7 +1,5 @@
 package com.zhysunny.scala
 
-import scala.collection.mutable.ArrayBuffer
-
 object Demo {
   def init():String = {
     println("huangbo 666")
