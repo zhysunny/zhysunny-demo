@@ -36,40 +36,20 @@ public class ByteCoding32 {
         return bytes;
     }
 
-    public static float[] decode(byte[] value) {
+    public static byte[] decode(byte[] value) {
         if (value.length % 3 != 0) {
             throw new RuntimeException("The array length must be a multiple of 3");
         }
-        float[] floats = new float[value.length / 3 * 4];
+        byte[] decode = new byte[value.length / 3 * 4];
         int offset = 0;
         int i = 0;
         while (offset < value.length) {
-            int b1 = value[offset++];
-            int b2 = value[offset++];
-            int b3 = value[offset++];
-
-            byte i1 = (byte)(b1 >> 3);
-            byte s1 = (byte)((byte)(b1 << 5) >>> 7);
-            float v1 = (byte)((s1 << 7) | i1);
-
-            byte i2 = (byte)(((byte)(b1 << 6) >> 3) | ((byte)(b2 >> 5) & ((byte)Math.pow(2, 8 - 5) - 1)));
-            byte s2 = (byte)((b2 << 3) >> 7);
-            float v2 = (byte)((s2 << 7) | i2);
-
-            byte i3 = (byte)(((b2 << 4) >> 3) | (b3 >> 7));
-            byte s3 = (byte)((b3 << 1) >> 7);
-            float v3 = (byte)((s3 << 7) | i3);
-
-            byte i4 = (byte)((b2 << 2) >> 3);
-            byte s4 = (byte)((b3 << 7) >> 7);
-            float v4 = (byte)((s4 << 7) | i4);
-
-            floats[i++] = v1 / 128.0f;
-            floats[i++] = v2 / 128.0f;
-            floats[i++] = v3 / 128.0f;
-            floats[i++] = v4 / 128.0f;
+            decode[offset++] = (byte)(((value[i] >>> 3) & 0b00011111) * ((value[i] >>> 2 & 0b00000001) == 0 ? 1 : -1));
+            decode[offset++] = (byte)((((value[i] & 0b00000011) << 3) | ((value[i + 1] >>> 5) & 0b00000111)) * ((value[i + 1] >>> 4 & 0b00000001) == 0 ? 1 : -1));
+            decode[offset++] = (byte)((((value[i + 1] & 0b00001111) << 1) | ((value[i + 2] >>> 7) & 0b00000001)) * ((value[i + 2] >>> 6 & 0b00000001) == 0 ? 1 : -1));
+            decode[offset++] = (byte)(((value[i + 2] & 0b00111110) >> 1) * ((value[i + 2] & 0b00000001) == 0 ? 1 : -1));
         }
-        return floats;
+        return decode;
     }
 
     public static int getInt(byte[] bytes, int offset) {

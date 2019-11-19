@@ -66,14 +66,10 @@ public class ByteCoding32Test {
     @Test
     public void testDecode() throws Exception {
         byte[] encode = { 8, -77, -94 };
-        float[] value = ByteCoding32.decode(encode);
-        byte[] decode = new byte[4];
-        for (int i = 0; i < value.length; i++) {
-            decode[i] = (byte)Math.round(value[i] * 128.0f);
-        }
+        byte[] decode = ByteCoding32.decode(encode);
         System.out.println(Arrays.toString(decode));
         assertEquals(decode[0], 1);
-        assertEquals(decode[1], 5);
+        assertEquals(decode[1], -5);
         assertEquals(decode[2], 7);
         assertEquals(decode[3], 17);
     }
@@ -84,6 +80,11 @@ public class ByteCoding32Test {
         expected.expect(RuntimeException.class);
         expected.expectMessage("The array length must be a multiple of 3");
         ByteCoding32.decode(value);
+    }
+
+    @Test
+    public void test() throws Exception {
+        System.out.println(0b00011111);
     }
 
 }
