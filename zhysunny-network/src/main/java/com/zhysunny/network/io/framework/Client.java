@@ -1,11 +1,13 @@
-package com.zhysunny.network.io.tcp;
+package com.zhysunny.network.io.framework;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.SocketException;
 import java.util.Scanner;
+import java.util.UUID;
 
 /**
  * TCP客户端
@@ -17,47 +19,50 @@ public class Client {
     private BufferedReader reader;
     private Socket socket;
 
-    public void connect() {
-        System.out.println("尝试连接");
+    public void start() {
         try {
             socket = new Socket("127.0.0.1", 8888);
             writer = new PrintWriter(socket.getOutputStream(), true);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            System.out.println("连接成功");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    public void stop() throws IOException {
+        reader.close();
+        writer.close();
+        socket.close();
+    }
+
     private void sendServerMessage(String message) {
+        writer.println(UUID.randomUUID().toString());
         writer.println(message);
     }
 
     private void getServerMessage() {
         try {
-            String response;
-            while ((response = reader.readLine()) != null) {
-                System.out.println(response);
-            }
+            System.out.println("id=" + reader.readLine());
+            System.out.println("response=" + reader.readLine());
         } catch (SocketException e) {
+            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static void main(String[] args) {
-        Client client = new Client();
-        client.connect();
+    public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in, "UTF-8");
+        System.out.println("开始发送消息：");
         while (true) {
             String message = scan.next();
-            new Thread() {
-                @Override
-                public void run() {
-                    client.sendServerMessage(message);
-                    client.getServerMessage();
-                }
-            }.start();
+            for (int i = 0; i < 20; i++) {
+                Client client = new Client();
+                client.start();
+                client.sendServerMessage(message + i);
+                client.getServerMessage();
+                client.stop();
+            }
         }
     }
 }

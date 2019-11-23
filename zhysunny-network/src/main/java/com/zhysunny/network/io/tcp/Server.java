@@ -27,35 +27,24 @@ public class Server {
         try {
             server = new ServerSocket(port);
             System.out.println("服务端已经创建成功");
-            while (true) {
-                System.out.println("等待客户机的连接");
-                // 接收请求，阻塞的
-                socket = server.accept();
-                reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                writer = new PrintWriter(socket.getOutputStream(), true);
-                getClientMessage();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void getClientMessage() {
-        try {
-            while (true) {
-                String message = reader.readLine();
-                System.out.println("客户端信息接收：" + message);
-                if ("1".equals(message)) {
+            System.out.println("等待客户机的连接");
+            // 接收连接，阻塞的
+            socket = server.accept();
+            reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            writer = new PrintWriter(socket.getOutputStream(), true);
+            String request;
+            while ((request = reader.readLine()) != null) {
+                System.out.println("客户端信息接收：" + request);
+                if ("1".equals(request)) {
                     writer.println("使用功能1");
-                } else if ("2".equals(message)) {
+                } else if ("2".equals(request)) {
                     writer.println("使用功能2");
-                } else if ("exit".equals(message)) {
+                } else if ("exit".equals(request)) {
                     writer.println("已退出");
                 } else {
-                    writer.println("使用其他功能");
+                    writer.println(request);
                 }
             }
-        } catch (SocketException e) {
         } catch (Exception e) {
             e.printStackTrace();
         }
