@@ -77,36 +77,42 @@
         <dependency>
             <groupId>weka</groupId>
             <artifactId>weka</artifactId>
+            <version>3.9.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/weka/weka.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javaml</groupId>
             <artifactId>javaml</artifactId>
+            <version>0.1.7</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/javaml/javaml-0.1.7.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javaml</groupId>
             <artifactId>ajt</artifactId>
+            <version>2.9</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/javaml/ajt-2.9.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javaml</groupId>
             <artifactId>libsvm</artifactId>
+            <version>2.9</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/javaml/libsvm.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>moa</groupId>
             <artifactId>moa</artifactId>
+            <version>release-2016.04</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/moa/moa.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>mulan</groupId>
             <artifactId>mulan</artifactId>
+            <version>1.5.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/mulan/mulan.jar</systemPath>
         </dependency>
@@ -151,12 +157,14 @@
         <dependency>
             <groupId>stanford</groupId>
             <artifactId>stanford-corenlp-models</artifactId>
+            <version>3.7.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/stanford/corenlp/stanford-corenlp-3.7.0-models.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>stanford</groupId>
             <artifactId>stanford-corenlp</artifactId>
+            <version>3.7.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/stanford/corenlp/stanford-corenlp-3.7.0.jar</systemPath>
         </dependency>
