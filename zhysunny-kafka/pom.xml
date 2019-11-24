@@ -58,7 +58,7 @@
         </dependency>
         <!-- json end -->
         <dependency>
-            <groupId>com.zhysunny</groupId>
+            <groupId>com.zhysunny.utils</groupId>
             <artifactId>zhysunny-common</artifactId>
         </dependency>
     </dependencies>
