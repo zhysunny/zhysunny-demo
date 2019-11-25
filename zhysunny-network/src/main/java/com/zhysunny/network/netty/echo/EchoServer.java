@@ -5,8 +5,10 @@ import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.oio.OioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.channel.socket.oio.OioServerSocketChannel;
 import java.net.InetSocketAddress;
 
 /**
@@ -31,11 +33,15 @@ public class EchoServer {
         final EchoServerHandler serverHandler = new EchoServerHandler();
         // 创建EventLoopGroup
         EventLoopGroup group = new NioEventLoopGroup();
+        // 阻塞版本
+//        EventLoopGroup group = new OioEventLoopGroup();
         try {
             // 创建ServerBootstrap
             ServerBootstrap bootstrap = new ServerBootstrap();
             // 指定使用NIO传输Channel
             bootstrap.group(group).channel(NioServerSocketChannel.class)
+            // 阻塞版本
+//            bootstrap.group(group).channel(OioServerSocketChannel.class)
             // 使用指定端口设置套接字地址
             .localAddress(new InetSocketAddress(port))
             // 添加一个EchoServerHandler到子Channel的ChannelPipeline
