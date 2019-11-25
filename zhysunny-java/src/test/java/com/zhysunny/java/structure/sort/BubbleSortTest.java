@@ -1,6 +1,5 @@
 package com.zhysunny.java.structure.sort;
 
-import static com.zhysunny.java.structure.sort.BubbleSort.*;
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.Arrays;
@@ -33,14 +32,16 @@ public class BubbleSortTest {
     @Test
     public void testSort1() throws Exception {
         int[] array = { 3 };
-        sort(array);
+        int[] sort = new BubbleSort(array).getSort();
+        test(array, sort);
         assertEquals(array[0], 3);
     }
 
     @Test
     public void testSort2() throws Exception {
         int[] array = { 3, 2 };
-        sort(array);
+        int[] sort = new BubbleSort(array).getSort();
+        test(array, sort);
         assertEquals(array[0], 2);
         assertEquals(array[1], 3);
     }
@@ -48,7 +49,8 @@ public class BubbleSortTest {
     @Test
     public void testSort3() throws Exception {
         int[] array = { 3, 2, 1, 6, 2 };
-        sort(array);
+        int[] sort = new BubbleSort(array).getSort();
+        test(array, sort);
         assertEquals(array[0], 1);
         assertEquals(array[1], 2);
         assertEquals(array[2], 2);
@@ -59,7 +61,8 @@ public class BubbleSortTest {
     @Test
     public void testSort4() throws Exception {
         int[] array = { 10, 8, 12, 6, 15 };
-        sort(array);
+        int[] sort = new BubbleSort(array).getSort();
+        test(array, sort);
         assertEquals(array[0], 6);
         assertEquals(array[1], 8);
         assertEquals(array[2], 10);

@@ -13,6 +13,7 @@ object RDDDemo {
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
+      .master("192.168.1.44")
       .appName("rdd编程接口")
       .getOrCreate()
     val sc: SparkContext = spark.sparkContext
