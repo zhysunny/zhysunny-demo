@@ -7,7 +7,7 @@ package com.zhysunny.pattern.create.singleton;
  */
 public class Singleton2 {
 
-    private static Singleton2 INSTANCE;
+    private static volatile Singleton2 INSTANCE;
 
     private Singleton2() {
     }
