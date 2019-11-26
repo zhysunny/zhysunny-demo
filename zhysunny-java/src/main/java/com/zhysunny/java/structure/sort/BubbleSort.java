@@ -18,6 +18,10 @@ public class BubbleSort {
         sort();
     }
 
+    public int[] getSort() {
+        return sort;
+    }
+
     private void copy() {
         this.sort = Arrays.copyOf(array, array.length);
     }
