@@ -11,12 +11,12 @@ public class Mockito {
     private String name2 = "Mockito";
 
     public String publicToString() {
+        System.out.println("执行publicToString");
         return "publicToString";
     }
 
     public void publicToVoid() {
         System.out.println("publicToVoid");
-        return;
     }
 
     public String publicToString(String param1, Integer param2) {

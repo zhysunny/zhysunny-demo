@@ -1,7 +1,8 @@
 package com.zhysunny.java.mock;
 
-import static org.junit.Assert.*;
 import org.junit.*;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 
 /**
@@ -21,7 +22,7 @@ public class MockitoTest {
     public void before() throws Exception {
         // mock是虚拟对象，调用方法不会获得期望值
         mockitoMock = mock(Mockito.class);
-        // spy是真实对象，如果不设置规则返回期望值
+        // spy是真实对象，如果不设置规则返回真实值
         mockitoSpy = spy(Mockito.class);
     }
 
@@ -39,12 +40,14 @@ public class MockitoTest {
      */
     @Test
     public void testPublicToString() throws Exception {
+        System.out.println(mockitoMock.publicToString()); //null
         // 给mock对象设置期望值
         when(mockitoMock.publicToString()).thenReturn("mock publicToString");
         System.out.println(mockitoMock.publicToString());
         // spy对象也可以设置期望值
         // 注：每次调用都会执行真实方法并返回期望结果
         when(mockitoSpy.publicToString()).thenReturn("spy publicToString");
+        System.out.println(mockitoSpy.publicToString());
         // 注：每次调用只返回期望结果不执行真实方法
         doReturn("spy publicToString 2").when(mockitoSpy).publicToString();
         System.out.println(mockitoSpy.publicToString());
@@ -69,7 +72,7 @@ public class MockitoTest {
         doNothing().when(mockitoMock).publicToVoid();
         // 模拟异常
 //        doThrow(RuntimeException.class).when(mockitoMock).publicToVoid();
-        // 调用mock对象的真实方法
+        // 调用mock对象的真实方法(对虚拟对象无效)
         when(mockitoMock.publicToString()).thenCallRealMethod();
         mockitoMock.publicToVoid();
         mockitoSpy.publicToVoid();

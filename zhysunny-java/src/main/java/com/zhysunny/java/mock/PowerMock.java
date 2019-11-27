@@ -11,15 +11,12 @@ public class PowerMock {
     private String name2 = "Mockito";
 
     public static String publicToString() {
+        System.out.println("执行publicToString");
         return "publicToString";
     }
 
     public static final void publicToVoid() {
         System.out.println("publicToVoid");
-    }
-
-    private String publicToString(String param1, Integer param2) {
-        return param1 + param2;
     }
 
 }

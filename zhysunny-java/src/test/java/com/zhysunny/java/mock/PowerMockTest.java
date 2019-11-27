@@ -1,11 +1,11 @@
 package com.zhysunny.java.mock;
 
-import static org.powermock.api.mockito.PowerMockito.*;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.powermock.core.classloader.annotations.PowerMockIgnore;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+import static org.powermock.api.mockito.PowerMockito.*;
 
 /**
  * PowerMock Test.
@@ -48,17 +48,9 @@ public class PowerMockTest {
      */
     @Test
     public void testPublicToVoid() throws Exception {
+        // 虚拟对象无法调用
         mockStatic(PowerMock.class);
-
         PowerMock.publicToVoid();
     }
 
-    /**
-     * Method: publicToString(String param1, Integer param2)
-     */
-    @Test
-    public void testPublicToStringForParam() throws Exception {
-
-    }
-
-} 
+}
