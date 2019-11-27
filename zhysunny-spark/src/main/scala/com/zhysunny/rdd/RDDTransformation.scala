@@ -3,10 +3,8 @@ package com.zhysunny.rdd
 import org.apache.spark.HashPartitioner
 import org.apache.spark.sql.SparkSession
 
-import scala.collection.immutable.Range.Inclusive
-
 /**
-  * rdd创建操作
+  * rdd转换操作
   * @author 章云
   * @date 2019/11/26 22:19
   */
