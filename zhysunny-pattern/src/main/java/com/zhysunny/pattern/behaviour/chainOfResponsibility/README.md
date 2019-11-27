@@ -1,4 +1,5 @@
-## 责任链模式
+## 责任链模式(chainOfResponsibility)
+
 短信提取流程需要经历四步，关键字过滤，ckm提取，正则提取，字段翻译
 
 com.zhysunny.pattern.behaviour.chainOfResponsibility.Extract 四个步骤的公共接口

@@ -1,4 +1,5 @@
-## 迭代器模式
+## 迭代器模式(iterator)
+
 * com.zhysunny.pattern.behaviour.iterator.bean.Book 书对象，存储书的属性信息 ，需要遍历的元素
 * com.zhysunny.pattern.behaviour.iterator.BookShelf 书架接口，可迭代
 * com.zhysunny.pattern.behaviour.iterator.bean.{BookShelfArray,BookShelfList,BookShelfVector} 书架对象，实现BookShelf，存储书的集合，需要遍历的集合
