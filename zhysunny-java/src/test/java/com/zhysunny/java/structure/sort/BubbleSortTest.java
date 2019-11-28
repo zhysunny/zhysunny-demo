@@ -34,7 +34,6 @@ public class BubbleSortTest {
         int[] array = { 3 };
         int[] sort = new BubbleSort(array).getSort();
         test(array, sort);
-        assertEquals(array[0], 3);
     }
 
     @Test
@@ -42,8 +41,6 @@ public class BubbleSortTest {
         int[] array = { 3, 2 };
         int[] sort = new BubbleSort(array).getSort();
         test(array, sort);
-        assertEquals(array[0], 2);
-        assertEquals(array[1], 3);
     }
 
     @Test
@@ -51,23 +48,13 @@ public class BubbleSortTest {
         int[] array = { 3, 2, 1, 6, 2 };
         int[] sort = new BubbleSort(array).getSort();
         test(array, sort);
-        assertEquals(array[0], 1);
-        assertEquals(array[1], 2);
-        assertEquals(array[2], 2);
-        assertEquals(array[3], 3);
-        assertEquals(array[4], 6);
     }
 
     @Test
     public void testSort4() throws Exception {
-        int[] array = { 10, 8, 12, 6, 15 };
+        int[] array = { 10, 8, 12, 6, 15, 7 };
         int[] sort = new BubbleSort(array).getSort();
         test(array, sort);
-        assertEquals(array[0], 6);
-        assertEquals(array[1], 8);
-        assertEquals(array[2], 10);
-        assertEquals(array[3], 12);
-        assertEquals(array[4], 15);
     }
 
     /**
