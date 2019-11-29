@@ -28,6 +28,11 @@ public class HeapSort extends AbstractArraySort {
         }
     }
 
+    /**
+     * 堆顶位置数据交换
+     * @param rootIndex
+     * @param lastIndex
+     */
     private void swap(int rootIndex, int lastIndex) {
         int temp = sort[rootIndex];
         sort[rootIndex] = sort[lastIndex];
