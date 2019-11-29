@@ -29,24 +29,4 @@ public abstract class AbstractArraySort {
 
     protected abstract void sort();
 
-    /**
-     * 二分查找法
-     * @param lowerBound 查找段的最小下标
-     * @param upperBound 查找段的最大下标
-     * @param target     目标元素
-     * @return 目标元素应该插入位置的下标
-     */
-    protected int binarySearch(int lowerBound, int upperBound, int target) {
-        int curIndex;
-        while (lowerBound < upperBound) {
-            curIndex = (lowerBound + upperBound) / 2;
-            if (sort[curIndex] > target) {
-                upperBound = curIndex - 1;
-            } else {
-                lowerBound = curIndex + 1;
-            }
-        }
-        return lowerBound;
-    }
-
 }

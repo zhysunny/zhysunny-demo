@@ -16,7 +16,7 @@ public class AbstractArraySortTest {
     @BeforeClass
     public static void beforeClass() throws Exception {
         System.out.println("Test BubbleSort Class Start...");
-        array = new int[]{ 10, 8, 12, 6, 15, 7,11 };
+        array = new int[]{ 10, 8, 12, 6, 15, 7, 11 };
     }
 
     @Before
@@ -71,6 +71,36 @@ public class AbstractArraySortTest {
     @Test
     public void testInsertionSort2() throws Exception {
         int[] sort = new InsertionSort2(array).getSorted();
+        test(array, sort);
+    }
+
+    @Test
+    public void testMergeSort() throws Exception {
+        int[] sort = new MergeSort(array).getSorted();
+        test(array, sort);
+    }
+
+    @Test
+    public void testQuikSort() throws Exception {
+        int[] sort = new QuikSort(array).getSorted();
+        test(array, sort);
+    }
+
+    @Test
+    public void testShellSort() throws Exception {
+        int[] sort = new ShellSort(array).getSorted();
+        test(array, sort);
+    }
+
+    @Test
+    public void testHeapSort() throws Exception {
+        int[] sort = new HeapSort(array).getSorted();
+        test(array, sort);
+    }
+
+    @Test
+    public void testRadixSort() throws Exception {
+        int[] sort = new RadixSort(array).getSorted();
         test(array, sort);
     }
 
