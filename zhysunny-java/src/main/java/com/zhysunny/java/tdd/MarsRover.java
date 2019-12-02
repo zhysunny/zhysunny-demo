@@ -36,13 +36,53 @@ public class MarsRover {
         this.index = towards.indexOf(toward);
     }
 
-    @Override
-    public String toString() {
-        return "MarsRover{" +
-        "x=" + x +
-        ", y=" + y +
-        ", toward=" + toward +
-        '}';
+    /**
+     * 执行命令
+     * @param commands
+     */
+    public void command(Command... commands) {
+        for (Command command : commands) {
+            if (command instanceof Veer) {
+                Veer veer = (Veer)command;
+                this.veer(veer.getCmd());
+            } else if (command instanceof Move) {
+                Move move = (Move)command;
+                this.move(move.getCmd(), move.getDistance());
+            }
+        }
+    }
+
+    public interface Command {
+    }
+
+    public static class Veer implements Command {
+        private char cmd;
+
+        public Veer(char cmd) {
+            this.cmd = cmd;
+        }
+
+        public char getCmd() {
+            return cmd;
+        }
+    }
+
+    public static class Move implements Command {
+        private char cmd;
+        private int distance;
+
+        public Move(char cmd, int distance) {
+            this.cmd = cmd;
+            this.distance = distance;
+        }
+
+        public char getCmd() {
+            return cmd;
+        }
+
+        public int getDistance() {
+            return distance;
+        }
     }
 
     /**
@@ -54,15 +94,11 @@ public class MarsRover {
         if (cmd == 'l') {
             // towards存储顺序是顺时针，向左为逆时针
             this.index--;
+            this.index = this.index == -1 ? towards.size() - 1 : this.index;
         } else if (cmd == 'r') {
             // towards存储顺序是顺时针，向右为顺时针
             this.index++;
-        }
-        if (this.index == -1) {
-            this.index = towards.size() - 1;
-        }
-        if (this.index == towards.size()) {
-            this.index = 0;
+            this.index = this.index == towards.size() ? 0 : this.index;
         }
         this.toward = towards.get(this.index);
     }
@@ -73,49 +109,15 @@ public class MarsRover {
      * @param distance 移动距离
      */
     public void move(char cmd, int distance) {
-        if (this.toward == 'N') {
-            if (cmd == 'f') {
-                this.y += distance;
-            }
-            if (cmd == 'b') {
-                this.y -= distance;
-            }
+        if ((this.toward == 'N' && cmd == 'f') || (this.toward == 'S' && cmd == 'b')) {
+            this.y = (this.y + distance) % Y;
+        } else if ((this.toward == 'N' && cmd == 'b') || (this.toward == 'S' && cmd == 'f')) {
+            this.y = ((this.y - distance) % Y + Y) % Y;
         }
-        if (this.toward == 'E') {
-            if (cmd == 'f') {
-                this.x += distance;
-            }
-            if (cmd == 'b') {
-                this.x -= distance;
-            }
-        }
-        if (this.toward == 'S') {
-            if (cmd == 'f') {
-                this.y -= distance;
-            }
-            if (cmd == 'b') {
-                this.y += distance;
-            }
-        }
-        if (this.toward == 'W') {
-            if (cmd == 'f') {
-                this.x -= distance;
-            }
-            if (cmd == 'b') {
-                this.x += distance;
-            }
-        }
-        while (this.x > X) {
-            this.x -= X;
-        }
-        while (this.x < 0) {
-            this.x += X;
-        }
-        while (this.y > Y) {
-            this.y -= Y;
-        }
-        while (this.y < 0) {
-            this.y += Y;
+        if ((this.toward == 'E' && cmd == 'f') || (this.toward == 'W' && cmd == 'b')) {
+            this.x = (this.x + distance) % X;
+        } else if ((this.toward == 'E' && cmd == 'b') || (this.toward == 'W' && cmd == 'f')) {
+            this.x = ((this.x - distance) % X + X) % X;
         }
     }
 

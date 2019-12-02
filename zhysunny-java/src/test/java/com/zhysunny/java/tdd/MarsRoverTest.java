@@ -19,6 +19,16 @@ public class MarsRoverTest {
         // 2.解析指令获得方向和移动距离
         // 3.获得新的坐标
         MarsRover marsRover = new MarsRover(50, 50, 'N');
+        // 左转
+        MarsRover.Veer veer = new MarsRover.Veer('l');
+        // 前进20
+        MarsRover.Move move = new MarsRover.Move('f', 20);
+        // 执行命令
+        marsRover.command(veer, move);
+        // 结果是向西前进20
+        assertEquals(marsRover.getX(), 30);
+        assertEquals(marsRover.getY(), 50);
+        assertEquals(marsRover.getToward(), 'W');
     }
 
     @Test
