@@ -30,21 +30,16 @@ public class Commands {
                     name = value;
                     continue;
                 }
-                config.put(name.replaceAll("-", ""), value);
+                config.put(name.substring(1), value);
                 name = null;
             }
         }
     }
 
     private boolean isName(String name) {
-        if (null != name) {
-            if (name.startsWith("-")) {
-                String type = name.replaceAll("-", "");
-                if (type.length() == 1) {
-                    if (type.charAt(0) < '0' || type.charAt(0) > '9') {
-                        return true;
-                    }
-                }
+        if (null != name && name.length() == 2) {
+            if (name.charAt(1) < '0' || name.charAt(1) > '9') {
+                return true;
             }
         }
         return false;

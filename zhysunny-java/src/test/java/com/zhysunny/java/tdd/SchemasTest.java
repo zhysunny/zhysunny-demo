@@ -20,19 +20,19 @@ public class SchemasTest {
 
     @Test
     public void testInt() throws Exception {
-        Schemas schemas = new Schemas("l:int");
-        assertEquals(schemas.getValue("l", "1"), 1);
-        assertEquals(schemas.getValue("l", "-8"), -8);
-        assertEquals(schemas.getValue("l", ""), 0);
-        assertEquals(schemas.getValue("l", null), 0);
+        Schemas schemas = new Schemas("i:integer");
+        assertEquals(schemas.getValue("i", "1"), 1);
+        assertEquals(schemas.getValue("i", "-8"), -8);
+        assertEquals(schemas.getValue("i", ""), 0);
+        assertEquals(schemas.getValue("i", null), 0);
     }
 
     @Test
     public void testString() throws Exception {
-        Schemas schemas = new Schemas("l:string");
-        assertEquals(schemas.getValue("l", "hello"), "hello");
-        assertEquals(schemas.getValue("l", ""), "");
-        assertEquals(schemas.getValue("l", null), "");
+        Schemas schemas = new Schemas("s:string");
+        assertEquals(schemas.getValue("s", "hello"), "hello");
+        assertEquals(schemas.getValue("s", ""), "");
+        assertEquals(schemas.getValue("s", null), "");
     }
 
 }

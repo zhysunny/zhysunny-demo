@@ -12,29 +12,28 @@ public class Schemas {
 
     Map<String, String> schema = new HashMap<>();
 
-    public Schemas(String schemaConfig) {
-        read(schemaConfig);
+    public Schemas(String schema) {
+        read(schema);
     }
 
     private void read(String schemaConfig) {
         Arrays.asList(schemaConfig.split(","))
-        .forEach(split -> {
-            String[] nameValue = split.split(":");
-            schema.put(nameValue[0], nameValue[1]);
+        .forEach(entry -> {
+            String[] kv = entry.split(":");
+            this.schema.put(kv[0], kv[1]);
         });
     }
 
     public Object getValue(String name, String value) {
-        String type = schema.get(name);
-        switch (type) {
-            case "bool":
-                return "true".equalsIgnoreCase(value);
-            case "int":
-                return "".equals(value) || value == null ? 0 : Integer.parseInt(value);
-            case "string":
-                return "".equals(value) || value == null ? "" : value;
-            default:
-                return value;
+        String type = this.schema.get(name);
+        if ("bool".equalsIgnoreCase(type) || "boolean".equalsIgnoreCase(type)) {
+            return "true".equalsIgnoreCase(value);
+        } else if ("int".equalsIgnoreCase(type) || "integer".equalsIgnoreCase(type)) {
+            return "".equals(value) || value == null ? 0 : Integer.parseInt(value);
+        } else if ("string".equalsIgnoreCase(type)) {
+            return value == null ? "" : value;
+        } else {
+            return value;
         }
     }
 
