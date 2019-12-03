@@ -1,4 +1,4 @@
-package com.zhysunny.rdd
+package com.zhysunny.spark.rdd
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.storage.StorageLevel

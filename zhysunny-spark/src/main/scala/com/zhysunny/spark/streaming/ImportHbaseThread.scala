@@ -1,4 +1,4 @@
-package com.zhysunny.streaming
+package com.zhysunny.spark.streaming
 
 import com.zhysunny.util.ColumnUtils
 import com.zhysunny.common.date.DateUtils

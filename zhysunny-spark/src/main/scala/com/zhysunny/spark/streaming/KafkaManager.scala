@@ -1,4 +1,4 @@
-package com.zhysunny.streaming
+package com.zhysunny.spark.streaming
 
 import kafka.common.TopicAndPartition
 import kafka.message.MessageAndMetadata

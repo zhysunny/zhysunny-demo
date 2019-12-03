@@ -1,4 +1,4 @@
-package com.zhysunny.streaming
+package com.zhysunny.spark.streaming
 
 import java.util.concurrent.{LinkedBlockingQueue, ThreadPoolExecutor, TimeUnit}
 

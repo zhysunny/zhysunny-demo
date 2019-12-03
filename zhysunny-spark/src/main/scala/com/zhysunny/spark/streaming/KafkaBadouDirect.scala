@@ -1,4 +1,4 @@
-package com.zhysunny.streaming
+package com.zhysunny.spark.streaming
 
 import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf

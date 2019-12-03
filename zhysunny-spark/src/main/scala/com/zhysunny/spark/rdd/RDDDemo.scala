@@ -1,4 +1,4 @@
-package com.zhysunny.rdd
+package com.zhysunny.spark.rdd
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{HashPartitioner, SparkContext}

@@ -1,4 +1,4 @@
-package com.zhysunny.streaming
+package com.zhysunny.spark.streaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.kafka.KafkaUtils
