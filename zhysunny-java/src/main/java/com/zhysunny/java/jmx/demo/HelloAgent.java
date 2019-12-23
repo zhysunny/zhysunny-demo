@@ -1,4 +1,4 @@
-package com.zhysunny.java.jmx;
+package com.zhysunny.java.jmx.demo;
 
 import javax.management.MBeanServer;
 import javax.management.ObjectName;

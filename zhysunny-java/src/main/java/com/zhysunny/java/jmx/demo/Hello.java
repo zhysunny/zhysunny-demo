@@ -1,4 +1,4 @@
-package com.zhysunny.java.jmx;
+package com.zhysunny.java.jmx.demo;
 
 /**
  * @author 章云

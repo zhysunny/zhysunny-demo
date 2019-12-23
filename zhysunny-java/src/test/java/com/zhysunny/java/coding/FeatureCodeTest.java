@@ -7,11 +7,11 @@ import java.util.Random;
 import static org.junit.Assert.*;
 
 /**
- * ByteCoding32Test Test.
+ * FeatureCodeTest Test.
  * @author 章云
  * @date 2019/11/1 9:02
  */
-public class ByteCoding32Test {
+public class FeatureCodeTest {
 
     @Rule
     public ExpectedException expected = ExpectedException.none();
@@ -19,7 +19,7 @@ public class ByteCoding32Test {
 
     @BeforeClass
     public static void beforeClass() throws Exception {
-        System.out.println("Test ByteCoding32Test Class Start...");
+        System.out.println("Test FeatureCodeTest Class Start...");
         Random random = new Random();
         for (int i = 0; i < value.length; i++) {
             value[i] = random.nextFloat() * 0.5f - 0.25f;
@@ -37,7 +37,7 @@ public class ByteCoding32Test {
 
     @AfterClass
     public static void afterClass() throws Exception {
-        System.out.println("Test ByteCoding32Test Class End...");
+        System.out.println("Test FeatureCodeTest Class End...");
     }
 
     @Test
@@ -48,7 +48,7 @@ public class ByteCoding32Test {
             value[i] = (float)decode[i] / 128.0f;
         }
         System.out.println(Arrays.toString(value));
-        byte[] encode = ByteCoding32.encode(value);
+        byte[] encode = FeatureCode.encode(value);
         System.out.println(Arrays.toString(encode));
         assertEquals(encode[0], 8);
         assertEquals(encode[1], -77);
@@ -60,13 +60,13 @@ public class ByteCoding32Test {
         float[] value = { 1, 5, 7 };
         expected.expect(RuntimeException.class);
         expected.expectMessage("The array length must be a multiple of 4");
-        ByteCoding32.encode(value);
+        FeatureCode.encode(value);
     }
 
     @Test
     public void testDecode() throws Exception {
         byte[] encode = { 8, -77, -94 };
-        byte[] decode = ByteCoding32.decode(encode);
+        byte[] decode = FeatureCode.decode(encode);
         System.out.println(Arrays.toString(decode));
         assertEquals(decode[0], 1);
         assertEquals(decode[1], -5);
@@ -79,7 +79,7 @@ public class ByteCoding32Test {
         byte[] value = { 1, 5, 7, 17 };
         expected.expect(RuntimeException.class);
         expected.expectMessage("The array length must be a multiple of 3");
-        ByteCoding32.decode(value);
+        FeatureCode.decode(value);
     }
 
     @Test

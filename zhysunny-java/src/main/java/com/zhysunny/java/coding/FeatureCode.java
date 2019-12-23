@@ -4,7 +4,7 @@ package com.zhysunny.java.coding;
  * @author 章云
  * @date 2019/11/1 9:19
  */
-public class ByteCoding32 {
+public class FeatureCode {
 
     private static final int QP = 128;
 
