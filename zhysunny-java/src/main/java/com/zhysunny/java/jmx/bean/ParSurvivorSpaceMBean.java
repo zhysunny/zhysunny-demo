@@ -4,15 +4,15 @@ import javax.management.ObjectName;
 import java.util.Arrays;
 
 /**
- * 元空间
+ * 新生代幸存区空间
  * @author 章云
- * @date 2019/12/23 18:13
+ * @date 2019/12/24 8:51
  */
-public class MetaspaceMBean extends JmxUrl {
+public class ParSurvivorSpaceMBean extends JmxUrl {
 
     public static void main(String[] args) throws Exception {
         // MBean名称
-        ObjectName objectName = new ObjectName("java.lang:name=Metaspace,type=MemoryPool");
+        ObjectName objectName = new ObjectName("java.lang:type=MemoryPool,name=Par Survivor Space");
         // String
         System.out.println("MBean名称:" + mbsc.getAttribute(objectName, "Name"));
         // String[]
@@ -23,23 +23,22 @@ public class MetaspaceMBean extends JmxUrl {
         System.out.println("使用峰值:" + mbsc.getAttribute(objectName, "PeakUsage"));
         // javax.management.openmbean.CompositeData
         System.out.println("集合使用:" + mbsc.getAttribute(objectName, "CollectionUsage"));
-        // 不可用
         // long
-        //        System.out.println("集合使用阈值:" + mbsc.getAttribute(objectName, "CollectionUsageThreshold"));
+        System.out.println("集合使用阈值:" + mbsc.getAttribute(objectName, "CollectionUsageThreshold"));
         // long
-        //        System.out.println("集合使用阈值个数:" + mbsc.getAttribute(objectName, "CollectionUsageThresholdCount"));
+        System.out.println("集合使用阈值个数:" + mbsc.getAttribute(objectName, "CollectionUsageThresholdCount"));
         // boolean
-        //        System.out.println("是否超过集合使用阈值:" + mbsc.getAttribute(objectName, "CollectionUsageThresholdExceeded"));
+        System.out.println("是否超过集合使用阈值:" + mbsc.getAttribute(objectName, "CollectionUsageThresholdExceeded"));
         // boolean
         System.out.println("是否支持集合使用阈值:" + mbsc.getAttribute(objectName, "CollectionUsageThresholdSupported"));
         // javax.management.openmbean.CompositeData
         System.out.println("使用:" + mbsc.getAttribute(objectName, "Usage"));
         // long
-        System.out.println("使用阈值:" + mbsc.getAttribute(objectName, "UsageThreshold"));
+//        System.out.println("使用阈值:" + mbsc.getAttribute(objectName, "UsageThreshold"));
         // long
-        System.out.println("使用阈值个数:" + mbsc.getAttribute(objectName, "UsageThresholdCount"));
+//        System.out.println("使用阈值个数:" + mbsc.getAttribute(objectName, "UsageThresholdCount"));
         // boolean
-        System.out.println("是否超过使用阈值:" + mbsc.getAttribute(objectName, "UsageThresholdExceeded"));
+//        System.out.println("是否超过使用阈值:" + mbsc.getAttribute(objectName, "UsageThresholdExceeded"));
         // boolean
         System.out.println("是否支持使用阈值:" + mbsc.getAttribute(objectName, "UsageThresholdSupported"));
         // boolean
