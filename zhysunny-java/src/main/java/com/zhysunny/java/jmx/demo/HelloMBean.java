@@ -10,8 +10,8 @@ public interface HelloMBean {
 
     void setName(String name);
 
-    void printHello();
+    long getTime();
 
-    void printHello(String whoName);
+    void printHello();
 
 }
