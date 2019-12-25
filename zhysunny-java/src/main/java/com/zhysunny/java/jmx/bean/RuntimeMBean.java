@@ -48,6 +48,8 @@ public class RuntimeMBean extends JmxUrl {
         System.out.println("引导类路径:" + mbsc.getAttribute(objectName, "BootClassPath"));
         // 无
         print(objectName);
+        // 计算CPU
+        //        Math.min(100.00F, (ProcessCpuTime-PreProcessCpuTime) / ((Uptime-PreUptime) * 10000F * AvailableProcessors));
     }
 
 }

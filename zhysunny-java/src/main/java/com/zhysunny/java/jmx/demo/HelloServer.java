@@ -11,6 +11,10 @@ import java.lang.management.ManagementFactory;
 public class HelloServer {
 
     public static void main(String[] args) throws Exception {
+        System.setProperty("java.rmi.server.hostname", "127.0.0.1");
+        System.setProperty("com.sun.management.jmxremote.port", "1000");
+        System.setProperty("com.sun.management.jmxremote.ssl", "false");
+        System.setProperty("com.sun.management.jmxremote.authenticate", "false");
         // 下面这种方式不能再JConsole中使用
         //    	MBeanServer server = MBeanServerFactory.createMBeanServer();
         // 首先建立一个MBeanServer,MBeanServer用来管理我们的MBean,通常是通过MBeanServer来获取我们MBean的信息，间接
@@ -26,10 +30,11 @@ public class HelloServer {
         Thread.sleep(1000000000);
 
         // 执行参数必须加上
-        //        -Djava.rmi.server.hostname=127.0.0.127
+        //        -Djava.rmi.server.hostname=127.0.0.1
         //        -Dcom.sun.management.jmxremote.port=1000
         //        -Dcom.sun.management.jmxremote.ssl=false
         //        -Dcom.sun.management.jmxremote.authenticate=false
+        // -Djava.rmi.server.hostname=127.0.0.1 -Dcom.sun.management.jmxremote.port=1000 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false
     }
 
 }

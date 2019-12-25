@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class HelloClient {
 
     public static void main(String[] args) throws Exception {
-        String jmxURL = "service:jmx:rmi:///jndi/rmi://127.0.0.1:1000/jmxrmi";
+        String jmxURL = "service:jmx:rmi:///jndi/rmi://10.45.144.76:1000/jmxrmi";
         JMXServiceURL serviceURL = new JMXServiceURL(jmxURL);
         JMXConnector connector = JMXConnectorFactory.connect(serviceURL);
         MBeanServerConnection mbsc = connector.getMBeanServerConnection();
@@ -23,7 +23,7 @@ public class HelloClient {
         System.out.println("name:" + mbsc.getAttribute(objectName, "Name"));
         // long
         System.out.println("time:" + mbsc.getAttribute(objectName, "Time"));
-        // 1个操作
+
         MBeanInfo mBeanInfo = mbsc.getMBeanInfo(objectName);
         String className = mBeanInfo.getClassName();
         System.out.println("MBean类名：" + className);
