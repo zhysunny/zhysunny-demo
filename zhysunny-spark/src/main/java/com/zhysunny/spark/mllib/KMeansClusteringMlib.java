@@ -31,9 +31,10 @@ public class KMeansClusteringMlib {
         parseData.cache();
         // 使用K均值把数据聚为两类
         int numCluster = 2;
+        // 迭代次数
         int iterations = 10;
         KMeansModel km = KMeans.train(parseData.rdd(), numCluster, iterations);
-        // 评估
+        // 评估，sse表示每个特征到对应聚类中心点距离的平方和
         double sse = km.computeCost(parseData.rdd());
         System.out.println(sse);
         sparkContext.close();
