@@ -1,9 +1,6 @@
 package com.zhysunny.java.util.concurrent.executor;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * @author 章云
@@ -63,6 +60,16 @@ public class ExecutorsTest {
         executor.shutdown();
         // 享有特权的线程池工厂，继承默认线程池工厂
         Executors.privilegedThreadFactory();
+
+        // 线程池拒绝策略
+        // 默认AbortPolicy，抛出异常
+        new ThreadPoolExecutor.AbortPolicy();
+        // 不做任何处理
+        new ThreadPoolExecutor.DiscardPolicy();
+        // 丢弃队头的一个任务
+        new ThreadPoolExecutor.DiscardOldestPolicy();
+        // 当线程池没关闭，执行拒绝任务的run方法，若线程池关闭，则丢弃任务
+        new ThreadPoolExecutor.CallerRunsPolicy();
     }
 
 }
