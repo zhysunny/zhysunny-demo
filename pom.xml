@@ -19,6 +19,7 @@
         <module>zhysunny-dl4j</module>
         <module>zhysunny-hive</module>
         <module>zhysunny-network</module>
+        <module>zhysunny-hbase</module>
     </modules>
     <name>Zhysunny Demo</name>
     <description>我的测试类</description>
