@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+太阿	792	9
+震雷青龙戟	804	9
+黄帝剑	823	1
+奥丁多赖耙	833	1
+UJ玩具槌	850	1
+神鬼方天昼戟	157	1
+炼狱魔刀	830	1
+莫邪干将	42	1
+翔龙偃越刀	111	1
+万胜丈八蛇矛	159	1
+雷斩刀	791	9
+天羽凤凰枪	803	9
+冰凰炎凤	44	1
+干将	788	9
+赤霄	793	9
+苍天帝剑	822	1
+仁义无双	45	1
+莫邪	771	9
+方天昼戟	158	1
+含铁双股剑	46	1
+焰斩刀	787	9
+驚雷	813	9
+机铁火神弓	814	9
+两仪剑	820	9
+泰山府君杖	832	1
+虎胆枪	802	99
+玄冰扇	780	9
+真火扇	781	9
+真火朱雀扇	91	1
+朱雀扇	92	30
+幽冥扇	779	9
+魂咬	790	9
+五光宝扇	829	5
+金羽扇	94	40
+火焰扇	96	40
+ -->
+<root name="武器">
+	<weapon name="莫邪干将" code="42" amount="1" level="40" physical="40"
+		skill="35" military="35" intelligence="10" speed="0" effect="横斩前排三人"
+		type="1" />
+	<weapon name="草薙" code="43" amount="1" level="30" physical="25"
+		skill="25" military="20" intelligence="3" speed="0" effect="" type="1" />
+	<weapon name="冰凰炎凤" code="44" amount="1" level="34" physical="50"
+		skill="30" military="33" intelligence="0" speed="0" effect="火焰、冰峰"
+		type="1" />
+	<weapon name="仁义无双" code="45" amount="1" level="32" physical="30"
+		skill="24" military="28" intelligence="0" speed="0" effect="回复体力"
+		type="1" />
+	<weapon name="含铁双股剑" code="46" amount="1" level="30" physical="25"
+		skill="22" military="25" intelligence="0" speed="0" effect="横斩前排三人"
+		type="1" />
+	<weapon name="巨阙剑" code="47" amount="10" level="28" physical="10"
+		skill="0" military="16" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="魑魅魍魉" code="48" amount="1" level="28" physical="10"
+		skill="0" military="16" intelligence="0" speed="0" effect="吸血" type="1" />
+	<weapon name="逆天剑" code="49" amount="1" level="28" physical="5"
+		skill="5" military="17" intelligence="0" speed="0" effect="暴击" type="1" />
+	<weapon name="倚天剑" code="50" amount="1" level="27" physical="10"
+		skill="0" military="14" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="虎牙剑" code="51" amount="10" level="26" physical="10"
+		skill="0" military="15" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="皇天怒" code="52" amount="1" level="25" physical="0"
+		skill="0" military="15" intelligence="0" speed="0" effect="大范围劈斩"
+		type="1" />
+	<weapon name="飞星" code="53" amount="1" level="24" physical="0"
+		skill="0" military="13" intelligence="1" speed="2" effect="" type="1" />
+	<weapon name="流采" code="54" amount="1" level="24" physical="0"
+		skill="0" military="14" intelligence="0" speed="1" effect="贯穿一人"
+		type="1" />
+	<weapon name="华铤" code="55" amount="1" level="24" physical="0"
+		skill="0" military="14" intelligence="0" speed="1" effect="暴击" type="1" />
+	<weapon name="不知火" code="56" amount="1" level="24" physical="0"
+		skill="0" military="20" intelligence="0" speed="2" effect="消耗体力"
+		type="1" />
+	<weapon name="七星刀" code="57" amount="30" level="23" physical="0"
+		skill="5" military="13" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="方土" code="58" amount="1" level="23" physical="0"
+		skill="0" military="14" intelligence="0" speed="0" effect="较强劈斩"
+		type="1" />
+	<weapon name="东极" code="59" amount="1" level="23" physical="5"
+		skill="5" military="15" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="破山剑" code="60" amount="30" level="22" physical="0"
+		skill="0" military="13" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="青釭剑" code="61" amount="30" level="22" physical="5"
+		skill="0" military="12" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="白虹" code="62" amount="1" level="22" physical="0"
+		skill="0" military="12" intelligence="0" speed="0" effect="贯穿一人"
+		type="1" />
+	<weapon name="紫电" code="63" amount="1" level="22" physical="0"
+		skill="0" military="12" intelligence="0" speed="0" effect="召唤天雷"
+		type="1" />
+	<weapon name="辟邪" code="64" amount="1" level="22" physical="10"
+		skill="10" military="12" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="流星" code="65" amount="1" level="22" physical="0"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="青冥" code="66" amount="1" level="22" physical="0"
+		skill="30" military="11" intelligence="5" speed="0" effect="" type="1" />
+	<weapon name="百里" code="67" amount="1" level="22" physical="0"
+		skill="0" military="12" intelligence="0" speed="2" effect="" type="1" />
+	<weapon name="村正" code="68" amount="99" level="21" physical="0"
+		skill="5" military="11" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="古锭刀" code="69" amount="99" level="21" physical="5"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="流光" code="70" amount="1" level="20" physical="5"
+		skill="5" military="11" intelligence="0" speed="0" effect="贯穿一人"
+		type="1" />
+	<weapon name="双股剑" code="71" amount="99" level="18" physical="0"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="太一" code="72" amount="1" level="17" physical="10"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="凄然" code="73" amount="1" level="17" physical="0"
+		skill="5" military="11" intelligence="2" speed="0" effect="" type="1" />
+	<weapon name="倭刀" code="74" amount="99" level="15" physical="0"
+		skill="0" military="10" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="风云斩" code="75" amount="1" level="15" physical="0"
+		skill="0" military="10" intelligence="0" speed="0" effect="较强劈斩"
+		type="1" />
+	<weapon name="龙渊剑" code="76" amount="99" level="15" physical="0"
+		skill="0" military="9" intelligence="1" speed="0" effect="" type="1" />
+	<weapon name="龟纹" code="77" amount="1" level="15" physical="5"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="火精" code="78" amount="1" level="15" physical="0"
+		skill="0" military="11" intelligence="0" speed="0" effect="火伤害"
+		type="1" />
+	<weapon name="弧月刀" code="79" amount="999" level="13" physical="0"
+		skill="0" military="8" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="连环刀" code="80" amount="999" level="11" physical="0"
+		skill="0" military="7" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="蛮刀" code="81" amount="999" level="11" physical="0"
+		skill="0" military="8" intelligence="-2" speed="0" effect="" type="1" />
+	<weapon name="思召" code="82" amount="1" level="10" physical="0"
+		skill="0" military="8" intelligence="1" speed="0" effect="较强劈斩"
+		type="1" />
+	<weapon name="苗刀" code="83" amount="999" level="9" physical="0"
+		skill="0" military="7" intelligence="-2" speed="0" effect="" type="1" />
+	<weapon name="宽刃剑" code="84" amount="999" level="9" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="吴鉤" code="85" amount="999" level="6" physical="0"
+		skill="0" military="5" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="短刀" code="86" amount="999" level="5" physical="0"
+		skill="0" military="4" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="桃木剑" code="87" amount="999" level="4" physical="0"
+		skill="0" military="2" intelligence="1" speed="0" effect="" type="1" />
+	<weapon name="青铜剑" code="88" amount="999" level="4" physical="0"
+		skill="0" military="3" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="朴刀" code="89" amount="999" level="1" physical="0"
+		skill="0" military="1" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="直剑" code="90" amount="999" level="1" physical="0"
+		skill="0" military="1" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="真火朱雀扇" code="91" amount="1" level="29" physical="5"
+		skill="5" military="13" intelligence="10" speed="0" effect="火焰"
+		type="2" />
+	<weapon name="朱雀扇" code="92" amount="30" level="27" physical="5"
+		skill="0" military="11" intelligence="10" speed="0" effect="火伤害"
+		type="2" />
+	<weapon name="玄冥法扇" code="93" amount="10" level="25" physical="0"
+		skill="0" military="11" intelligence="3" speed="0" effect="化作尸兵"
+		type="2" />
+	<weapon name="金羽扇" code="94" amount="40" level="23" physical="10"
+		skill="10" military="9" intelligence="9" speed="0" effect="横斩前排三人"
+		type="2" />
+	<weapon name="驭风剑翎扇" code="95" amount="40" level="21"
+		physical="0" skill="0" military="7" intelligence="9" speed="3"
+		effect="贯穿一人" type="2" />
+	<weapon name="火焰扇" code="96" amount="40" level="20" physical="0"
+		skill="0" military="9" intelligence="9" speed="0" effect="火伤害" type="2" />
+	<weapon name="天罡劈水扇" code="97" amount="40" level="20"
+		physical="0" skill="0" military="10" intelligence="0" speed="0"
+		effect="地泉伤害" type="2" />
+	<weapon name="彩霓扇" code="98" amount="40" level="18" physical="15"
+		skill="15" military="8" intelligence="3" speed="0" effect="" type="2" />
+	<weapon name="孔雀扇" code="99" amount="40" level="17" physical="0"
+		skill="15" military="8" intelligence="4" speed="0" effect="迅速撤退"
+		type="2" />
+	<weapon name="鹏羽扇" code="100" amount="40" level="16" physical="10"
+		skill="0" military="8" intelligence="0" speed="0" effect="" type="2" />
+	<weapon name="黯羽扇" code="101" amount="40" level="16" physical="0"
+		skill="0" military="7" intelligence="3" speed="0" effect="吸血" type="2" />
+	<weapon name="鹤羽扇" code="102" amount="99" level="15" physical="0"
+		skill="0" military="8" intelligence="8" speed="0" effect="" type="2" />
+	<weapon name="蝉翼扇" code="103" amount="99" level="14" physical="5"
+		skill="0" military="6" intelligence="6" speed="3" effect="" type="2" />
+	<weapon name="苍羽扇" code="104" amount="999" level="12"
+		physical="10" skill="0" military="7" intelligence="0" speed="0"
+		effect="" type="2" />
+	<weapon name="青羽扇" code="105" amount="999" level="12"
+		physical="0" skill="0" military="6" intelligence="6" speed="0"
+		effect="" type="2" />
+	<weapon name="钢刃扇" code="106" amount="999" level="10"
+		physical="0" skill="0" military="7" intelligence="0" speed="0"
+		effect="" type="2" />
+	<weapon name="铁骨折扇" code="107" amount="999" level="8"
+		physical="10" skill="0" military="5" intelligence="0" speed="0"
+		effect="" type="2" />
+	<weapon name="白娟折扇" code="108" amount="999" level="8"
+		physical="0" skill="0" military="5" intelligence="5" speed="0"
+		effect="" type="2" />
+	<weapon name="青竹扇" code="109" amount="999" level="5" physical="5"
+		skill="0" military="3" intelligence="3" speed="0" effect="" type="2" />
+	<weapon name="白羽扇" code="110" amount="999" level="3" physical="0"
+		skill="0" military="3" intelligence="1" speed="0" effect="" type="2" />
+	<weapon name="翔龙偃越刀" code="111" amount="1" level="30"
+		physical="40" skill="40" military="35" intelligence="0" speed="0"
+		effect="大范围劈斩" type="3" />
+	<weapon name="青龙偃越刀" code="112" amount="1" level="29"
+		physical="20" skill="5" military="20" intelligence="0" speed="0"
+		effect="大范围劈斩" type="3" />
+	<weapon name="雷公鞭" code="113" amount="1" level="28" physical="5"
+		skill="5" military="19" intelligence="0" speed="0" effect="召唤天雷"
+		type="3" />
+	<weapon name="虎贲大刀" code="114" amount="10" level="28"
+		physical="8" skill="8" military="19" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="日月双锤" code="115" amount="10" level="27"
+		physical="5" skill="8" military="18" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="鳌头两刃斧" code="116" amount="10" level="27"
+		physical="5" skill="5" military="19" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="战国大刀" code="117" amount="10" level="26"
+		physical="8" skill="5" military="18" intelligence="1" speed="0"
+		effect="" type="3" />
+	<weapon name="春秋大刀" code="118" amount="10" level="26"
+		physical="5" skill="5" military="19" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="混沌双斧" code="119" amount="5" level="24" physical="0"
+		skill="0" military="18" intelligence="0" speed="0" effect="大范围劈斩"
+		type="3" />
+	<weapon name="天罡斧" code="120" amount="30" level="24" physical="0"
+		skill="0" military="18" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="混沌开天斧" code="121" amount="5" level="23"
+		physical="0" skill="0" military="17" intelligence="0" speed="0"
+		effect="大范围劈斩" type="3" />
+	<weapon name="三环大刀" code="122" amount="30" level="23"
+		physical="0" skill="0" military="18" intelligence="-3" speed="0"
+		effect="" type="3" />
+	<weapon name="波母" code="123" amount="1" level="23" physical="0"
+		skill="0" military="18" intelligence="0" speed="0" effect="回复体力"
+		type="3" />
+	<weapon name="南极" code="124" amount="1" level="23" physical="10"
+		skill="10" military="18" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="编驹" code="125" amount="1" level="23" physical="0"
+		skill="0" military="18" intelligence="0" speed="0" effect="击伤多人"
+		type="3" />
+	<weapon name="西域镰刀" code="126" amount="30" level="22"
+		physical="0" skill="0" military="17" intelligence="-4" speed="0"
+		effect="吸血" type="3" />
+	<weapon name="铁蒺蔾骨柔" code="127" amount="30" level="22"
+		physical="0" skill="0" military="18" intelligence="-4" speed="0"
+		effect="" type="3" />
+	<weapon name="车轮斧" code="128" amount="30" level="22" physical="0"
+		skill="0" military="18" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="玄铁碎棍" code="129" amount="30" level="22"
+		physical="0" skill="0" military="17" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="鬼头大刀" code="130" amount="99" level="21"
+		physical="0" skill="0" military="17" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="枣阳锤" code="131" amount="99" level="21" physical="5"
+		skill="0" military="16" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="云月刀" code="132" amount="99" level="20" physical="0"
+		skill="0" military="16" intelligence="-4" speed="0" effect="" type="3" />
+	<weapon name="两刃斧" code="133" amount="99" level="20" physical="0"
+		skill="0" military="15" intelligence="-2" speed="0" effect="" type="3" />
+	<weapon name="鬼刃刀" code="134" amount="99" level="20" physical="0"
+		skill="0" military="15" intelligence="-4" speed="0" effect="" type="3" />
+	<weapon name="金瓜锤" code="135" amount="99" level="20" physical="0"
+		skill="0" military="15" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="UJ大鸡腿" code="224" amount="1" level="20"
+		physical="30" skill="30" military="5" intelligence="5" speed="0"
+		effect="回复体力" type="3" />
+	<weapon name="二郎刀" code="136" amount="99" level="18" physical="0"
+		skill="0" military="15" intelligence="-4" speed="0" effect="" type="3" />
+	<weapon name="三尖刀" code="137" amount="99" level="18" physical="0"
+		skill="0" military="14" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="破阵刀" code="138" amount="99" level="17" physical="0"
+		skill="0" military="13" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="双手斧" code="139" amount="99" level="17" physical="0"
+		skill="0" military="14" intelligence="-4" speed="0" effect="" type="3" />
+	<weapon name="双铁钩" code="140" amount="999" level="15"
+		physical="0" skill="0" military="13" intelligence="0" speed="0"
+		effect="" type="3" />
+	<weapon name="掉刀" code="141" amount="999" level="15" physical="0"
+		skill="0" military="12" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="青铜鞭" code="142" amount="999" level="13"
+		physical="0" skill="0" military="12" intelligence="-4" speed="0"
+		effect="" type="3" />
+	<weapon name="狼牙棒" code="143" amount="999" level="13"
+		physical="0" skill="0" military="11" intelligence="-3" speed="0"
+		effect="" type="3" />
+	<weapon name="掩月刀" code="144" amount="999" level="11"
+		physical="0" skill="0" military="11" intelligence="-5" speed="0"
+		effect="" type="3" />
+	<weapon name="月牙铲" code="145" amount="999" level="11"
+		physical="0" skill="0" military="10" intelligence="-3" speed="0"
+		effect="" type="3" />
+	<weapon name="斩马刀" code="146" amount="999" level="10"
+		physical="0" skill="0" military="9" intelligence="-3" speed="0"
+		effect="" type="3" />
+	<weapon name="凤绫锤" code="147" amount="999" level="8" physical="0"
+		skill="0" military="9" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="象鼻刀" code="148" amount="999" level="8" physical="0"
+		skill="0" military="8" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="流星锤" code="149" amount="999" level="8" physical="0"
+		skill="0" military="8" intelligence="-2" speed="0" effect="" type="3" />
+	<weapon name="钩镰刀" code="150" amount="999" level="6" physical="0"
+		skill="0" military="9" intelligence="-5" speed="0" effect="" type="3" />
+	<weapon name="凤嘴刀" code="151" amount="999" level="6" physical="0"
+		skill="0" military="8" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="碎锤" code="152" amount="999" level="4" physical="0"
+		skill="0" military="7" intelligence="-5" speed="0" effect="" type="3" />
+	<weapon name="大斧" code="153" amount="999" level="4" physical="0"
+		skill="0" military="6" intelligence="-5" speed="0" effect="" type="3" />
+	<weapon name="屈刀" code="154" amount="999" level="2" physical="0"
+		skill="0" military="5" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="眉尖刀" code="155" amount="999" level="2" physical="0"
+		skill="0" military="4" intelligence="-2" speed="0" effect="" type="3" />
+	<weapon name="铜长刀" code="156" amount="999" level="1" physical="0"
+		skill="0" military="3" intelligence="-3" speed="0" effect="" type="3" />
+	<weapon name="神鬼方天昼戟" code="157" amount="1" level="38"
+		physical="60" skill="60" military="40" intelligence="0" speed="0"
+		effect="多重刀罡" type="4" />
+	<weapon name="方天昼戟" code="158" amount="1" level="30" physical="30"
+		skill="30" military="26" intelligence="0" speed="0" effect="大范围劈斩"
+		type="4" />
+	<weapon name="万胜丈八蛇矛" code="159" amount="1" level="35"
+		physical="45" skill="45" military="35" intelligence="0" speed="0"
+		effect="多重刀罡" type="4" />
+	<weapon name="丈八蛇矛" code="160" amount="1" level="29" physical="30"
+		skill="0" military="22" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="九天龙魂贯" code="161" amount="1" level="30"
+		physical="15" skill="15" military="18" intelligence="5" speed="0"
+		effect="多重刀罡" type="4" />
+	<weapon name="龙胆枪" code="162" amount="1" level="29" physical="10"
+		skill="10" military="16" intelligence="3" speed="0" effect="" type="4" />
+	<weapon name="霸王凤凰枪" code="163" amount="1" level="30"
+		physical="20" skill="20" military="18" intelligence="0" speed="0"
+		effect="贯穿四人" type="4" />
+	<weapon name="凤凰枪" code="164" amount="1" level="29" physical="5"
+		skill="5" military="17" intelligence="4" speed="0" effect="横斩前排三人"
+		type="4" />
+	<weapon name="虎贲方天戟" code="165" amount="10" level="27"
+		physical="0" skill="0" military="17" intelligence="0" speed="0"
+		effect="击伤多人" type="4" />
+	<weapon name="神龙戈" code="166" amount="10" level="26" physical="0"
+		skill="0" military="17" intelligence="0" speed="0" effect="横斩前排三人"
+		type="4" />
+	<weapon name="破军蒺蔾枪" code="167" amount="20" level="25"
+		physical="15" skill="0" military="17" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="青天钩镰枪" code="168" amount="20" level="25"
+		physical="10" skill="0" military="17" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="西极" code="169" amount="1" level="23" physical="5"
+		skill="5" military="15" intelligence="0" speed="0" effect="横斩前排三人"
+		type="4" />
+	<weapon name="不周" code="170" amount="1" level="23" physical="10"
+		skill="0" military="15" intelligence="0" speed="0" effect="暴击" type="4" />
+	<weapon name="龙髓枪" code="171" amount="20" level="23" physical="0"
+		skill="0" military="14" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="应龙戟" code="172" amount="30" level="22" physical="0"
+		skill="5" military="13" intelligence="2" speed="0" effect="" type="4" />
+	<weapon name="紫龙戟" code="173" amount="30" level="22" physical="10"
+		skill="0" military="13" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="斩马钩镰枪" code="174" amount="30" level="21"
+		physical="5" skill="0" military="12" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="焰火尖枪" code="175" amount="30" level="21"
+		physical="0" skill="0" military="11" intelligence="0" speed="0"
+		effect="火伤害" type="4" />
+	<weapon name="拐刃蒺蔾枪" code="176" amount="30" level="20"
+		physical="0" skill="0" military="11" intelligence="0" speed="0"
+		effect="同时伤两人" type="4" />
+	<weapon name="双刃月牙戟" code="177" amount="30" level="20"
+		physical="0" skill="0" military="12" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="龙角叉" code="178" amount="30" level="19" physical="0"
+		skill="0" military="11" intelligence="0" speed="0" effect="同时伤两人"
+		type="4" />
+	<weapon name="铁脊蛇矛" code="179" amount="30" level="18"
+		physical="5" skill="0" military="10" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="蛇矛" code="180" amount="30" level="18" physical="0"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="凤钺戟" code="181" amount="99" level="17" physical="10"
+		skill="0" military="10" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="长铩" code="182" amount="99" level="16" physical="0"
+		skill="0" military="9" intelligence="0" speed="0" effect="贯穿一人"
+		type="4" />
+	<weapon name="铁钺戟" code="183" amount="99" level="16" physical="10"
+		skill="0" military="9" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="白玉戟" code="184" amount="999" level="15"
+		physical="0" skill="0" military="8" intelligence="4" speed="0"
+		effect="" type="4" />
+	<weapon name="十字枪" code="185" amount="999" level="15"
+		physical="0" skill="0" military="9" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="斧刃枪" code="186" amount="999" level="13"
+		physical="0" skill="0" military="8" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="钩镰枪" code="187" amount="999" level="13"
+		physical="10" skill="0" military="7" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="九凤铁" code="188" amount="999" level="11"
+		physical="0" skill="0" military="7" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="拐突枪" code="189" amount="999" level="11"
+		physical="10" skill="0" military="6" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="梨花枪" code="190" amount="999" level="10"
+		physical="0" skill="0" military="6" intelligence="3" speed="0"
+		effect="" type="4" />
+	<weapon name="透甲枪" code="191" amount="999" level="10"
+		physical="0" skill="0" military="7" intelligence="0" speed="0"
+		effect="" type="4" />
+	<weapon name="月牙戟" code="192" amount="999" level="9" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="雁翎枪" code="193" amount="999" level="9" physical="10"
+		skill="0" military="5" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="龙刀枪" code="194" amount="999" level="7" physical="0"
+		skill="0" military="5" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="九曲戟" code="195" amount="999" level="7" physical="5"
+		skill="0" military="4" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="双叉矛" code="196" amount="999" level="6" physical="0"
+		skill="0" military="4" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="三叉戟" code="197" amount="999" level="6" physical="5"
+		skill="0" military="3" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="两刃叉" code="198" amount="999" level="4" physical="0"
+		skill="0" military="3" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="红缨枪" code="199" amount="999" level="4" physical="5"
+		skill="0" military="2" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="马叉" code="200" amount="999" level="3" physical="0"
+		skill="0" military="3" intelligence="-2" speed="0" effect="" type="4" />
+	<weapon name="尖枪" code="201" amount="999" level="3" physical="0"
+		skill="0" military="2" intelligence="-1" speed="0" effect="" type="4" />
+	<weapon name="铜殳" code="202" amount="999" level="2" physical="0"
+		skill="0" military="2" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="钢矛" code="203" amount="999" level="2" physical="5"
+		skill="0" military="1" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="短锥枪" code="204" amount="999" level="1" physical="0"
+		skill="0" military="1" intelligence="0" speed="0" effect="" type="4" />
+	<weapon name="万里起云烟" code="205" amount="1" level="27"
+		physical="0" skill="0" military="16" intelligence="0" speed="0"
+		effect="贯穿多人" type="5" />
+	<weapon name="机铁连环弓" code="206" amount="5" level="25"
+		physical="0" skill="0" military="14" intelligence="0" speed="0"
+		effect="" type="5" />
+	<weapon name="北极" code="207" amount="1" level="23" physical="0"
+		skill="0" military="13" intelligence="0" speed="0" effect="击伤多人"
+		type="5" />
+	<weapon name="追魂弓" code="208" amount="10" level="21" physical="0"
+		skill="0" military="11" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="爆炎弓" code="209" amount="20" level="19" physical="0"
+		skill="0" military="9" intelligence="0" speed="0" effect="击伤多人"
+		type="5" />
+	<weapon name="神鸢弓" code="210" amount="30" level="18" physical="0"
+		skill="0" military="9" intelligence="0" speed="1" effect="" type="5" />
+	<weapon name="百里弓" code="211" amount="99" level="17" physical="0"
+		skill="0" military="8" intelligence="0" speed="1" effect="" type="5" />
+	<weapon name="破甲弓" code="212" amount="99" level="15" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" effect="暴击" type="5" />
+	<weapon name="克敌弓" code="213" amount="99" level="14" physical="0"
+		skill="0" military="7" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="迅雷弓" code="214" amount="99" level="12" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="白金弓" code="215" amount="999" level="11"
+		physical="0" skill="0" military="6" intelligence="0" speed="0"
+		effect="" type="5" />
+	<weapon name="神臂弓" code="216" amount="999" level="10"
+		physical="0" skill="0" military="6" intelligence="0" speed="0"
+		effect="" type="5" />
+	<weapon name="白桦弓" code="217" amount="999" level="9" physical="10"
+		skill="0" military="5" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="破邪弓" code="218" amount="999" level="8" physical="0"
+		skill="0" military="5" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="钢弓" code="219" amount="999" level="7" physical="0"
+		skill="0" military="4" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="穿云弓" code="220" amount="999" level="5" physical="0"
+		skill="0" military="3" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="檀弓" code="221" amount="999" level="4" physical="10"
+		skill="0" military="2" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="长弓" code="222" amount="999" level="3" physical="0"
+		skill="0" military="2" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="短弓" code="223" amount="999" level="1" physical="0"
+		skill="0" military="1" intelligence="0" speed="0" effect="" type="5" />
+	<weapon name="钢剑" code="761" amount="99" level="3" physical="5"
+		skill="0" military="4" intelligence="0" speed="0" effect="斩杀多人"
+		type="1" />
+	<weapon name="不攻" code="762" amount="99" level="4" physical="10"
+		skill="0" military="2" intelligence="5" speed="0" effect="" type="1" />
+	<weapon name="戟刀" code="763" amount="99" level="4" physical="5"
+		skill="5" military="6" intelligence="0" speed="0" effect="斩杀多人"
+		type="1" />
+	<weapon name="双刃刀" code="764" amount="99" level="6" physical="15"
+		skill="0" military="6" intelligence="0" speed="0" effect="斩杀多人"
+		type="1" />
+	<weapon name="玄铁剑" code="765" amount="99" level="12" physical="8"
+		skill="7" military="6" intelligence="0" speed="0" effect="重伤对手"
+		type="1" />
+	<weapon name="斩岩剑" code="766" amount="99" level="12" physical="20"
+		skill="0" military="8" intelligence="0" speed="0" effect="重伤对手"
+		type="1" />
+	<weapon name="明昭" code="767" amount="99" level="13" physical="9"
+		skill="9" military="7" intelligence="5" speed="0" effect="贯穿多人"
+		type="1" />
+	<weapon name="血刃" code="768" amount="9" level="17" physical="-20"
+		skill="10" military="10" intelligence="2" speed="0" effect="吸血"
+		type="1" />
+	<weapon name="邪月" code="769" amount="9" level="17" physical="-2"
+		skill="0" military="15" intelligence="2" speed="0" effect="化作尸兵"
+		type="1" />
+	<weapon name="湛卢" code="770" amount="9" level="20" physical="15"
+		skill="15" military="12" intelligence="2" speed="1" effect="冰峰"
+		type="1" />
+	<weapon name="莫邪" code="771" amount="9" level="30" physical="40"
+		skill="60" military="28" intelligence="10" speed="1" effect="极速攻速"
+		type="1" />
+	<weapon name="青玉扇" code="772" amount="99" level="5" physical="5"
+		skill="0" military="4" intelligence="5" speed="0" effect="回复体力"
+		type="2" />
+	<weapon name="劈风扇" code="773" amount="99" level="7" physical="7"
+		skill="0" military="4" intelligence="5" speed="0" effect="大范围劈斩"
+		type="2" />
+	<weapon name="剑翎扇" code="774" amount="99" level="9" physical="10"
+		skill="5" military="5" intelligence="5" speed="0" effect="斩杀多人"
+		type="2" />
+	<weapon name="幻羽扇" code="775" amount="99" level="10" physical="15"
+		skill="0" military="6" intelligence="6" speed="0" effect="" type="2" />
+	<weapon name="五光扇" code="776" amount="99" level="13" physical="10"
+		skill="10" military="6" intelligence="6" speed="0" effect="挪移敌兵"
+		type="2" />
+	<weapon name="噬血扇" code="777" amount="99" level="16" physical="-30"
+		skill="20" military="6" intelligence="6" speed="0" effect="" type="2" />
+	<weapon name="天罡扇" code="778" amount="9" level="17" physical="15"
+		skill="10" military="8" intelligence="8" speed="0" effect="" type="2" />
+	<weapon name="幽冥扇" code="779" amount="9" level="19" physical="-15"
+		skill="10" military="10" intelligence="10" speed="0" effect="" type="2" />
+	<weapon name="玄冰扇" code="780" amount="9" level="19" physical="20"
+		skill="20" military="6" intelligence="14" speed="0" effect="" type="2" />
+	<weapon name="真火扇" code="781" amount="9" level="22" physical="30"
+		skill="20" military="11" intelligence="11" speed="0" effect="" type="2" />
+	<weapon name="大砍刀" code="782" amount="99" level="3" physical="5"
+		skill="0" military="8" intelligence="-4" speed="0" effect="" type="3" />
+	<weapon name="武斩刀" code="783" amount="99" level="10" physical="5"
+		skill="0" military="10" intelligence="-3" speed="0" effect="多重刀罡"
+		type="3" />
+	<weapon name="精铁偃月刀" code="784" amount="99" level="12"
+		physical="10" skill="10" military="14" intelligence="0" speed="0"
+		effect="冰刃" type="3" />
+	<weapon name="劈山斧" code="785" amount="99" level="14" physical="15"
+		skill="0" military="15" intelligence="-5" speed="0" effect="重伤对手"
+		type="3" />
+	<weapon name="八极刀" code="786" amount="99" level="19" physical="15"
+		skill="15" military="20" intelligence="0" speed="1" effect="" type="3" />
+	<weapon name="焰斩刀" code="787" amount="9" level="25" physical="35"
+		skill="15" military="25" intelligence="0" speed="1" effect="" type="3" />
+	<weapon name="干将" code="788" amount="9" level="30" physical="80"
+		skill="25" military="30" intelligence="0" speed="2" effect="重伤对手"
+		type="3" />
+	<weapon name="毒龙" code="789" amount="9" level="13" physical="10"
+		skill="5" military="13" intelligence="5" speed="0" effect="" type="3" />
+	<weapon name="魂咬" code="790" amount="9" level="15" physical="10"
+		skill="0" military="17" intelligence="10" speed="0" effect="吸血"
+		type="3" />
+	<weapon name="雷斩刀" code="791" amount="9" level="30" physical="60"
+		skill="60" military="35" intelligence="0" speed="0" effect="" type="1" />
+	<weapon name="太阿" code="792" amount="9" level="40" physical="120"
+		skill="80" military="55" intelligence="0" speed="0" effect="重伤对手"
+		type="3" />
+	<weapon name="赤霄" code="793" amount="9" level="30" physical="60"
+		skill="60" military="30" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="点睛" code="794" amount="99" level="5" physical="5"
+		skill="0" military="4" intelligence="0" speed="0" effect="贯穿多人"
+		type="4" />
+	<weapon name="灼针" code="795" amount="99" level="5" physical="5"
+		skill="0" military="4" intelligence="0" speed="0" effect="火焰" type="4" />
+	<weapon name="冰芒" code="796" amount="99" level="8" physical="5"
+		skill="5" military="8" intelligence="0" speed="0" effect="冰刃" type="4" />
+	<weapon name="双刃戟" code="797" amount="99" level="8" physical="5"
+		skill="5" military="8" intelligence="0" speed="0" effect="贯穿多人"
+		type="4" />
+	<weapon name="蒺藜枪" code="798" amount="99" level="12" physical="10"
+		skill="5" military="9" intelligence="0" speed="0" effect="冰刃" type="4" />
+	<weapon name="真钢枪" code="799" amount="99" level="14" physical="15"
+		skill="5" military="10" intelligence="0" speed="0" effect="高速斩击"
+		type="4" />
+	<weapon name="锦牙枪" code="800" amount="99" level="15" physical="15"
+		skill="10" military="10" intelligence="0" speed="0" effect="高速斩击"
+		type="4" />
+	<weapon name="蛇尖枪" code="801" amount="9" level="15" physical="15"
+		skill="10" military="12" intelligence="0" speed="0" effect="横扫多人"
+		type="4" />
+	<weapon name="虎胆枪" code="802" amount="99" level="24" physical="15"
+		skill="10" military="23" intelligence="0" speed="0" effect="多重刀罡"
+		type="4" />
+	<weapon name="天羽凤凰枪" code="803" amount="9" level="33"
+		physical="45" skill="25" military="35" intelligence="0" speed="2"
+		effect="" type="4" />
+	<weapon name="震雷青龙戟" code="804" amount="9" level="40"
+		physical="80" skill="40" military="50" intelligence="0" speed="2"
+		effect="闪电伤敌" type="4" />
+	<weapon name="铁弓" code="805" amount="99" level="1" physical="0"
+		skill="0" military="3" intelligence="0" speed="0" effect="贯穿多人"
+		type="5" />
+	<weapon name="精钢弓" code="806" amount="99" level="5" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" effect="贯穿多人"
+		type="5" />
+	<weapon name="绝音弓" code="807" amount="99" level="9" physical="0"
+		skill="0" military="8" intelligence="0" speed="0" effect="闪电伤敌"
+		type="5" />
+	<weapon name="追星" code="808" amount="99" level="11" physical="0"
+		skill="0" military="8" intelligence="0" speed="0" effect="闪电伤敌"
+		type="5" />
+	<weapon name="连环弓" code="809" amount="99" level="14" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" effect="连射三箭"
+		type="5" />
+	<weapon name="落月" code="810" amount="99" level="16" physical="0"
+		skill="0" military="12" intelligence="0" speed="0" effect="落月弓"
+		type="5" />
+	<weapon name="射魄" code="811" amount="9" level="20" physical="0"
+		skill="0" military="12" intelligence="0" speed="0" effect="神来一箭"
+		type="5" />
+	<weapon name="黄忠弓" code="812" amount="9" level="22" physical="0"
+		skill="0" military="17" intelligence="0" speed="0" effect="两次箭流星"
+		type="5" />
+	<weapon name="驚雷" code="813" amount="9" level="30" physical="0"
+		skill="0" military="25" intelligence="0" speed="0" effect="天雷之威"
+		type="5" />
+	<weapon name="机铁火神弓" code="814" amount="9" level="35"
+		physical="0" skill="4" military="25" intelligence="4" speed="0"
+		effect="多段火箭" type="5" />
+	<weapon name="孔雀刺" code="815" amount="99" level="4" physical="5"
+		skill="5" military="4" intelligence="2" speed="0" effect="" type="1" />
+	<weapon name="精钢双戟" code="816" amount="99" level="8" physical="15"
+		skill="0" military="10" intelligence="0" speed="0" effect="" type="3" />
+	<weapon name="鸳鸯圈" code="817" amount="9" level="7" physical="5"
+		skill="5" military="8" intelligence="2" speed="0" effect="追踪光环"
+		type="1" />
+	<weapon name="乾坤圈" code="818" amount="9" level="15" physical="20"
+		skill="10" military="12" intelligence="2" speed="0" effect="追踪光环"
+		type="1" />
+	<weapon name="凤凰锤" code="819" amount="9" level="18" physical="30"
+		skill="15" military="16" intelligence="0" speed="0" effect="重伤对手"
+		type="3" />
+	<weapon name="两仪剑" code="820" amount="9" level="29" physical="20"
+		skill="20" military="25" intelligence="0" speed="0" effect="多重剑气"
+		type="1" />
+	<weapon name="鱼肠" code="821" amount="1" level="20" physical="15"
+		skill="15" military="20" intelligence="0" speed="0" effect="贯穿多人"
+		type="1" />
+	<weapon name="苍天帝剑" code="822" amount="1" level="30" physical="30"
+		skill="20" military="30" intelligence="0" speed="0" effect="追踪剑气"
+		type="1" />
+	<weapon name="黄帝剑" code="823" amount="1" level="40" physical="100"
+		skill="70" military="50" intelligence="15" speed="0" effect="追踪剑气"
+		type="1" />
+	<weapon name="追潮" code="824" amount="1" level="10" physical="10"
+		skill="0" military="6" intelligence="2" speed="0" effect="水柱" type="1" />
+	<weapon name="天羽斩" code="825" amount="1" level="13" physical="8"
+		skill="8" military="7" intelligence="2" speed="0" effect="多重剑气"
+		type="1" />
+	<weapon name="伪帝剑" code="826" amount="1" level="12" physical="10"
+		skill="5" military="4" intelligence="2" speed="0" effect="" type="1" />
+	<weapon name="黯噬" code="827" amount="10" level="11" physical="-20"
+		skill="10" military="4" intelligence="5" speed="0" effect="吸血" type="2" />
+	<weapon name="蚀魂" code="828" amount="10" level="16" physical="-15"
+		skill="15" military="7" intelligence="5" speed="0" effect="化作尸兵"
+		type="2" />
+	<weapon name="五光宝扇" code="829" amount="5" level="22" physical="25"
+		skill="15" military="8" intelligence="10" speed="0" effect="挪移敌兵"
+		type="2" />
+	<weapon name="炼狱魔刀" code="830" amount="1" level="40" physical="80"
+		skill="70" military="40" intelligence="2" speed="0" effect="召唤妖魂"
+		type="3" />
+	<weapon name="铃鼓" code="831" amount="1" level="7" physical="0"
+		skill="0" military="2" intelligence="2" speed="0" effect="" type="1" />
+	<weapon name="泰山府君杖" code="832" amount="1" level="40"
+		physical="80" skill="50" military="25" intelligence="25" speed="0"
+		effect="" type="3" />
+	<weapon name="奥丁多赖耙" code="833" amount="1" level="30"
+		physical="60" skill="40" military="50" intelligence="0" speed="0"
+		effect="重伤对手" type="3" />
+	<weapon name="UJ玩具槌" code="850" amount="1" level="35"
+		physical="100" skill="100" military="50" intelligence="0" speed="1"
+		effect="" type="3" />
+</root>

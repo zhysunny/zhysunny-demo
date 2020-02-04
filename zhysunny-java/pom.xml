@@ -25,6 +25,10 @@
             <groupId>com.zhysunny.utils</groupId>
             <artifactId>zhysunny-common</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.zhysunny.utils</groupId>
+            <artifactId>zhysunny-io</artifactId>
+        </dependency>
         <!-- java end -->
         <!-- logger start -->
         <dependency>

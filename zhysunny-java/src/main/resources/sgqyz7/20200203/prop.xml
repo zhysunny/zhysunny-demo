@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root name="道具">
+	<prop name="西蜀地形图" code="285" amount="99" level="10" physical="35"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="幻世录II" code="286" amount="1" level="50" physical="0"
+		skill="0" military="0" intelligence="30" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="幻世录" code="287" amount="1" level="40" physical="0"
+		skill="0" military="0" intelligence="20" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="兵书24篇" code="288" amount="10" level="20" physical="0"
+		skill="0" military="0" intelligence="10" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="孟德新书" code="289" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="8" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="史记" code="290" amount="30" level="10" physical="0"
+		skill="0" military="0" intelligence="5" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="春秋左传" code="291" amount="40" level="5" physical="0"
+		skill="0" military="0" intelligence="3" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="赤焰术诀" code="292" amount="99" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="赤焰、赤焰燃"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="赤焰秘法书" code="293" amount="30" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="赤焰火海"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="连弩兵法" code="294" amount="99" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="连弩、连弩激射"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="连弩秘诀书" code="295" amount="30" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="连弩狂涛"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火箭兵法" code="296" amount="99" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火箭烈、火箭强袭"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火箭秘诀书" code="297" amount="30" level="16" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火箭天袭"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="龙炮兵法" code="298" amount="99" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="龙炮、迫击龙炮"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="龙炮秘诀书" code="299" amount="30" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="冲射龙炮"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="炬石兵法" code="300" amount="99" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="炬石、炬石轰"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="炬石秘诀书" code="301" amount="30" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="炬石炼狱"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火轮兵法" code="302" amount="99" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火轮、火轮冲"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火轮秘诀书" code="303" amount="30" level="16" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火轮涛杀"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="滚石兵法" code="304" amount="99" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="滚石、滚石剧压"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="滚石秘诀书" code="305" amount="30" level="16" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="滚石怒冲"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地泉术诀" code="306" amount="99" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="地泉、地泉冲"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地泉秘法书" code="307" amount="30" level="13" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="地泉鲸浪"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地茅兵法" code="308" amount="99" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="地茅刺、地茅乱刺"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地茅秘诀书" code="309" amount="30" level="13" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="茅刺遍地"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="突石术诀" code="310" amount="99" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="突石、突石剑"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="突石秘法书" code="311" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="突石四方"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火药袋" code="312" amount="99" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="炎墙"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火药桶" code="313" amount="30" level="28" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="炎墙烈烧"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="烈火符" code="314" amount="99" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="集火柱"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="爆炎符" code="315" amount="30" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="强火柱"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="太极印" code="316" amount="99" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="太极门"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="太极符印" code="317" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="太极华阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="八卦术诀" code="318" amount="30" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="八卦二象阵、八卦四方阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="八卦秘法书" code="319" amount="20" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="八卦六角阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="雷击术诀" code="320" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="雷击、雷击闪"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="雷击秘法书" code="321" amount="20" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="雷光燋狱"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="五雷术诀" code="322" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="五雷袭、五雷轰顶"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="狂雷秘法书" code="323" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="狂雷天牢"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="伏兵兵法" code="324" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="伏兵班阵、伏兵排阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="伏兵秘诀书" code="325" amount="20" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="伏兵连阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="后伏兵法" code="326" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="后伏班阵、后伏排阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="后伏秘诀书" code="327" amount="20" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="后伏连阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="贲轀兵法" code="328" amount="20" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="轒轀车、参轒轀车"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="贲轀秘诀书" code="329" amount="20" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="肆轒轀车"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="旋灯术诀" code="330" amount="20" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="旋灯、旋灯火"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="旋灯秘法书" code="331" amount="20" level="34" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="旋灯怒张"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="莲华术诀" code="332" amount="40" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="莲华、莲华爆"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="莲华秘法书" code="333" amount="20" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="莲华轰天"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="旋风术诀" code="334" amount="40" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="旋风、龙旋风"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="龙卷秘法书" code="335" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="龙卷旋风"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="突击战鼓" code="336" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="长枪突击"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="背水战鼓" code="337" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="铁骑突击"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火牛兵法" code="338" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火牛阵、火牛群舞"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火牛秘诀书" code="339" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火牛烈崩"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="冲车" code="340" amount="20" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="冲车"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="攻城战车" code="341" amount="10" level="29" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="驷冲车"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="召鬼石" code="342" amount="20" level="24" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="尸鬼、食尸鬼"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="唤魂法珠" code="343" amount="10" level="28" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="食尸鬼阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="炎兽像" code="344" amount="20" level="27" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="炎兽"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="喷火龙车" code="345" amount="10" level="31" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="炎兽杀阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="驱豹兵法" code="346" amount="30" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="驱豹、驱豹冲"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="驱豹秘诀书" code="347" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="驱豹突击"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="神鸢兵法" code="348" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="神鸢、神鸢弹"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="神鸢秘诀书" code="349" amount="10" level="28" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="神鸢空袭"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="井阑" code="350" amount="20" level="24" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="井阑立"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="攻城塔" code="351" amount="10" level="32" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="井阑冲阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="时空宝珠" code="352" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="八门金锁"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="黄泉玉" code="353" amount="10" level="29" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="生死门"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="冥府宝珠" code="354" amount="10" level="34" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="地狱之门"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="命疗石" code="355" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="命疗术、体疗术"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="活疗宝珠" code="356" amount="20" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="活疗术"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="回天石" code="357" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="回天术、返天术"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="活天宝珠" code="358" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="活天术"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="天灵镜" code="359" amount="5" level="37" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="黄龙天翔"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地灵镜" code="360" amount="5" level="37" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="大地狂啸"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="东岳之士" code="361" amount="5" level="37" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="泰山压顶"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="浮雷术诀" code="362" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="浮雷、浮雷阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="浮雷秘法书" code="363" amount="10" level="29" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="浮雷光阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="恶鬼盾" code="364" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="妖盾、鬼面盾"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="鬼王盾" code="365" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="罗刹之盾"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="麒麟金角" code="366" amount="1" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="麒麟降世"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="青龙逆鳞" code="367" amount="1" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="青龙飞升"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="玄武灵壳" code="368" amount="1" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="玄武怒流"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="白虎银牙" code="369" amount="1" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="白虎傲啸"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="朱雀炎羽" code="370" amount="1" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="朱雀焚天"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="人行纸符" code="371" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="符兵、符兵引"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="人皮傀儡" code="372" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="符兵连引"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="土遁卷轴" code="373" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="土遁、土遁杀"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="暗杀卷轴" code="374" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="土遁隐杀"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="雷火卷轴" code="375" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火雷玉、火雷鬼玉"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="赤鬼卷轴" code="376" amount="10" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火雷鬼玉破"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="苦无卷轴" code="377" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="忍镖、隐忍镖"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="风魔卷轴" code="378" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="隐忍镖阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="血剑诀" code="379" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="噬血、噬血刃"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="血剑秘录" code="380" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="噬血魔刃"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="天剑诀" code="381" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="天剑斩、天剑开光"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="天剑秘录" code="382" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="天剑神威"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地龙珠" code="383" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="地龙、地龙震"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="地龙旗" code="384" amount="10" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="地龙极震"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火龙珠" code="385" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火龙、火龙焰"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火龙旗" code="386" amount="10" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="火龙怒焰"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="水龙珠" code="387" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="水龙、水龙涛"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="水龙旗" code="388" amount="10" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="水龙狂涛"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="风龙珠" code="389" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="风龙、风龙旋"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="风龙旗" code="390" amount="10" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="风龙天旋"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="龙牙机关" code="391" amount="20" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="龙牙车、龙牙车队"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="龙牙解构图" code="392" amount="10" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="龙牙车阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="神锤诀" code="393" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="破城大锤、破城巨锤"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="神锤秘录" code="394" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="破城神锤"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="邪刃诀" code="395" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="邪刃、邪灵刃"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="邪刃秘录" code="396" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="邪灵妖刃"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="祈祷术诀" code="397" amount="25" level="17" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="七星灯"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="祈祷秘法书" code="398" amount="15" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="七星续命灯"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="挪移术诀" code="399" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="挪移阵"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="挪移秘法书" code="400" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="挪移大法"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="化气术诀" code="401" amount="25" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="化气术、减气术"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="移气秘法书" code="402" amount="15" level="24" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="移气术、夺气术"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="机铁神鹰图" code="403" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁神鹰"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="幽冥军旗" code="404" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="幽冥鬼骑"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="妖狐裘" code="405" amount="5" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="九尾妖狐"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="木尸偶" code="406" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="巨木妖尸"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="虎王牙链" code="407" amount="5" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="钢牙巨虎"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="机铁翼龙图" code="408" amount="5" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁翼龙"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="机铁炎凰图" code="409" amount="5" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁炎凰"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="火鬼葫芦" code="410" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="烈焰火鬼"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="饕餮凶颅" code="411" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="饕餮妖骸"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="机铁螭虎图" code="412" amount="5" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁螭虎"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="机铁狻猊图" code="413" amount="5" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁狻猊"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="太阳幡" code="414" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="拨云见日、万法自然" speciality="" type="3" />
+	<prop name="太阴幡" code="415" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="天狗吞日、万法自然" speciality="" type="3" />
+	<prop name="雷雨幡" code="416" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="风云变色、万法自然" speciality="" type="3" />
+	<prop name="飞雪幡" code="417" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="霜雪覆地、万法自然" speciality="" type="3" />
+	<prop name="炼气炉" code="418" amount="5" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="加速集气" speciality="" type="3" />
+	<prop name="化气炉" code="419" amount="5" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="减缓集气" speciality="" type="3" />
+	<prop name="先攻要诀" code="420" amount="5" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="后发先至、意发并进" speciality="" type="3" />
+	<prop name="先攻战术" code="421" amount="5" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="发在意先、意发皆止" speciality="" type="3" />
+	<prop name="天时战术" code="422" amount="10" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="顺应天时、逆转天时" speciality="" type="3" />
+	<prop name="地利战术" code="423" amount="10" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="顺应地利、逆转地利" speciality="" type="3" />
+	<prop name="人和战术" code="424" amount="10" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="顺应人和、逆转人和" speciality="" type="3" />
+	<prop name="御赐战鼓" code="425" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="增我将攻" speciality="" type="3" />
+	<prop name="毒舌心得" code="426" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="减敌将攻" speciality="" type="3" />
+	<prop name="海螺号角" code="427" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="鼓舞士气" speciality="" type="3" />
+	<prop name="楚歌曲谱" code="428" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="降敌士气" speciality="" type="3" />
+	<prop name="破甲要诀" code="429" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="减敌军防" speciality="" type="3" />
+	<prop name="防御要诀" code="430" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="增我军防" speciality="" type="3" />
+	<prop name="障碍要诀" code="431" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="减敌军速" speciality="" type="3" />
+	<prop name="行军要诀" code="432" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="增我军速" speciality="" type="3" />
+	<prop name="暴君之首" code="433" amount="5" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="诅咒" speciality="" type="3" />
+	<prop name="蚩尤之首" code="434" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="大魔界" speciality="" type="3" />
+	<prop name="霸王之首" code="435" amount="5" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="军魂" speciality="" type="3" />
+	<prop name="传国玉玺" code="436" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="大天圣" speciality="" type="3" />
+	<prop name="断路要诀" code="437" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="无法退兵" speciality="" type="3" />
+	<prop name="撤退要诀" code="438" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="预留退路" speciality="" type="3" />
+	<prop name="鹿角要诀" code="439" amount="30" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="拒鹿角、拒鹿包围" speciality="" type="3" />
+	<prop name="鹿角战术" code="440" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="鹿角十重、探查拒鹿" speciality="" type="3" />
+	<prop name="鹿角秘典" code="441" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="鹿角截击、鹿角拦路" speciality="" type="3" />
+	<prop name="地雷要诀" code="442" amount="30" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="地雷、地雷火" speciality="" type="3" />
+	<prop name="地雷战术" code="443" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="地雷星火、探查地雷" speciality="" type="3" />
+	<prop name="地雷秘典" code="444" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="地雷阻敌、地雷伏击" speciality="" type="3" />
+	<prop name="地钉忍法帖" code="445" amount="30" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="地钉、铁地钉" speciality="" type="3" />
+	<prop name="地钉秘忍术" code="446" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="钢地钉阵、探查地钉" speciality="" type="3" />
+	<prop name="地钉裏奥义" code="447" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="地钉断路、地钉迎敌" speciality="" type="3" />
+	<prop name="埋伏战术" code="448" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="埋伏班阵、埋伏排阵" speciality="" type="3" />
+	<prop name="埋伏秘典" code="449" amount="10" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="埋伏连阵、探查埋伏" speciality="" type="3" />
+	<prop name="援军战术" code="450" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="援军班阵、援军排阵" speciality="" type="3" />
+	<prop name="援军秘典" code="451" amount="10" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="援军连阵、探查援军" speciality="" type="3" />
+	<prop name="唤尸符" code="452" amount="10" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="借尸还命、借尸还魄" speciality="" type="3" />
+	<prop name="唤尸令" code="453" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="借尸还魂、魂归西天" speciality="" type="3" />
+	<prop name="封技战术" code="454" amount="10" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="封武将技" speciality="" type="3" />
+	<prop name="封技秘典" code="455" amount="5" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="封必杀技、解除封技" speciality="" type="3" />
+	<prop name="饕餮之牙" code="456" amount="30" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="杀气" speciality="" type="3" />
+	<prop name="饕餮之骨" code="457" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="杀气骤升" speciality="" type="3" />
+	<prop name="饕餮之角" code="458" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="杀气腾腾、压制杀气" speciality="" type="3" />
+	<prop name="太平要术" code="459" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="施技减半" speciality="" type="3" />
+	<prop name="遁甲天书" code="460" amount="1" level="40" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="文成武德" speciality="" type="3" />
+	<prop name="甩手短箭" code="461" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="暗箭伤人" speciality="" type="3" />
+	<prop name="经验宝珠" code="462" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="增加经验" speciality="" type="3" />
+	<prop name="策反要诀" code="463" amount="5" level="30" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="策反之心" speciality="" type="3" />
+	<prop name="抚军要诀" code="464" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="稳定军心" speciality="" type="3" />
+	<prop name="石墙图卷" code="465" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="石墙阵地" speciality="" type="3" />
+	<prop name="拒马图卷" code="466" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="拒马阵地" speciality="" type="3" />
+	<prop name="铁盾图卷" code="467" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁盾阵地" speciality="" type="3" />
+	<prop name="破阵要诀" code="468" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="破阵大法" speciality="" type="3" />
+	<prop name="回春石" code="469" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="回春术" speciality="" type="3" />
+	<prop name="回春晶石" code="470" amount="10" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="回春仙术" speciality="" type="3" />
+	<prop name="气疗珠" code="471" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="气疗" speciality="" type="3" />
+	<prop name="气疗宝珠" code="472" amount="10" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="气疗诀" speciality="" type="3" />
+	<prop name="气疗金珠" code="473" amount="5" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="气疗大法" speciality="" type="3" />
+	<prop name="通天镜" code="474" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="通天之眼" speciality="" type="3" />
+	<prop name="遮天帆" code="475" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="蔽天之幕" speciality="" type="3" />
+	<prop name="无我明镜" code="476" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="水镜之术" speciality="" type="3" />
+	<prop name="无极乾坤图" code="477" amount="5" level="36" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="逆乾坤" speciality="" type="3" />
+	<prop name="猛火要诀" code="478" amount="30" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="猛火、无形猛火" speciality="" type="3" />
+	<prop name="猛火秘典" code="479" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="无形火阵、探查猛火" speciality="" type="3" />
+	<prop name="缩地要诀" code="480" amount="30" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="缩地" speciality="" type="3" />
+	<prop name="缩地秘典" code="481" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="缩地大法、探查缩地" speciality="" type="3" />
+	<prop name="暗雷要诀" code="482" amount="30" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="暗雷、无形暗雷" speciality="" type="3" />
+	<prop name="暗雷秘典" code="483" amount="20" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="无形雷阵、探查暗雷" speciality="" type="3" />
+	<prop name="潜地忍法帖" code="484" amount="30" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="潜地兵、潜地伏兵" speciality="" type="3" />
+	<prop name="潜地裏奥义" code="485" amount="20" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="潜地兵阵、探查潜地" speciality="" type="3" />
+	<prop name="侦查要诀" code="486" amount="35" level="9" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="紧急侦查、大略侦查" speciality="" type="3" />
+	<prop name="清野要诀" code="487" amount="35" level="9" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="紧急清野、大略清野" speciality="" type="3" />
+	<prop name="绝地镜" code="488" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="绝地之眼" speciality="" type="3" />
+	<prop name="掩地帆" code="489" amount="5" level="35" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="掩地之幕" speciality="" type="3" />
+	<prop name="匿踪战术" code="490" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="匿踪潜行" speciality="" type="3" />
+	<prop name="飞火天灯" code="491" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="天灯照影" speciality="" type="3" />
+	<prop name="伪造官印" code="492" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="假传待命、假传冲锋" speciality="" type="3" />
+	<prop name="军令状" code="493" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="端正军纪" speciality="" type="3" />
+	<prop name="工事要诀" code="494" amount="99" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="简易补强、紧急补强" speciality="" type="3" />
+	<prop name="工事秘典" code="495" amount="30" level="21" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="全面补强" speciality="" type="3" />
+	<prop name="破墙要诀" code="496" amount="99" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="快速破坏、局部破坏" speciality="" type="3" />
+	<prop name="破墙秘典" code="497" amount="30" level="21" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="结构破坏" speciality="" type="3" />
+	<prop name="冲锤概要" code="498" amount="40" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="冲城锤、冲城锤队" speciality="" type="3" />
+	<prop name="冲锤总论" code="499" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="冲锤大队、破解冲锤" speciality="" type="3" />
+	<prop name="战车概要" code="500" amount="40" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="战车、战车队" speciality="" type="3" />
+	<prop name="战车总论" code="501" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="战车大队、破解战车" speciality="" type="3" />
+	<prop name="掷雷概要" code="502" amount="40" level="17" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="掷雷班阵、掷雷排阵" speciality="" type="3" />
+	<prop name="掷雷总论" code="503" amount="20" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="掷雷连阵、破解掷雷" speciality="" type="3" />
+	<prop name="火统概要" code="504" amount="40" level="17" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="火统班阵、火统排阵" speciality="" type="3" />
+	<prop name="火统总论" code="505" amount="20" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="火统连阵、破解火统" speciality="" type="3" />
+	<prop name="炮车概要" code="506" amount="40" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="炮车班阵、炮车排阵" speciality="" type="3" />
+	<prop name="炮车总论" code="507" amount="20" level="23" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="炮车连阵、破解炮车" speciality="" type="3" />
+	<prop name="盾牌概要" code="508" amount="40" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="盾牌班阵、盾牌排阵" speciality="" type="3" />
+	<prop name="盾牌总论" code="509" amount="20" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="盾牌连阵、破解盾牌" speciality="" type="3" />
+	<prop name="锹钁概要" code="510" amount="40" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="锹钁班阵、锹钁排阵" speciality="" type="3" />
+	<prop name="锹钁总论" code="511" amount="20" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="锹钁连阵、破解锹钁" speciality="" type="3" />
+	<prop name="铁豹机关" code="512" amount="40" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁豹、铁豹队" speciality="" type="3" />
+	<prop name="铁豹结构图" code="513" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁豹大队、破解铁豹" speciality="" type="3" />
+	<prop name="铜人机关" code="514" amount="40" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铜人、铜人队" speciality="" type="3" />
+	<prop name="铜人结构图" code="515" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铜人大队、破解铜人" speciality="" type="3" />
+	<prop name="铁车机关" code="516" amount="40" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁轮车、铁轮车队" speciality="" type="3" />
+	<prop name="铁车结构图" code="517" amount="20" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁车大队、破解铁车" speciality="" type="3" />
+	<prop name="冲阵破解书" code="518" amount="40" level="17" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="冲阵消除、冲阵破坏" speciality="" type="3" />
+	<prop name="冲阵扫荡册" code="519" amount="20" level="21" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="冲阵尽灭" speciality="" type="3" />
+	<prop name="截天机关" code="520" amount="30" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="截天弩" speciality="" type="3" />
+	<prop name="截天结构图" code="521" amount="20" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="双截天弩、截天破坏" speciality="" type="3" />
+	<prop name="霹雳机关" code="522" amount="30" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="霹雳车" speciality="" type="3" />
+	<prop name="霹雳结构图" code="523" amount="20" level="22" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="双霹雳车、霹雳破坏" speciality="" type="3" />
+	<prop name="八宝灵灯" code="524" amount="15" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="技回" type="4" />
+	<prop name="甘露宝瓶" code="525" amount="15" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="体回" type="4" />
+	<prop name="九锡宝器" code="526" amount="10" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="调兵" type="4" />
+	<prop name="一品紫金冠" code="527" amount="10" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="遣将" type="4" />
+	<prop name="狮蛮宝带" code="528" amount="25" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="精武" type="4" />
+	<prop name="军师授印" code="529" amount="25" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="擅谋" type="4" />
+	<prop name="兽面铁甲" code="530" amount="25" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="刚体" type="4" />
+	<prop name="铁骷髅" code="531" amount="20" level="16" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="尸魔" type="4" />
+	<prop name="艾草香囊" code="532" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="专心" type="4" />
+	<prop name="冷箭" code="533" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="冷箭" type="4" />
+	<prop name="短戟" code="534" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="短戟" type="4" />
+	<prop name="铜锤" code="535" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="铜锤" type="4" />
+	<prop name="飞刀" code="536" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="飞刀" type="4" />
+	<prop name="手里剑" code="537" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="手里剑" type="4" />
+	<prop name="养生集录" code="538" amount="30" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="养生" type="4" />
+	<prop name="静思心得" code="539" amount="30" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="静思" type="4" />
+	<prop name="翔鹰羽" code="540" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="飞鹰呼唤" type="4" />
+	<prop name="恶狼牙" code="541" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="恶狼呼唤" type="4" />
+	<prop name="猛牛角" code="542" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="狂牛呼唤" type="4" />
+	<prop name="虎面具" code="543" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="猛虎呼唤" type="4" />
+	<prop name="豹皮腕" code="544" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="花豹呼唤" type="4" />
+	<prop name="熊骨饰" code="545" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="大熊呼唤" type="4" />
+	<prop name="童子御守" code="546" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="童子招来" type="4" />
+	<prop name="姬御守" code="547" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="姬招来" type="4" />
+	<prop name="犬神玉" code="548" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="犬神招来" type="4" />
+	<prop name="机铁木牛" code="549" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="木牛操控" type="4" />
+	<prop name="机铁流马" code="550" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="流马操控" type="4" />
+	<prop name="稻草人偶" code="551" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="妖兵现身" type="4" />
+	<prop name="机铁兵令" code="552" amount="20" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="机关兵操控" type="4" />
+	<prop name="攻城方略" code="553" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="攻城战术" type="4" />
+	<prop name="强袭方略" code="554" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="强袭战术" type="4" />
+	<prop name="防御方略" code="555" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="防御战术" type="4" />
+	<prop name="蒙冲船" code="556" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="航船" type="4" />
+	<prop name="行军方略" code="557" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="行军" type="4" />
+	<prop name="六稻兵书" code="558" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="鼓舞" type="4" />
+	<prop name="真龙玄印" code="559" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="人望" type="4" />
+	<prop name="青囊书" code="560" amount="15" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="包扎" type="4" />
+	<prop name="机铁秘术" code="561" amount="1" level="5" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁火轮冲"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="真机铁秘术" code="562" amount="1" level="10" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="机铁大将军"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="UJ好人卡" code="578" amount="999" level="20" physical="1"
+		skill="1" military="1" intelligence="1" speed="1" warriorSkills=""
+		wiseSkills="" speciality="" type="1" />
+	<prop name="妖骸" code="622" amount="15" level="7" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="阴魄缠、刁魂引"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="吸魂珠" code="623" amount="10" level="24" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="阴魄死缠、刁魂强引"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="飞龙玉" code="624" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="腾龙、三龙腾"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="真龙印" code="625" amount="5" level="25" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="五龙腾"
+		wiseSkills="" speciality="" type="2" />
+	<prop name="锻冶心得" code="626" amount="10" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="锻造" type="4" />
+	<prop name="转魂秘法" code="627" amount="3" level="15" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="魂转" type="4" />
+	<prop name="七星幡" code="628" amount="2" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="回春、军医" type="4" />
+	<prop name="剑阵图说" code="629" amount="5" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="剑阵精通" type="4" />
+	<prop name="锤阵图说" code="630" amount="5" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="锤阵精通" type="4" />
+	<prop name="盾阵图说" code="631" amount="5" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="盾阵精通" type="4" />
+	<prop name="筑城总纲" code="632" amount="10" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="龙炮班阵、龙炮排阵" speciality="" type="3" />
+	<prop name="地牙秘典" code="633" amount="10" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="地牙钉阵、地牙杀阵" speciality="" type="3" />
+	<prop name="火楼秘典" code="634" amount="10" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="火塔压阵、火塔杀阵" speciality="" type="3" />
+	<prop name="刀墙秘典" code="635" amount="10" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁刀拦路、铁刀断路" speciality="" type="3" />
+	<prop name="铁盾秘典" code="636" amount="10" level="14" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="铁盾班阵、铁盾排阵" speciality="" type="3" />
+	<prop name="铁" code="723" amount="99" level="3" physical="7"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="钢" code="724" amount="99" level="5" physical="10"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="百炼钢" code="725" amount="99" level="8" physical="15"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="精钢" code="726" amount="99" level="7" physical="12"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="神铁" code="727" amount="20" level="15" physical="20"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="青铜" code="728" amount="99" level="1" physical="5"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="流星铁" code="729" amount="30" level="12" physical="0"
+		skill="0" military="0" intelligence="4" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="火珠" code="730" amount="30" level="4" physical="0"
+		skill="0" military="0" intelligence="4" speed="0" warriorSkills="赤焰燃、火箭烈"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="水珠" code="731" amount="30" level="4" physical="0"
+		skill="0" military="0" intelligence="4" speed="0" warriorSkills="地泉、地泉冲"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="仙珠" code="732" amount="30" level="4" physical="0"
+		skill="0" military="0" intelligence="4" speed="0" warriorSkills="心剑"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="妖珠" code="733" amount="30" level="4" physical="0"
+		skill="0" military="0" intelligence="4" speed="0" warriorSkills="尸鬼、食尸鬼"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="青玉石" code="734" amount="30" level="9" physical="0"
+		skill="0" military="0" intelligence="8" speed="0" warriorSkills="地泉鲸浪"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="朱红石" code="735" amount="30" level="9" physical="0"
+		skill="0" military="0" intelligence="8" speed="0" warriorSkills="赤焰火海、火箭强袭"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="黄晶石" code="736" amount="30" level="9" physical="0"
+		skill="0" military="0" intelligence="8" speed="0" warriorSkills="心剑齐发"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="紫光石" code="737" amount="30" level="9" physical="0"
+		skill="0" military="0" intelligence="8" speed="0" warriorSkills="食尸鬼阵"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="水妖血" code="738" amount="30" level="10" physical="10"
+		skill="8" military="0" intelligence="8" speed="0" warriorSkills="玄冰斩"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="火妖牙" code="739" amount="30" level="10" physical="0"
+		skill="8" military="10" intelligence="8" speed="0" warriorSkills="集火柱"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="龙骨" code="740" amount="5" level="13" physical="0"
+		skill="0" military="25" intelligence="25" speed="0" warriorSkills="腾龙"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="龙鳞" code="741" amount="10" level="13" physical="25"
+		skill="25" military="0" intelligence="0" speed="0" warriorSkills="腾龙"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="龙纹玉璧" code="742" amount="3" level="11" physical="30"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills="三龙腾、五龙腾"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="阴阳玉" code="743" amount="10" level="14" physical="0"
+		skill="30" military="0" intelligence="20" speed="0" warriorSkills="阴魄缠、刁魂引"
+		wiseSkills="" speciality="" type="5" />
+	<prop name="玄铁" code="744" amount="30" level="12" physical="0"
+		skill="20" military="10" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="体回" type="5" />
+	<prop name="百年玄铁" code="745" amount="10" level="18" physical="0"
+		skill="30" military="15" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="体回" type="5" />
+	<prop name="千年玄铁" code="746" amount="10" level="22" physical="0"
+		skill="40" military="20" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="体回" type="5" />
+	<prop name="乌钢" code="747" amount="30" level="12" physical="20"
+		skill="0" military="0" intelligence="10" speed="0" warriorSkills=""
+		wiseSkills="" speciality="技回" type="5" />
+	<prop name="百年乌钢" code="748" amount="10" level="18" physical="30"
+		skill="0" military="0" intelligence="15" speed="0" warriorSkills=""
+		wiseSkills="" speciality="技回" type="5" />
+	<prop name="千年乌钢" code="749" amount="10" level="22" physical="40"
+		skill="0" military="0" intelligence="20" speed="0" warriorSkills=""
+		wiseSkills="" speciality="技回" type="5" />
+	<prop name="血晶" code="750" amount="5" level="26" physical="80"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="回春" type="5" />
+	<prop name="九天玄铁" code="751" amount="10" level="28" physical="0"
+		skill="50" military="25" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="铁壁、体回" type="5" />
+	<prop name="绝地乌钢" code="752" amount="10" level="28" physical="50"
+		skill="0" military="0" intelligence="25" speed="0" warriorSkills=""
+		wiseSkills="" speciality="技回、拆招" type="5" />
+	<prop name="夜叉角" code="753" amount="5" level="20" physical="0"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="尸灵" type="5" />
+	<prop name="百斩钢" code="754" amount="5" level="14" physical="10"
+		skill="0" military="5" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="" type="5" />
+	<prop name="穿玉" code="755" amount="50" level="17" physical="0"
+		skill="0" military="3" intelligence="0" speed="1" warriorSkills=""
+		wiseSkills="" speciality="枪诀" type="5" />
+	<prop name="碎玉" code="756" amount="50" level="17" physical="0"
+		skill="0" military="2" intelligence="0" speed="2" warriorSkills=""
+		wiseSkills="" speciality="刀诀" type="5" />
+	<prop name="力石" code="757" amount="50" level="17" physical="0"
+		skill="0" military="6" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="剑诀" type="5" />
+	<prop name="心石" code="758" amount="50" level="17" physical="0"
+		skill="20" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="弓诀、慧剑" type="5" />
+	<prop name="魂石" code="759" amount="50" level="17" physical="20"
+		skill="0" military="0" intelligence="0" speed="0" warriorSkills=""
+		wiseSkills="" speciality="扇诀" type="5" />
+	<prop name="杀气石" code="760" amount="50" level="17" physical="0"
+		skill="0" military="0" intelligence="0" speed="2" warriorSkills=""
+		wiseSkills="" speciality="骁勇" type="5" />
+</root>

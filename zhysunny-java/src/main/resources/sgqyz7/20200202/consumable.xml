@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="CONSUMABLE">
+	<consumable name="木铜铃" code="1" effect="木人" type="1" />
+	<consumable name="尸兵符印" code="2" effect="尸兵" type="1" />
+	<consumable name="秘忍卷轴" code="3" effect="忍者" type="1" />
+	<consumable name="将军印盒" code="4" effect="浪人" type="1" />
+	<consumable name="刀车兵符" code="5" effect="刀车兵" type="1" />
+	<consumable name="链球兵符" code="6" effect="链球兵 " type="1" />
+	<consumable name="剑兵兵符" code="7" effect="剑兵" type="1" />
+	<consumable name="木槌兵符" code="8" effect="木槌兵   " type="1" />
+	<consumable name="水兵兵符" code="9" effect="水兵兵 " type="1" />
+	<consumable name="匈奴号角" code="10" effect="匈奴兵 " type="1" />
+	<consumable name="黄巾兵符" code="11" effect="黄巾兵 " type="1" />
+	<consumable name="投石兵符" code="12" effect="投石兵 " type="1" />
+	<consumable name="弩兵兵符" code="13" effect="弩兵兵 " type="1" />
+	<consumable name="兽兵兵符" code="14" effect="兽兵兵 " type="1" />
+	<consumable name="近卫兵符" code="15" effect="近卫兵 " type="1" />
+	<consumable name="藤甲兵符" code="16" effect="藤甲兵 " type="1" />
+	<consumable name="斧骑兵符" code="17" effect="斧骑兵  " type="1" />
+	<consumable name="强弩兵符" code="18" effect="强弩兵 " type="1" />
+	<consumable name="长枪兵符" code="19" effect="长枪兵 " type="1" />
+	<consumable name="长弓兵符" code="20" effect="长弓兵 " type="1" />
+	<consumable name="重步兵符" code="21" effect="重步兵" type="1" />
+	<consumable name="箭矢阵法书 " code="22" effect="箭矢阵法 " type="2" />
+	<consumable name="天地阵法书 " code="23" effect="天地阵法 " type="2" />
+	<consumable name="翔鹰阵法书 " code="24" effect="翔鹰阵法 " type="2" />
+	<consumable name="雁形阵法书 " code="25" effect="雁形阵法 " type="2" />
+	<consumable name="锥形阵法书 " code="26" effect="锥形阵法 " type="2" />
+	<consumable name="钩形阵法书 " code="27" effect="钩形阵法 " type="2" />
+	<consumable name="圆形阵法书 " code="28" effect="圆形阵法 " type="2" />
+	<consumable name="方形阵法书 " code="29" effect="方形阵法 " type="2" />
+	<consumable name="珠宝 " code="30" effect="忠诚+30" type="3" />
+	<consumable name="黄金 " code="31" effect="忠诚+25" type="3" />
+	<consumable name="美女 " code="32" effect="忠诚+20" type="3" />
+	<consumable name="玉器 " code="33" effect="忠诚+15" type="3" />
+	<consumable name="绸缎 " code="34" effect="忠诚+10" type="3" />
+	<consumable name="布匹" code="35" effect="忠诚+5" type="3" />
+	<consumable name="灵山妙药" code="36" effect="智力+1" type="3" />
+	<consumable name="九牛二虎丸 " code="37" effect="武力+1" type="3" />
+	<consumable name="雪山灵芝" code="38" effect="技力+5" type="3" />
+	<consumable name="灵芝" code="39" effect="技力+2" type="3" />
+	<consumable name="长白人参" code="40" effect="体力+5" type="3" />
+	<consumable name="人参" code="41" effect="体力+2" type="3" />
+	<consumable name="北斗天浆" code="563" effect="武力+3" type="3" />
+	<consumable name="玉屑金丹" code="564" effect="体力+10" type="3" />
+	<consumable name="薤叶芸香" code="565" effect="智力+3" type="3" />
+	<consumable name="琼浆玉液" code="566" effect="技力+10" type="3" />
+	<consumable name="金珠" code="567" effect="忠诚+35" type="3" />
+	<consumable name="无暇玉璧" code="568" effect="忠诚+40" type="3" />
+	<consumable name="龙纹白玉" code="569" effect="忠诚+50" type="3" />
+	<consumable name="四灵宝镜" code="570" effect="忠诚+80" type="3" />
+	<consumable name="弓骑兵符" code="616" effect="弓骑兵" type="1" />
+	<consumable name="舞娘兵符" code="617" effect="舞娘" type="1" />
+	<consumable name="龙炮兵令" code="618" effect="龙炮兵" type="1" />
+	<consumable name="天狗卷轴" code="619" effect="天狗" type="1" />
+	<consumable name="巫女卷轴" code="620" effect="巫女" type="1" />
+	<consumable name="水镜阵法书" code="621" effect="水镜阵法" type="2" />
+	<consumable name="钢剑锻造书" code="649" effect="钢剑" type="4" />
+	<consumable name="不攻锻造书" code="650" effect="不攻" type="4" />
+	<consumable name="戟刀锻造书" code="651" effect="戟刀" type="4" />
+	<consumable name="双刃刀锻造书" code="652" effect="双刃刀" type="4" />
+	<consumable name="玄铁剑锻造书" code="653" effect="玄铁剑" type="4" />
+	<consumable name="斩岩剑锻造书" code="654" effect="斩岩剑" type="4" />
+	<consumable name="明昭锻造书" code="655" effect="明昭" type="4" />
+	<consumable name="血刃锻造书" code="656" effect="血刃" type="4" />
+	<consumable name="邪月锻造书" code="657" effect="邪月" type="4" />
+	<consumable name="湛卢锻造书" code="658" effect="湛卢" type="4" />
+	<consumable name="莫邪锻造书" code="659" effect="莫邪" type="4" />
+	<consumable name="青玉扇锻造书" code="660" effect="青玉扇" type="4" />
+	<consumable name="劈风扇锻造书" code="661" effect="劈风扇" type="4" />
+	<consumable name="剑翎扇锻造书" code="662" effect="剑翎扇" type="4" />
+	<consumable name="幻羽扇锻造书" code="663" effect="幻羽扇" type="4" />
+	<consumable name="五光扇锻造书" code="664" effect="五光扇" type="4" />
+	<consumable name="噬血扇锻造书" code="665" effect="噬血扇" type="4" />
+	<consumable name="天罡扇锻造书" code="666" effect="天罡扇" type="4" />
+	<consumable name="幽冥扇锻造书" code="667" effect="幽冥扇" type="4" />
+	<consumable name="玄冰扇锻造书" code="668" effect="玄冰扇" type="4" />
+	<consumable name="真火扇锻造书" code="669" effect="真火扇" type="4" />
+	<consumable name="大砍刀锻造书" code="670" effect="大砍刀" type="4" />
+	<consumable name="武斩刀锻造书" code="671" effect="武斩刀" type="4" />
+	<consumable name="精铁偃月刀锻造书" code="672" effect="精铁偃月刀"
+		type="4" />
+	<consumable name="劈山斧锻造书" code="673" effect="劈山斧" type="4" />
+	<consumable name="八极刀锻造书" code="674" effect="八极刀" type="4" />
+	<consumable name="焰斩刀锻造书" code="675" effect="焰斩刀" type="4" />
+	<consumable name="干将锻造书" code="676" effect="干将" type="4" />
+	<consumable name="毒龙锻造书" code="677" effect="毒龙" type="4" />
+	<consumable name="魂咬锻造书" code="678" effect="魂咬" type="4" />
+	<consumable name="雷斩刀锻造书" code="679" effect="雷斩刀" type="4" />
+	<consumable name="太阿锻造书" code="680" effect="太阿" type="4" />
+	<consumable name="赤霄锻造书" code="681" effect="赤霄" type="4" />
+	<consumable name="点睛锻造书" code="682" effect="点睛" type="4" />
+	<consumable name="灼针锻造书" code="683" effect="灼针" type="4" />
+	<consumable name="冰芒锻造书" code="684" effect="冰芒" type="4" />
+	<consumable name="双刃戟锻造书" code="685" effect="双刃戟" type="4" />
+	<consumable name="蒺藜枪锻造书" code="686" effect="蒺藜枪" type="4" />
+	<consumable name="钩镰枪锻造书" code="687" effect="钩镰枪" type="4" />
+	<consumable name="斧刃枪锻造书" code="688" effect="斧刃枪" type="4" />
+	<consumable name="十字枪锻造书" code="689" effect="十字枪" type="4" />
+	<consumable name="真钢枪锻造书" code="690" effect="真钢枪" type="4" />
+	<consumable name="锦牙枪锻造书" code="691" effect="锦牙枪" type="4" />
+	<consumable name="蛇尖枪锻造书" code="692" effect="蛇尖枪" type="4" />
+	<consumable name="虎胆枪锻造书" code="693" effect="虎胆枪" type="4" />
+	<consumable name="龙角叉锻造书" code="694" effect="龙角叉" type="4" />
+	<consumable name="双刃月牙戟锻造书" code="695" effect="双刃月牙戟"
+		type="4" />
+	<consumable name="应龙戟锻造书" code="696" effect="应龙戟" type="4" />
+	<consumable name="神龙戈锻造书" code="697" effect="神龙戈" type="4" />
+	<consumable name="神鬼方天戟锻造书" code="698" effect="神鬼方天戟"
+		type="4" />
+	<consumable name="万胜丈八矛锻造书" code="699" effect="万胜丈八矛"
+		type="4" />
+	<consumable name="天羽凤凰枪锻造书" code="700" effect="天羽凤凰枪"
+		type="4" />
+	<consumable name="震雷青龙戟锻造书" code="701" effect="震雷青龙戟"
+		type="4" />
+	<consumable name="铁弓锻造书" code="702" effect="铁弓" type="4" />
+	<consumable name="精钢弓锻造书" code="703" effect="精钢弓" type="4" />
+	<consumable name="绝音弓锻造书" code="704" effect="绝音弓" type="4" />
+	<consumable name="破邪弓锻造书" code="705" effect="破邪弓" type="4" />
+	<consumable name="神臂弓锻造书" code="706" effect="神臂弓" type="4" />
+	<consumable name="白金弓锻造书" code="707" effect="白金弓" type="4" />
+	<consumable name="追星锻造书" code="708" effect="追星" type="4" />
+	<consumable name="连环弓锻造书" code="709" effect="连环弓" type="4" />
+	<consumable name="落月锻造书" code="710" effect="落月" type="4" />
+	<consumable name="射魄锻造书" code="711" effect="射魄" type="4" />
+	<consumable name="惊雷锻造书" code="712" effect="惊雷" type="4" />
+	<consumable name="机铁火神弓锻造书" code="713" effect="机铁火神弓"
+		type="4" />
+	<consumable name="孔雀刺锻造书" code="714" effect="孔雀刺" type="4" />
+	<consumable name="精钢双戟锻造书" code="715" effect="精钢双戟" type="4" />
+	<consumable name="鸳鸯圈锻造书" code="716" effect="鸳鸯圈" type="4" />
+	<consumable name="乾坤圈锻造书" code="717" effect="乾坤圈" type="4" />
+	<consumable name="凤凰锤锻造书" code="718" effect="凤凰锤" type="4" />
+	<consumable name="两仪剑锻造书" code="719" effect="两仪剑" type="4" />
+	<consumable name="冰凰炎凤锻造书" code="720" effect="冰凰炎凤" type="4" />
+	<consumable name="寒铁双股剑锻造书" code="721" effect="寒铁双股剑"
+		type="4" />
+	<consumable name="仁义无双锻造书" code="722" effect="仁义无双" type="4" />
+</root>

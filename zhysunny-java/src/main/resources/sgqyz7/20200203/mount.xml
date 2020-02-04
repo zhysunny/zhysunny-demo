@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+幼麒麟	225	1
+黑麒麟	226	5
+火麒麟	227	5
+白玉麒麟	228	5
+穷奇	232	5
+金甲雄狮	639	5
+通天战马	637	3
+炼狱战马	638	3
+紫金赤兔马	235	1
+追风白凤	234	1
+天马	229	5
+兵马俑马	644	5
+冲城巨象	247	30
+白骨战马	645	5
+冲角巨牛	242	30
+暹罗巨象	643	10
+鳞甲战狼	641	15
+松风	243	30
+赤兔马	236	5
+燎原火	246	30
+卷毛赤兔马	237	10
+重甲战虎	245	30
+龙马	230	5
+青牛	253	99
+四不像	231	5
+云鬃马	261	999
+ -->
+<root name="坐骑">
+	<mount name="幼麒麟" code="225" amount="1" level="70" physical="65"
+		skill="80" military="30" intelligence="30" speed="0" effect=" " />
+	<mount name="黑麒麟" code="226" amount="5" level="45" physical="40"
+		skill="40" military="22" intelligence="20" speed="11" effect=" " />
+	<mount name="火麒麟" code="227" amount="5" level="40" physical="40"
+		skill="40" military="21" intelligence="20" speed="11" effect=" " />
+	<mount name="白玉麒麟" code="228" amount="5" level="30" physical="50"
+		skill="50" military="20" intelligence="20" speed="10" effect=" " />
+	<mount name="天马" code="229" amount="5" level="30" physical="20"
+		skill="20" military="10" intelligence="20" speed="14" effect=" " />
+	<mount name="龙马" code="230" amount="5" level="30" physical="0"
+		skill="50" military="0" intelligence="20" speed="9" effect=" " />
+	<mount name="四不像" code="231" amount="5" level="30" physical="40"
+		skill="0" military="0" intelligence="10" speed="9" effect=" " />
+	<mount name="穷奇" code="232" amount="5" level="30" physical="10"
+		skill="0" military="20" intelligence="0" speed="6" effect=" " />
+	<mount name="飞镰" code="233" amount="5" level="30" physical="5"
+		skill="5" military="0" intelligence="0" speed="12" effect=" " />
+	<mount name="追风白凤" code="234" amount="1" level="30" physical="15"
+		skill="15" military="12" intelligence="0" speed="12" effect=" " />
+	<mount name="紫金赤兔马" code="235" amount="1" level="30" physical="20"
+		skill="5" military="12" intelligence="0" speed="11" effect=" " />
+	<mount name="赤兔马" code="236" amount="5" level="29" physical="20"
+		skill="5" military="5" intelligence="0" speed="11" effect=" " />
+	<mount name="卷毛赤兔马" code="237" amount="10" level="28" physical="10"
+		skill="10" military="3" intelligence="0" speed="10" effect=" " />
+	<mount name="爪黄飞电" code="239" amount="30" level="28" physical="15"
+		skill="0" military="0" intelligence="0" speed="9" effect=" " />
+	<mount name="骷髅马" code="240" amount="30" level="28" physical="0"
+		skill="0" military="0" intelligence="0" speed="5" effect=" " />
+	<mount name="钢甲战马" code="241" amount="30" level="27" physical="35"
+		skill="0" military="0" intelligence="0" speed="8" effect="格挡" />
+	<mount name="冲角巨牛" code="242" amount="30" level="27" physical="0"
+		skill="0" military="7" intelligence="0" speed="7" effect=" " />
+	<mount name="松风" code="243" amount="30" level="26" physical="0"
+		skill="0" military="5" intelligence="0" speed="8" effect=" " />
+	<mount name="重甲黑豹" code="244" amount="30" level="26" physical="15"
+		skill="0" military="2" intelligence="0" speed="8" effect="降低伤害" />
+	<mount name="重甲战虎" code="245" amount="30" level="26" physical="10"
+		skill="0" military="3" intelligence="0" speed="8" effect="降低伤害" />
+	<mount name="燎原火" code="246" amount="30" level="25" physical="5"
+		skill="0" military="5" intelligence="0" speed="8" effect=" " />
+	<mount name="冲城巨象" code="247" amount="30" level="25" physical="0"
+		skill="0" military="8" intelligence="0" speed="1" effect=" " />
+	<mount name="的卢" code="248" amount="30" level="25" physical="15"
+		skill="0" military="0" intelligence="0" speed="8" effect=" " />
+	<mount name="印度白象" code="249" amount="30" level="24" physical="30"
+		skill="20" military="0" intelligence="0" speed="-1" effect=" " />
+	<mount name="藤甲巨象" code="250" amount="30" level="24" physical="35"
+		skill="0" military="2" intelligence="0" speed="0" effect="降低伤害" />
+	<mount name="印度神象" code="251" amount="99" level="22" physical="30"
+		skill="0" military="0" intelligence="0" speed="-2" effect=" " />
+	<mount name="藤甲战牛" code="252" amount="99" level="22" physical="10"
+		skill="0" military="2" intelligence="0" speed="4" effect="降低伤害" />
+	<mount name="青牛" code="253" amount="99" level="20" physical="10"
+		skill="0" military="0" intelligence="10" speed="4" effect=" " />
+	<mount name="铁甲战马" code="255" amount="99" level="20" physical="10"
+		skill="0" military="0" intelligence="0" speed="6" effect="降低伤害" />
+	<mount name="铁骑马" code="256" amount="99" level="19" physical="10"
+		skill="0" military="0" intelligence="0" speed="6" effect=" " />
+	<mount name="黑豹" code="257" amount="99" level="19" physical="8"
+		skill="0" military="2" intelligence="0" speed="5" effect=" " />
+	<mount name="战虎" code="258" amount="99" level="19" physical="0"
+		skill="0" military="3" intelligence="0" speed="5" effect=" " />
+	<mount name="紫骍" code="259" amount="99" level="18" physical="0"
+		skill="0" military="0" intelligence="0" speed="6" effect=" " />
+	<mount name="汗血马" code="260" amount="999" level="18" physical="8"
+		skill="0" military="1" intelligence="0" speed="5" effect=" " />
+	<mount name="云鬃马" code="261" amount="999" level="16" physical="8"
+		skill="0" military="0" intelligence="3" speed="4" effect=" " />
+	<mount name="大宛马" code="262" amount="999" level="14" physical="8"
+		skill="0" military="1" intelligence="0" speed="4" effect=" " />
+	<mount name="白鹤" code="263" amount="999" level="12" physical="6"
+		skill="0" military="1" intelligence="1" speed="4" effect=" " />
+	<mount name="白石" code="264" amount="999" level="10" physical="3"
+		skill="3" military="1" intelligence="0" speed="4" effect=" " />
+	<mount name="沙里飞" code="265" amount="999" level="10" physical="8"
+		skill="0" military="1" intelligence="0" speed="4" effect=" " />
+	<mount name="驚帆" code="266" amount="999" level="9" physical="8"
+		skill="0" military="1" intelligence="0" speed="3" effect=" " />
+	<mount name="骆驼" code="267" amount="999" level="8" physical="8"
+		skill="0" military="1" intelligence="0" speed="2" effect=" " />
+	<mount name="赤毛牛" code="268" amount="999" level="8" physical="5"
+		skill="0" military="3" intelligence="0" speed="2" effect=" " />
+	<mount name="南蛮象" code="269" amount="999" level="8" physical="15"
+		skill="0" military="0" intelligence="0" speed="-2" effect=" " />
+	<mount name="黑鬃马" code="270" amount="999" level="5" physical="5"
+		skill="0" military="0" intelligence="0" speed="3" effect=" " />
+	<mount name="褐鬃马" code="271" amount="999" level="2" physical="5"
+		skill="0" military="0" intelligence="0" speed="2" effect=" " />
+	<mount name="黄鬃马" code="272" amount="999" level="1" physical="0"
+		skill="0" military="0" intelligence="0" speed="1" effect=" " />
+	<mount name="通天战马" code="637" amount="3" level="30" physical="25"
+		skill="10" military="15" intelligence="0" speed="12" effect=" " />
+	<mount name="炼狱战马" code="638" amount="3" level="30" physical="25"
+		skill="10" military="15" intelligence="0" speed="12" effect=" " />
+	<mount name="金甲雄狮" code="639" amount="5" level="25" physical="0"
+		skill="0" military="15" intelligence="0" speed="10" effect=" " />
+	<mount name="波斯骆驼" code="640" amount="20" level="8" physical="0"
+		skill="0" military="0" intelligence="0" speed="4" effect=" " />
+	<mount name="鳞甲战狼" code="641" amount="15" level="14" physical="0"
+		skill="0" military="5" intelligence="0" speed="8" effect=" " />
+	<mount name="暹罗象" code="642" amount="20" level="6" physical="0"
+		skill="0" military="3" intelligence="0" speed="-4" effect=" " />
+	<mount name="暹罗巨象" code="643" amount="10" level="16" physical="0"
+		skill="0" military="6" intelligence="0" speed="-2" effect=" " />
+	<mount name="兵马俑马" code="644" amount="5" level="18" physical="0"
+		skill="0" military="8" intelligence="0" speed="9" effect=" " />
+	<mount name="白骨战马" code="645" amount="5" level="18" physical="0"
+		skill="0" military="8" intelligence="0" speed="9" effect=" " />
+</root>

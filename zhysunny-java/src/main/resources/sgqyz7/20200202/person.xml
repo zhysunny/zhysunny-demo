@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="PERSON">
+    <person name="丁奉" code="1" sex="1" military="82" intelligence="68"
+            mount="246" weapon="802" prop="757"/>
+    <person name="丁原" code="2" sex="1" military="74" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="丁斐" code="3" sex="1" military="42" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="丁枫" code="4" sex="0" military="45" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="丁瑶" code="5" sex="0" military="70" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="丁仪" code="6" sex="1" military="72" intelligence="39"
+            mount="" weapon="" prop=""/>
+    <person name="刁玄" code="7" sex="1" military="35" intelligence="60"
+            mount="" weapon="" prop=""/>
+    <person name="于禁" code="8" sex="1" military="79" intelligence="71"
+            mount="243" weapon="802" prop="755"/>
+    <person name="于诠" code="9" sex="1" military="31" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="士孙瑞" code="10" sex="1" military="51" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="士异" code="11" sex="0" military="50" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="士壹" code="12" sex="1" military="69" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="士碧" code="13" sex="0" military="42" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="士徽" code="14" sex="1" military="70" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="士燮" code="15" sex="1" military="72" intelligence="43"
+            mount="" weapon="" prop=""/>
+    <person name="大乔" code="16" sex="0" military="70" intelligence="80"
+            mount="253" weapon="779" prop="747"/>
+    <person name="小乔" code="17" sex="0" military="82" intelligence="82"
+            mount="246" weapon="790" prop="739"/>
+    <person name="山涛" code="18" sex="1" military="35" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="公孙度" code="19" sex="1" military="76" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="公孙恭" code="20" sex="1" military="40" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="公孙康" code="21" sex="1" military="68" intelligence="48"
+            mount="" weapon="" prop=""/>
+    <person name="公孙渊" code="22" sex="1" military="82" intelligence="61"
+            mount="246" weapon="802" prop="757"/>
+    <person name="公孙婷" code="23" sex="0" military="58" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="公孙越" code="24" sex="1" military="56" intelligence="46"
+            mount="" weapon="" prop=""/>
+    <person name="公孙范" code="25" sex="1" military="79" intelligence="30"
+            mount="" weapon="" prop=""/>
+    <person name="公孙续" code="26" sex="1" military="51" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="公孙瓒" code="27" sex="1" military="86" intelligence="67"
+            mount="242" weapon="793" prop="744"/>
+    <person name="卞喜" code="28" sex="1" military="73" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="天香" code="29" sex="0" military="57" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="太史享" code="30" sex="1" military="51" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="太史昭容" code="31" sex="0" military="90" intelligence="71"
+            mount="645" weapon="803" prop="739"/>
+    <person name="太史慈" code="32" sex="1" military="97" intelligence="69"
+            mount="232" weapon="804" prop="751"/>
+    <person name="孔月" code="33" sex="0" military="45" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="孔秀" code="34" sex="1" military="67" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="孔岫" code="35" sex="1" military="42" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="孔羡" code="36" sex="1" military="35" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="孔融" code="37" sex="1" military="37" intelligence="89"
+            mount="" weapon="" prop=""/>
+    <person name="文媛" code="38" sex="0" military="60" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="文钦" code="39" sex="1" military="83" intelligence="48"
+            mount="246" weapon="820" prop="757"/>
+    <person name="文聘" code="40" sex="1" military="82" intelligence="46"
+            mount="246" weapon="802" prop="757"/>
+    <person name="文蕊" code="41" sex="0" military="88" intelligence="40"
+            mount="242" weapon="44" prop="744"/>
+    <person name="文鸯" code="42" sex="0" military="90" intelligence="42"
+            mount="645" weapon="803" prop="744"/>
+    <person name="文丑" code="43" sex="1" military="95" intelligence="27"
+            mount="639" weapon="804" prop="746"/>
+    <person name="方悦" code="44" sex="1" military="75" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="毋丘俭" code="45" sex="1" military="76" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="毛玠" code="46" sex="1" military="64" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="牛金" code="47" sex="1" military="78" intelligence="46"
+            mount="" weapon="" prop=""/>
+    <person name="牛辅" code="48" sex="1" military="73" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="王子服" code="49" sex="1" military="65" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="王元姬" code="50" sex="0" military="60" intelligence="88"
+            mount="253" weapon="779" prop="747"/>
+    <person name="王允" code="51" sex="1" military="36" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="王方" code="52" sex="1" military="71" intelligence="30"
+            mount="" weapon="" prop=""/>
+    <person name="王平" code="53" sex="1" military="77" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="王伉" code="54" sex="1" military="61" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="王匡" code="55" sex="1" military="60" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="王戎" code="56" sex="1" military="35" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="王甫" code="57" sex="1" military="48" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="王忠" code="58" sex="1" military="75" intelligence="30"
+            mount="" weapon="" prop=""/>
+    <person name="王服" code="59" sex="1" military="67" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="王威" code="60" sex="1" military="68" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="王若华" code="61" sex="0" military="40" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="王昶" code="62" sex="1" military="62" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="王修" code="63" sex="1" military="51" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="王朗" code="64" sex="1" military="52" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="王烈" code="65" sex="1" military="38" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="王真" code="66" sex="1" military="68" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="王晟" code="67" sex="1" military="77" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="王基" code="68" sex="1" military="76" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="王祥" code="69" sex="1" military="30" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="王累" code="70" sex="1" military="33" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="王植" code="71" sex="1" military="45" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="王浑" code="72" sex="1" military="66" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="王筠" code="73" sex="0" military="82" intelligence="32"
+            mount="246" weapon="813" prop="757"/>
+    <person name="王经" code="74" sex="1" military="64" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="王粲" code="75" sex="1" military="23" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="王颀" code="76" sex="1" military="64" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="王濬" code="77" sex="1" military="82" intelligence="80"
+            mount="246" weapon="802" prop="739"/>
+    <person name="王双" code="78" sex="1" military="84" intelligence="28"
+            mount="236" weapon="820" prop="757"/>
+    <person name="王览" code="79" sex="1" military="35" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="令狐邵" code="80" sex="1" military="42" intelligence="57"
+            mount="" weapon="" prop=""/>
+    <person name="令狐愚" code="81" sex="1" military="38" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="司马孚" code="82" sex="1" military="31" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="司马炎" code="83" sex="1" military="83" intelligence="71"
+            mount="246" weapon="56" prop="757"/>
+    <person name="司马昭" code="84" sex="1" military="66" intelligence="87"
+            mount="" weapon="" prop=""/>
+    <person name="司马师" code="85" sex="1" military="64" intelligence="93"
+            mount="253" weapon="92" prop="749"/>
+    <person name="司马朗" code="86" sex="1" military="32" intelligence="57"
+            mount="" weapon="" prop=""/>
+    <person name="司马衷" code="87" sex="1" military="80" intelligence="65"
+            mount="641" weapon="802" prop="757"/>
+    <person name="司马望" code="88" sex="1" military="54" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="司马铃" code="89" sex="0" military="75" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="司马玮" code="90" sex="0" military="44" intelligence="87"
+            mount="" weapon="" prop=""/>
+    <person name="司马徽" code="91" sex="1" military="26" intelligence="95"
+            mount="253" weapon="781" prop="743"/>
+    <person name="司马懿" code="92" sex="1" military="78" intelligence="99"
+            mount="229" weapon="91" prop="752"/>
+    <person name="左慈" code="93" sex="1" military="23" intelligence="98"
+            mount="230" weapon="780" prop="752"/>
+    <person name="甘若男" code="94" sex="0" military="92" intelligence="67"
+            mount="234" weapon="791" prop="745"/>
+    <person name="甘倩" code="95" sex="0" military="68" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="甘宁" code="96" sex="1" military="96" intelligence="65"
+            mount="637" weapon="792" prop="751"/>
+    <person name="田欣" code="97" sex="0" military="44" intelligence="92"
+            mount="253" weapon="92" prop="748"/>
+    <person name="田楷" code="98" sex="1" military="75" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="田豫" code="99" sex="1" military="46" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="田丰" code="100" sex="1" military="48" intelligence="95"
+            mount="253" weapon="781" prop="743"/>
+    <person name="田畴" code="101" sex="1" military="74" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="田续" code="102" sex="1" military="68" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="申耽" code="103" sex="1" military="70" intelligence="57"
+            mount="" weapon="" prop=""/>
+    <person name="申仪" code="104" sex="1" military="65" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="石苞" code="105" sex="1" military="31" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="石崇" code="106" sex="1" military="35" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="伊大目" code="107" sex="1" military="80" intelligence="31"
+            mount="247" weapon="802" prop="757"/>
+    <person name="伊默" code="108" sex="1" military="55" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="伊籍" code="109" sex="1" military="32" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="伏完" code="110" sex="1" military="71" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="伏寿" code="111" sex="0" military="55" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="仲长统" code="112" sex="1" military="59" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="全宗" code="113" sex="1" military="80" intelligence="75"
+            mount="641" weapon="786" prop="757"/>
+    <person name="全端" code="114" sex="1" military="75" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="吉太" code="115" sex="1" military="29" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="吉穆" code="116" sex="1" military="31" intelligence="87"
+            mount="" weapon="" prop=""/>
+    <person name="吉邈" code="117" sex="1" military="30" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="向秀" code="118" sex="1" military="33" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="向朗" code="119" sex="1" military="22" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="向宠" code="120" sex="1" military="71" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="成宜" code="121" sex="1" military="69" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="朱治" code="122" sex="1" military="62" intelligence="49"
+            mount="" weapon="" prop=""/>
+    <person name="朱虹" code="123" sex="0" military="75" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="朱桓" code="124" sex="1" military="87" intelligence="76"
+            mount="242" weapon="788" prop="739"/>
+    <person name="朱异" code="125" sex="1" military="53" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="朱然" code="126" sex="1" military="76" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="朱损" code="127" sex="1" military="71" intelligence="46"
+            mount="" weapon="" prop=""/>
+    <person name="朱隽" code="128" sex="1" military="75" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="朱熊" code="129" sex="1" military="80" intelligence="21"
+            mount="243" weapon="802" prop="754"/>
+    <person name="朱褒" code="130" sex="1" military="58" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="朱据" code="131" sex="1" military="72" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="朱灵" code="132" sex="1" military="67" intelligence="40"
+            mount="" weapon="" prop=""/>
+    <person name="朱赞" code="133" sex="1" military="71" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="羊祜" code="134" sex="1" military="64" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="羊道" code="135" sex="1" military="32" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="羊徽瑜" code="136" sex="0" military="61" intelligence="92"
+            mount="253" weapon="92" prop="748"/>
+    <person name="何姬" code="137" sex="0" military="31" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="何晏" code="138" sex="1" military="30" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="何进" code="139" sex="1" military="74" intelligence="46"
+            mount="" weapon="" prop=""/>
+    <person name="何蜜" code="140" sex="0" military="72" intelligence="51"
+            mount="" weapon="" prop=""/>
+    <person name="何仪" code="141" sex="1" military="68" intelligence="32"
+            mount="" weapon="" prop=""/>
+    <person name="冷苞" code="142" sex="1" military="65" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="吾彦" code="143" sex="1" military="48" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="吴子兰" code="144" sex="1" military="75" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="吴巨" code="145" sex="1" military="70" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="吴班" code="146" sex="1" military="70" intelligence="48"
+            mount="" weapon="" prop=""/>
+    <person name="吴纲" code="147" sex="1" military="41" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="吴质" code="148" sex="1" military="48" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="吴兰" code="149" sex="1" military="81" intelligence="44"
+            mount="641" weapon="802" prop="757"/>
+    <person name="吴懿" code="150" sex="1" military="79" intelligence="76"
+            mount="243" weapon="802" prop="755"/>
+    <person name="吕布" code="151" sex="1" military="100" intelligence="45"
+            mount="232" weapon="804" prop="751"/>
+    <person name="吕岱" code="152" sex="1" military="67" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="吕威璜" code="153" sex="1" military="72" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="吕虔" code="154" sex="1" military="67" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="吕凯" code="155" sex="1" military="48" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="吕翔" code="156" sex="1" military="71" intelligence="26"
+            mount="" weapon="" prop=""/>
+    <person name="吕菁" code="157" sex="0" military="81" intelligence="90"
+            mount="253" weapon="790" prop="739"/>
+    <person name="吕雯" code="158" sex="0" military="84" intelligence="52"
+            mount="236" weapon="814" prop="757"/>
+    <person name="吕义" code="159" sex="1" military="77" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="吕蒙" code="160" sex="1" military="84" intelligence="90"
+            mount="229" weapon="771" prop="739"/>
+    <person name="吕范" code="161" sex="1" military="42" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="吕据" code="162" sex="1" military="68" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="吕旷" code="163" sex="1" military="70" intelligence="26"
+            mount="" weapon="" prop=""/>
+    <person name="宋忠" code="164" sex="1" military="36" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="宋扬" code="165" sex="1" military="65" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="宋宪" code="166" sex="1" military="68" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="岑昏" code="167" sex="1" military="25" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="李文姬" code="168" sex="0" military="75" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="李典" code="169" sex="1" military="77" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="李恢" code="170" sex="1" military="54" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="李异" code="171" sex="1" military="77" intelligence="28"
+            mount="" weapon="" prop=""/>
+    <person name="李堪" code="172" sex="1" military="62" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="李肃" code="173" sex="1" military="44" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="李傕" code="174" sex="1" military="67" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="李福" code="175" sex="1" military="45" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="李蒙" code="176" sex="1" military="60" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="李儒" code="177" sex="1" military="25" intelligence="91"
+            mount="253" weapon="92" prop="748"/>
+    <person name="李丰" code="178" sex="1" military="71" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="李鹏" code="179" sex="1" military="72" intelligence="39"
+            mount="" weapon="" prop=""/>
+    <person name="李严" code="180" sex="1" military="85" intelligence="79"
+            mount="242" weapon="787" prop="739"/>
+    <person name="杜远" code="181" sex="1" military="63" intelligence="21"
+            mount="" weapon="" prop=""/>
+    <person name="杜袭" code="182" sex="1" military="62" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="步鹭" code="183" sex="1" military="32" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="车胄" code="184" sex="1" military="72" intelligence="60"
+            mount="" weapon="" prop=""/>
+    <person name="辛毗" code="185" sex="1" military="43" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="辛敞" code="186" sex="1" military="45" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="辛评" code="187" sex="1" military="65" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="辛宪英" code="188" sex="0" military="31" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="邢道荣" code="189" sex="1" military="79" intelligence="32"
+            mount="243" weapon="802" prop="755"/>
+    <person name="阮咸" code="190" sex="1" military="29" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="阮籍" code="191" sex="1" military="30" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="典韦" code="192" sex="1" military="97" intelligence="33"
+            mount="232" weapon="804" prop="751"/>
+    <person name="卓膺" code="193" sex="1" military="64" intelligence="48"
+            mount="" weapon="" prop=""/>
+    <person name="卑衍" code="194" sex="1" military="80" intelligence="29"
+            mount="247" weapon="802" prop="754"/>
+    <person name="周玉" code="195" sex="0" military="54" intelligence="89"
+            mount="" weapon="" prop=""/>
+    <person name="周昕" code="196" sex="1" military="72" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="周胤" code="197" sex="1" military="62" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="周仓" code="198" sex="1" military="82" intelligence="28"
+            mount="246" weapon="786" prop="757"/>
+    <person name="周泰" code="199" sex="1" military="91" intelligence="64"
+            mount="644" weapon="803" prop="745"/>
+    <person name="周瑜" code="200" sex="1" military="80" intelligence="98"
+            mount="228" weapon="771" prop="752"/>
+    <person name="周鲂" code="201" sex="1" military="45" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="孟坦" code="202" sex="1" military="71" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="孟达" code="203" sex="1" military="73" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="尚广" code="204" sex="1" military="30" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="武安国" code="205" sex="1" military="70" intelligence="23"
+            mount="" weapon="" prop=""/>
+    <person name="法正" code="206" sex="1" military="55" intelligence="94"
+            mount="253" weapon="781" prop="743"/>
+    <person name="沮授" code="207" sex="1" military="61" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="沮鹄" code="208" sex="1" military="57" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="芙蓉" code="209" sex="0" military="87" intelligence="54"
+            mount="242" weapon="793" prop="744"/>
+    <person name="金采苹" code="210" sex="0" military="88" intelligence="45"
+            mount="242" weapon="788" prop="744"/>
+    <person name="金旋" code="211" sex="1" military="53" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="邴原" code="212" sex="1" military="45" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="邯郸商" code="213" sex="1" military="55" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="侯成" code="214" sex="1" military="69" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="侯音" code="215" sex="1" military="75" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="俞涉" code="216" sex="1" military="82" intelligence="56"
+            mount="641" weapon="786" prop="757"/>
+    <person name="姜叙" code="217" sex="1" military="72" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="姜维" code="218" sex="1" military="92" intelligence="96"
+            mount="227" weapon="823" prop="740"/>
+    <person name="姜霞" code="219" sex="0" military="90" intelligence="97"
+            mount="227" weapon="42" prop="740"/>
+    <person name="施但" code="220" sex="1" military="73" intelligence="59"
+            mount="" weapon="" prop=""/>
+    <person name="皇甫嵩" code="221" sex="1" military="70" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="纪灵" code="222" sex="1" military="85" intelligence="36"
+            mount="242" weapon="787" prop="757"/>
+    <person name="胡车儿" code="223" sex="1" military="74" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="胡芬" code="224" sex="0" military="80" intelligence="74"
+            mount="243" weapon="802" prop="757"/>
+    <person name="胡班" code="225" sex="1" military="67" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="胡轸" code="226" sex="1" military="71" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="胡奋" code="227" sex="1" military="60" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="胡遵" code="228" sex="1" military="65" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="范慎" code="229" sex="1" military="35" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="范疆" code="230" sex="1" military="51" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="韦昭" code="231" sex="1" military="35" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="韦康" code="232" sex="1" military="62" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="种邵" code="233" sex="1" military="64" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="种拂" code="234" sex="1" military="70" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="种辑" code="235" sex="1" military="75" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="伦直" code="236" sex="1" military="35" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="凌统" code="237" sex="1" military="83" intelligence="60"
+            mount="246" weapon="802" prop="757"/>
+    <person name="凌操" code="238" sex="1" military="82" intelligence="48"
+            mount="246" weapon="786" prop="757"/>
+    <person name="唐咨" code="239" sex="1" military="60" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯令女" code="240" sex="0" military="70" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯玄" code="241" sex="1" military="29" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯和" code="242" sex="1" military="62" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯尚" code="243" sex="1" military="70" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯威" code="244" sex="1" military="77" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯恩" code="245" sex="1" military="63" intelligence="56"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯涓" code="246" sex="0" military="73" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯惇" code="247" sex="1" military="96" intelligence="70"
+            mount="637" weapon="804" prop="751"/>
+    <person name="夏侯渊" code="248" sex="1" military="94" intelligence="55"
+            mount="639" weapon="157" prop="746"/>
+    <person name="夏侯楙" code="249" sex="1" military="48" intelligence="43"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯娇" code="250" sex="0" military="88" intelligence="59"
+            mount="242" weapon="788" prop="744"/>
+    <person name="夏侯德" code="251" sex="1" military="68" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="夏侯儒" code="252" sex="1" military="85" intelligence="63"
+            mount="242" weapon="820" prop="744"/>
+    <person name="夏侯霸" code="253" sex="1" military="90" intelligence="68"
+            mount="242" weapon="791" prop="739"/>
+    <person name="孙大虎" code="254" sex="0" military="87" intelligence="55"
+            mount="242" weapon="793" prop="744"/>
+    <person name="孙小虎" code="255" sex="0" military="67" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="孙仁" code="256" sex="0" military="86" intelligence="76"
+            mount="242" weapon="793" prop="739"/>
+    <person name="孙休" code="257" sex="1" military="48" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="孙匡" code="258" sex="1" military="32" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="孙秀" code="259" sex="1" military="83" intelligence="45"
+            mount="246" weapon="820" prop="757"/>
+    <person name="孙和" code="260" sex="1" military="64" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="孙亮" code="261" sex="1" military="62" intelligence="57"
+            mount="" weapon="" prop=""/>
+    <person name="孙娟" code="262" sex="0" military="65" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="孙峻" code="263" sex="1" military="60" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="孙朗" code="264" sex="1" military="62" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="孙桓" code="265" sex="1" military="75" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="孙狼" code="266" sex="1" military="72" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="孙乾" code="267" sex="1" military="36" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="孙坚" code="268" sex="1" military="94" intelligence="81"
+            mount="227" weapon="833" prop="746"/>
+    <person name="孙异" code="269" sex="1" military="71" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="孙翊" code="270" sex="1" military="81" intelligence="52"
+            mount="641" weapon="802" prop="757"/>
+    <person name="孙登" code="271" sex="1" military="22" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="孙皓" code="272" sex="1" military="77" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="孙策" code="273" sex="1" military="95" intelligence="83"
+            mount="226" weapon="804" prop="746"/>
+    <person name="孙瑜" code="274" sex="1" military="35" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="孙韶" code="275" sex="1" military="82" intelligence="58"
+            mount="246" weapon="802" prop="757"/>
+    <person name="孙霓裳" code="276" sex="0" military="85" intelligence="81"
+            mount="242" weapon="45" prop="739"/>
+    <person name="孙静" code="277" sex="1" military="55" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="孙礼" code="278" sex="1" military="69" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="孙权" code="279" sex="1" military="83" intelligence="88"
+            mount="246" weapon="771" prop="739"/>
+    <person name="宴明" code="280" sex="1" military="73" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="徐他" code="281" sex="1" military="75" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="徐晃" code="282" sex="1" military="93" intelligence="69"
+            mount="639" weapon="830" prop="745"/>
+    <person name="徐庶" code="283" sex="1" military="66" intelligence="97"
+            mount="230" weapon="780" prop="752"/>
+    <person name="徐盛" code="284" sex="1" military="81" intelligence="78"
+            mount="641" weapon="802" prop="739"/>
+    <person name="徐荣" code="285" sex="1" military="58" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="徐质" code="286" sex="1" military="66" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="徐邈" code="287" sex="1" military="45" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="桓范" code="288" sex="1" military="21" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="留略" code="289" sex="1" military="72" intelligence="32"
+            mount="" weapon="" prop=""/>
+    <person name="留赞" code="290" sex="1" military="65" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="祖茂" code="291" sex="1" military="75" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="祖郎" code="292" sex="1" military="66" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="秦旦" code="294" sex="1" military="55" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="秦宓" code="295" sex="1" military="28" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="秦琪" code="296" sex="1" military="73" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="耿纪" code="297" sex="1" military="34" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="荀攸" code="298" sex="1" military="48" intelligence="95"
+            mount="253" weapon="781" prop="743"/>
+    <person name="荀彧" code="299" sex="1" military="36" intelligence="97"
+            mount="231" weapon="780" prop="752"/>
+    <person name="袁杏" code="300" sex="0" military="75" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="袁尚" code="301" sex="1" military="71" intelligence="48"
+            mount="" weapon="" prop=""/>
+    <person name="袁芳" code="302" sex="0" military="77" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="袁胤" code="303" sex="1" military="32" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="袁绍" code="304" sex="1" military="81" intelligence="77"
+            mount="641" weapon="821" prop="739"/>
+    <person name="袁术" code="305" sex="1" military="72" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="袁隗" code="306" sex="1" military="34" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="袁熙" code="307" sex="1" military="61" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="袁遗" code="308" sex="1" military="55" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="袁谭" code="309" sex="1" military="64" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="郝昭" code="310" sex="1" military="83" intelligence="88"
+            mount="246" weapon="790" prop="739"/>
+    <person name="马元义" code="311" sex="1" military="54" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="马日磾" code="312" sex="1" military="85" intelligence="39"
+            mount="242" weapon="787" prop="744"/>
+    <person name="马休" code="313" sex="1" military="68" intelligence="39"
+            mount="" weapon="" prop=""/>
+    <person name="马宇" code="314" sex="1" military="69" intelligence="19"
+            mount="" weapon="" prop=""/>
+    <person name="马均" code="315" sex="1" military="47" intelligence="43"
+            mount="" weapon="" prop=""/>
+    <person name="马良" code="316" sex="1" military="28" intelligence="92"
+            mount="253" weapon="92" prop="748"/>
+    <person name="马岱" code="317" sex="1" military="85" intelligence="48"
+            mount="242" weapon="787" prop="744"/>
+    <person name="马延" code="318" sex="1" military="71" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="马忠" code="319" sex="1" military="61" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="马玩" code="320" sex="1" military="70" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="马琳" code="321" sex="0" military="90" intelligence="61"
+            mount="645" weapon="803" prop="744"/>
+    <person name="马超" code="322" sex="1" military="96" intelligence="43"
+            mount="637" weapon="804" prop="746"/>
+    <person name="马云萝" code="323" sex="0" military="85" intelligence="67"
+            mount="242" weapon="814" prop="744"/>
+    <person name="马翠" code="324" sex="0" military="77" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="马遵" code="325" sex="1" military="65" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="马谡" code="326" sex="1" military="67" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="马邈" code="327" sex="1" military="67" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="马腾" code="328" sex="1" military="91" intelligence="58"
+            mount="644" weapon="791" prop="745"/>
+    <person name="马铁" code="329" sex="1" military="86" intelligence="58"
+            mount="247" weapon="793" prop="744"/>
+    <person name="高沛" code="330" sex="1" military="62" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="高定" code="331" sex="1" military="67" intelligence="39"
+            mount="" weapon="" prop=""/>
+    <person name="高升" code="332" sex="1" military="63" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="高柔" code="333" sex="1" military="40" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="高堂隆" code="334" sex="1" military="35" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="高翔" code="335" sex="1" military="72" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="高顺" code="336" sex="1" military="82" intelligence="59"
+            mount="246" weapon="802" prop="757"/>
+    <person name="高干" code="337" sex="1" military="62" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="高览" code="338" sex="1" military="75" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="崔勇" code="340" sex="1" military="61" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="崔琰" code="341" sex="1" military="71" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="常雕" code="342" sex="1" military="78" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="张子谦" code="343" sex="1" military="45" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="张允" code="344" sex="1" military="64" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="张布" code="345" sex="1" military="75" intelligence="48"
+            mount="" weapon="" prop=""/>
+    <person name="张白骑" code="346" sex="1" military="70" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="张休" code="347" sex="1" military="30" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="张任" code="348" sex="1" military="86" intelligence="75"
+            mount="242" weapon="793" prop="739"/>
+    <person name="张角" code="349" sex="1" military="90" intelligence="95"
+            mount="227" weapon="771" prop="740"/>
+    <person name="张佩" code="350" sex="0" military="78" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="张承" code="351" sex="1" military="76" intelligence="51"
+            mount="" weapon="" prop=""/>
+    <person name="张松" code="352" sex="1" military="27" intelligence="93"
+            mount="253" weapon="92" prop="743"/>
+    <person name="张虎" code="353" sex="1" military="72" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="张南" code="354" sex="1" military="65" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="张既" code="355" sex="1" military="42" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="张昭" code="356" sex="1" military="20" intelligence="94"
+            mount="253" weapon="92" prop="743"/>
+    <person name="张英" code="357" sex="1" military="73" intelligence="39"
+            mount="" weapon="" prop=""/>
+    <person name="张苞" code="358" sex="1" military="86" intelligence="45"
+            mount="242" weapon="158" prop="744"/>
+    <person name="张郃" code="359" sex="1" military="94" intelligence="71"
+            mount="638" weapon="792" prop="746"/>
+    <person name="张飞" code="360" sex="1" military="99" intelligence="49"
+            mount="232" weapon="804" prop="751"/>
+    <person name="张悌" code="361" sex="1" military="21" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="张纯" code="362" sex="1" military="75" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="张纮" code="363" sex="1" military="23" intelligence="89"
+            mount="" weapon="" prop=""/>
+    <person name="张梁" code="364" sex="1" military="84" intelligence="62"
+            mount="236" weapon="820" prop="757"/>
+    <person name="张梅" code="365" sex="0" military="75" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="张猛" code="366" sex="1" military="68" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="张球" code="367" sex="1" military="70" intelligence="29"
+            mount="" weapon="" prop=""/>
+    <person name="张绍" code="368" sex="1" military="48" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="张陵" code="369" sex="1" military="21" intelligence="89"
+            mount="" weapon="" prop=""/>
+    <person name="张华" code="370" sex="1" military="31" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="张杨" code="371" sex="1" military="45" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="张温" code="372" sex="1" military="21" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="张达" code="373" sex="1" military="54" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="张宁" code="374" sex="0" military="65" intelligence="79"
+            mount="253" weapon="779" prop="747"/>
+    <person name="张卫" code="375" sex="1" military="76" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="张鲁" code="376" sex="1" military="65" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="张勋" code="377" sex="1" military="69" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="张横" code="378" sex="1" military="73" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="张燕" code="379" sex="1" military="77" intelligence="49"
+            mount="" weapon="" prop=""/>
+    <person name="张燕燕" code="380" sex="0" military="80" intelligence="78"
+            mount="641" weapon="802" prop="739"/>
+    <person name="张辽" code="381" sex="1" military="95" intelligence="89"
+            mount="226" weapon="792" prop="746"/>
+    <person name="张济" code="382" sex="1" military="72" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="张翼" code="383" sex="1" military="76" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="张举" code="384" sex="1" military="42" intelligence="57"
+            mount="" weapon="" prop=""/>
+    <person name="张嶷" code="385" sex="1" military="76" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="张绣" code="386" sex="1" military="77" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="张邈" code="387" sex="1" military="62" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="张闿" code="388" sex="1" military="69" intelligence="22"
+            mount="" weapon="" prop=""/>
+    <person name="张顗" code="389" sex="1" military="54" intelligence="56"
+            mount="" weapon="" prop=""/>
+    <person name="张宝" code="390" sex="1" military="82" intelligence="73"
+            mount="246" weapon="802" prop="757"/>
+    <person name="张馨" code="391" sex="0" military="90" intelligence="88"
+            mount="228" weapon="771" prop="739"/>
+    <person name="张莺莺" code="392" sex="0" military="87" intelligence="55"
+            mount="242" weapon="793" prop="744"/>
+    <person name="曹仁" code="393" sex="1" military="86" intelligence="71"
+            mount="242" weapon="46" prop="739"/>
+    <person name="曹文叔" code="394" sex="1" military="25" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="曹丕" code="395" sex="1" military="75" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="曹休" code="396" sex="1" military="78" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="曹宇" code="397" sex="1" military="76" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="曹性" code="398" sex="1" military="68" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="曹昂" code="399" sex="1" military="69" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="曹芳" code="400" sex="1" military="53" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="曹洪" code="401" sex="1" military="82" intelligence="55"
+            mount="246" weapon="160" prop="757"/>
+    <person name="曹殷" code="402" sex="1" military="52" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="曹真" code="403" sex="1" military="79" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="曹纯" code="404" sex="1" military="64" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="曹豹" code="405" sex="1" military="69" intelligence="22"
+            mount="" weapon="" prop=""/>
+    <person name="曹淑" code="406" sex="0" military="68" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="曹爽" code="407" sex="1" military="66" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="曹植" code="408" sex="1" military="16" intelligence="91"
+            mount="253" weapon="92" prop="748"/>
+    <person name="曹华" code="409" sex="0" military="82" intelligence="65"
+            mount="246" weapon="813" prop="757"/>
+    <person name="曹节" code="410" sex="0" military="73" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="曹羡" code="411" sex="0" military="55" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="曹彰" code="412" sex="1" military="92" intelligence="45"
+            mount="644" weapon="159" prop="745"/>
+    <person name="曹肇" code="413" sex="1" military="65" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="曹据" code="414" sex="1" military="45" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="曹操" code="415" sex="1" military="87" intelligence="95"
+            mount="228" weapon="771" prop="749"/>
+    <person name="曹义" code="416" sex="1" military="66" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="曹遵" code="417" sex="1" military="64" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="曹叡" code="418" sex="1" military="57" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="梁习" code="419" sex="1" military="34" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="梁兴" code="420" sex="1" military="71" intelligence="28"
+            mount="" weapon="" prop=""/>
+    <person name="梅成" code="421" sex="1" military="72" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="凉茂" code="422" sex="1" military="64" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="淳于嘉" code="423" sex="1" military="20" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="淳于导" code="424" sex="1" military="77" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="淳于琼" code="425" sex="1" military="73" intelligence="59"
+            mount="" weapon="" prop=""/>
+    <person name="毕轨" code="426" sex="1" military="46" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="笮融" code="427" sex="1" military="61" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="许子将" code="428" sex="1" military="19" intelligence="95"
+            mount="253" weapon="781" prop="743"/>
+    <person name="许攸" code="429" sex="1" military="42" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="许贡" code="430" sex="1" military="56" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="许靖" code="431" sex="1" military="23" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="许褚" code="432" sex="1" military="98" intelligence="22"
+            mount="232" weapon="792" prop="751"/>
+    <person name="许仪" code="433" sex="1" military="91" intelligence="31"
+            mount="644" weapon="803" prop="745"/>
+    <person name="逢纪" code="434" sex="1" military="62" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="郭女王" code="435" sex="0" military="72" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="郭石" code="436" sex="1" military="76" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="郭汜" code="437" sex="1" military="65" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="郭攸之" code="438" sex="1" military="72" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="郭奕" code="439" sex="1" military="31" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="郭淮" code="440" sex="1" military="70" intelligence="39"
+            mount="" weapon="" prop=""/>
+    <person name="郭嘉" code="441" sex="1" military="35" intelligence="98"
+            mount="230" weapon="780" prop="286"/>
+    <person name="郭图" code="442" sex="1" military="34" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="郭槐" code="443" sex="0" military="46" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="陈式" code="444" sex="1" military="70" intelligence="49"
+            mount="" weapon="" prop=""/>
+    <person name="陈到" code="445" sex="1" military="76" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="陈武" code="446" sex="1" military="79" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="陈宫" code="447" sex="1" military="62" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="陈泰" code="448" sex="1" military="84" intelligence="77"
+            mount="246" weapon="820" prop="739"/>
+    <person name="陈珪" code="449" sex="1" military="41" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="陈雪" code="450" sex="0" military="56" intelligence="92"
+            mount="253" weapon="92" prop="748"/>
+    <person name="陈琳" code="451" sex="1" military="19" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="陈登" code="452" sex="1" military="44" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="陈群" code="453" sex="1" military="36" intelligence="93"
+            mount="253" weapon="92" prop="749"/>
+    <person name="陈瑀" code="454" sex="1" military="62" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="陈震" code="455" sex="1" military="58" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="陈横" code="456" sex="1" military="66" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="陈矫" code="457" sex="1" military="32" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="陈骞" code="458" sex="1" military="65" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="陈兰" code="459" sex="1" military="68" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="陆抗" code="460" sex="1" military="78" intelligence="93"
+            mount="253" weapon="92" prop="749"/>
+    <person name="陆英" code="461" sex="0" military="87" intelligence="60"
+            mount="242" weapon="793" prop="744"/>
+    <person name="陆凯" code="462" sex="1" military="27" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="陆逊" code="463" sex="1" military="77" intelligence="96"
+            mount="231" weapon="771" prop="749"/>
+    <person name="陆绩" code="464" sex="1" military="26" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="陶芷" code="465" sex="0" military="61" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="陶濬" code="466" sex="1" military="65" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="陶谦" code="467" sex="1" military="31" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="傅士仁" code="468" sex="1" military="63" intelligence="49"
+            mount="" weapon="" prop=""/>
+    <person name="傅彤" code="469" sex="1" military="72" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="傅巽" code="470" sex="1" military="35" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="傅干" code="471" sex="1" military="32" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="傅婴" code="472" sex="1" military="68" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="乔玄" code="473" sex="1" military="34" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="乔乔" code="474" sex="0" military="63" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="乔瑁" code="475" sex="1" military="64" intelligence="59"
+            mount="" weapon="" prop=""/>
+    <person name="焦触" code="476" sex="1" military="70" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="程武" code="477" sex="1" military="26" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="程秉" code="478" sex="1" military="23" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="程昱" code="479" sex="1" military="46" intelligence="93"
+            mount="253" weapon="92" prop="749"/>
+    <person name="程普" code="480" sex="1" military="81" intelligence="80"
+            mount="641" weapon="802" prop="739"/>
+    <person name="程远志" code="481" sex="1" military="78" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="程银" code="482" sex="1" military="72" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="华佗" code="483" sex="1" military="17" intelligence="96"
+            mount="231" weapon="781" prop="287"/>
+    <person name="华雄" code="484" sex="1" military="91" intelligence="31"
+            mount="644" weapon="803" prop="744"/>
+    <person name="华歆" code="485" sex="1" military="36" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="貂蝉" code="486" sex="0" military="80" intelligence="88"
+            mount="243" weapon="790" prop="739"/>
+    <person name="费诗" code="487" sex="1" military="72" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="费祎" code="488" sex="1" military="56" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="费耀" code="489" sex="1" military="71" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="贺齐" code="490" sex="1" military="82" intelligence="68"
+            mount="641" weapon="802" prop="757"/>
+    <person name="鄂焕" code="491" sex="1" military="65" intelligence="25"
+            mount="" weapon="" prop=""/>
+    <person name="冯习" code="492" sex="1" military="72" intelligence="40"
+            mount="" weapon="" prop=""/>
+    <person name="黄忠" code="493" sex="1" military="95" intelligence="68"
+            mount="638" weapon="792" prop="746"/>
+    <person name="黄祖" code="494" sex="1" military="71" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="黄强" code="495" sex="1" military="58" intelligence="60"
+            mount="" weapon="" prop=""/>
+    <person name="黄皓" code="496" sex="1" military="36" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="黄舞蝶" code="497" sex="0" military="90" intelligence="70"
+            mount="242" weapon="791" prop="739"/>
+    <person name="黄盖" code="498" sex="1" military="88" intelligence="69"
+            mount="242" weapon="788" prop="739"/>
+    <person name="黄权" code="499" sex="1" military="47" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="杨弘" code="500" sex="1" military="61" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="杨任" code="501" sex="1" military="75" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="杨奉" code="502" sex="1" military="74" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="杨昂" code="503" sex="1" military="75" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="杨松" code="504" sex="1" military="36" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="杨阜" code="505" sex="1" military="71" intelligence="40"
+            mount="" weapon="" prop=""/>
+    <person name="杨柏" code="506" sex="1" military="71" intelligence="30"
+            mount="" weapon="" prop=""/>
+    <person name="杨秋" code="507" sex="1" military="70" intelligence="22"
+            mount="" weapon="" prop=""/>
+    <person name="杨修" code="508" sex="1" military="26" intelligence="92"
+            mount="253" weapon="92" prop="748"/>
+    <person name="杨祚" code="509" sex="1" military="65" intelligence="49"
+            mount="" weapon="" prop=""/>
+    <person name="杨彪" code="510" sex="1" military="42" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="杨琦" code="511" sex="1" military="74" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="杨仪" code="512" sex="1" military="60" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="杨密" code="513" sex="1" military="70" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="杨丑" code="514" sex="1" military="65" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="杨怀" code="515" sex="1" military="76" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="杨艳" code="516" sex="0" military="80" intelligence="71"
+            mount="641" weapon="813" prop="757"/>
+    <person name="董允" code="517" sex="1" military="23" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="董卓" code="518" sex="1" military="92" intelligence="53"
+            mount="235" weapon="791" prop="745"/>
+    <person name="董和" code="519" sex="1" military="61" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="董宜" code="520" sex="0" military="74" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="董承" code="521" sex="1" military="73" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="董旻" code="522" sex="1" military="55" intelligence="51"
+            mount="" weapon="" prop=""/>
+    <person name="董昭" code="523" sex="1" military="49" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="董厥" code="524" sex="1" military="43" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="董衡" code="525" sex="1" military="73" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="董袭" code="526" sex="1" military="85" intelligence="42"
+            mount="242" weapon="787" prop="744"/>
+    <person name="虞翻" code="527" sex="1" military="41" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="贾午" code="528" sex="0" military="78" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="贾充" code="529" sex="1" military="26" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="贾南风" code="530" sex="0" military="66" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="贾荃" code="531" sex="0" military="74" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="贾逵" code="532" sex="1" military="48" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="贾华" code="533" sex="1" military="74" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="贾诩" code="534" sex="1" military="43" intelligence="97"
+            mount="230" weapon="780" prop="752"/>
+    <person name="贾范" code="535" sex="1" military="48" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="贾黎民" code="536" sex="1" military="35" intelligence="82"
+            mount="" weapon="" prop=""/>
+    <person name="贾濬" code="537" sex="0" military="32" intelligence="82"
+            mount="" weapon="" prop=""/>
+    <person name="邹陀" code="538" sex="1" military="67" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="邹圆" code="539" sex="0" military="34" intelligence="81"
+            mount="253" weapon="779" prop="747"/>
+    <person name="邹靖" code="540" sex="1" military="70" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="雍闿" code="541" sex="1" military="74" intelligence="51"
+            mount="" weapon="" prop=""/>
+    <person name="雷铜" code="543" sex="1" military="83" intelligence="48"
+            mount="246" weapon="820" prop="757"/>
+    <person name="雷薄" code="544" sex="1" military="67" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="廖化" code="545" sex="1" military="76" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="廖立" code="546" sex="1" military="71" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="廖琴" code="547" sex="0" military="75" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="满宠" code="548" sex="1" military="56" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="甄宓" code="549" sex="0" military="70" intelligence="82"
+            mount="253" weapon="779" prop="747"/>
+    <person name="管辂" code="552" sex="1" military="24" intelligence="94"
+            mount="253" weapon="92" prop="743"/>
+    <person name="管宁" code="553" sex="1" military="31" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="臧洪" code="554" sex="1" military="78" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="臧霸" code="555" sex="1" military="79" intelligence="45"
+            mount="243" weapon="802" prop="755"/>
+    <person name="裴元绍" code="556" sex="1" military="76" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="赵弘" code="557" sex="1" military="71" intelligence="43"
+            mount="" weapon="" prop=""/>
+    <person name="赵昂" code="558" sex="1" military="75" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="赵统" code="559" sex="1" military="75" intelligence="56"
+            mount="" weapon="" prop=""/>
+    <person name="赵累" code="560" sex="1" military="30" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="赵云" code="561" sex="1" military="97" intelligence="88"
+            mount="226" weapon="804" prop="751"/>
+    <person name="赵葳" code="562" sex="0" military="88" intelligence="76"
+            mount="242" weapon="788" prop="739"/>
+    <person name="赵广" code="563" sex="1" military="76" intelligence="57"
+            mount="" weapon="" prop=""/>
+    <person name="赵范" code="564" sex="1" military="40" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="蒯良" code="565" sex="1" military="30" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="蒯越" code="566" sex="1" military="32" intelligence="87"
+            mount="" weapon="" prop=""/>
+    <person name="刘巴" code="567" sex="1" military="48" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="刘伶" code="568" sex="1" military="25" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="刘陶" code="569" sex="1" military="27" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="刘岱" code="570" sex="1" military="67" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="刘延" code="571" sex="1" military="24" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="刘表" code="572" sex="1" military="62" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="刘封" code="573" sex="1" military="71" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="刘度" code="574" sex="1" military="52" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="刘珠" code="575" sex="0" military="74" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="刘焉" code="576" sex="1" military="36" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="刘理" code="577" sex="1" military="43" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="刘绍" code="578" sex="1" military="45" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="刘备" code="579" sex="1" military="83" intelligence="80"
+            mount="246" weapon="43" prop="739"/>
+    <person name="刘循" code="580" sex="1" military="68" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="刘琦" code="581" sex="1" military="17" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="刘琮" code="582" sex="1" military="32" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="刘虞" code="583" sex="1" military="71" intelligence="30"
+            mount="" weapon="" prop=""/>
+    <person name="刘辟" code="584" sex="1" military="72" intelligence="27"
+            mount="" weapon="" prop=""/>
+    <person name="刘慧娘" code="585" sex="0" military="64" intelligence="87"
+            mount="" weapon="" prop=""/>
+    <person name="刘莹" code="586" sex="0" military="72" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="刘璋" code="587" sex="1" military="33" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="刘范" code="588" sex="1" military="44" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="刘贤" code="589" sex="1" military="60" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="刘勋" code="590" sex="1" military="72" intelligence="38"
+            mount="" weapon="" prop=""/>
+    <person name="刘晔" code="591" sex="1" military="30" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="刘禅" code="592" sex="1" military="12" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="刘繇" code="593" sex="1" military="42" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="刘嚣" code="594" sex="1" military="30" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="审配" code="595" sex="1" military="73" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="樊建" code="596" sex="1" military="43" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="樊稠" code="597" sex="1" military="82" intelligence="27"
+            mount="246" weapon="802" prop="757"/>
+    <person name="乐进" code="598" sex="1" military="82" intelligence="56"
+            mount="246" weapon="802" prop="757"/>
+    <person name="潘凤" code="599" sex="1" military="75" intelligence="29"
+            mount="" weapon="" prop=""/>
+    <person name="潘璋" code="600" sex="1" military="77" intelligence="46"
+            mount="" weapon="" prop=""/>
+    <person name="潘濬" code="601" sex="1" military="22" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="潘隐" code="602" sex="1" military="68" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="滕胤" code="603" sex="1" military="40" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="滕丽" code="604" sex="0" military="55" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="稽康" code="605" sex="1" military="23" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="蒋石" code="606" sex="1" military="61" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="蒋钦" code="607" sex="1" military="78" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="蒋舒" code="608" sex="1" military="82" intelligence="36"
+            mount="246" weapon="802" prop="757"/>
+    <person name="蒋琬" code="609" sex="1" military="56" intelligence="91"
+            mount="253" weapon="92" prop="748"/>
+    <person name="蒋干" code="610" sex="1" military="23" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="蒋义渠" code="611" sex="1" military="72" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="蒋济" code="612" sex="1" military="32" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="蔡中" code="613" sex="1" military="50" intelligence="37"
+            mount="" weapon="" prop=""/>
+    <person name="蔡和" code="614" sex="1" military="53" intelligence="40"
+            mount="" weapon="" prop=""/>
+    <person name="蔡邕" code="615" sex="1" military="24" intelligence="82"
+            mount="" weapon="" prop=""/>
+    <person name="蔡阳" code="616" sex="1" military="73" intelligence="51"
+            mount="" weapon="" prop=""/>
+    <person name="蔡琰" code="617" sex="0" military="32" intelligence="89"
+            mount="253" weapon="779" prop="747"/>
+    <person name="蔡瑁" code="618" sex="1" military="81" intelligence="72"
+            mount="641" weapon="802" prop="757"/>
+    <person name="蔡勋" code="619" sex="1" military="74" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="蔡薇" code="620" sex="0" military="75" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="诸葛均" code="621" sex="1" military="43" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="诸葛直" code="622" sex="1" military="63" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="诸葛芸" code="623" sex="0" military="26" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="诸葛亮" code="624" sex="1" military="75" intelligence="100"
+            mount="229" weapon="780" prop="752"/>
+    <person name="诸葛恪" code="625" sex="1" military="55" intelligence="93"
+            mount="253" weapon="92" prop="749"/>
+    <person name="诸葛琪" code="626" sex="0" military="63" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="诸葛瑾" code="627" sex="1" military="42" intelligence="91"
+            mount="253" weapon="92" prop="748"/>
+    <person name="诸葛诞" code="628" sex="1" military="84" intelligence="73"
+            mount="236" weapon="820" prop="739"/>
+    <person name="诸葛靓" code="629" sex="1" military="75" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="邓冰" code="630" sex="0" military="72" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="邓艾" code="631" sex="1" military="84" intelligence="94"
+            mount="229" weapon="771" prop="740"/>
+    <person name="邓忠" code="632" sex="1" military="77" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="邓芝" code="633" sex="1" military="58" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="邓茂" code="634" sex="1" military="76" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="邓贤" code="635" sex="1" military="69" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="邓飏" code="636" sex="1" military="64" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="巩志" code="637" sex="1" military="73" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="巩都" code="638" sex="1" military="75" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="鲁珍" code="639" sex="0" military="60" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="鲁肃" code="640" sex="1" military="62" intelligence="96"
+            mount="231" weapon="780" prop="743"/>
+    <person name="卢植" code="641" sex="1" military="71" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="穆顺" code="642" sex="1" military="63" intelligence="31"
+            mount="" weapon="" prop=""/>
+    <person name="钱铜" code="643" sex="1" military="65" intelligence="61"
+            mount="" weapon="" prop=""/>
+    <person name="阎宇" code="644" sex="1" military="55" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="阎柔" code="645" sex="1" military="61" intelligence="50"
+            mount="" weapon="" prop=""/>
+    <person name="阎圃" code="646" sex="1" military="31" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="阎芝" code="647" sex="1" military="80" intelligence="50"
+            mount="243" weapon="802" prop="754"/>
+    <person name="阎象" code="648" sex="1" military="42" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="阎温" code="649" sex="1" military="33" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="霍戈" code="650" sex="1" military="72" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="霍峻" code="651" sex="1" military="77" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="骆俊" code="652" sex="1" military="51" intelligence="82"
+            mount="" weapon="" prop=""/>
+    <person name="骆统" code="653" sex="1" military="65" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="鲍信" code="654" sex="1" military="38" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="鲍隆" code="655" sex="1" military="66" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="戴员" code="656" sex="1" military="50" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="戴陵" code="657" sex="1" military="68" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="濮阳兴" code="658" sex="1" military="43" intelligence="89"
+            mount="" weapon="" prop=""/>
+    <person name="糜竺" code="659" sex="1" military="30" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="糜芳" code="660" sex="1" military="70" intelligence="41"
+            mount="" weapon="" prop=""/>
+    <person name="糜贞" code="661" sex="0" military="63" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="薛综" code="662" sex="1" military="32" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="薛莹" code="663" sex="1" military="45" intelligence="65"
+            mount="" weapon="" prop=""/>
+    <person name="谢景" code="664" sex="1" military="43" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="钟绅" code="665" sex="1" military="71" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="钟会" code="666" sex="1" military="64" intelligence="96"
+            mount="231" weapon="781" prop="743"/>
+    <person name="钟缙" code="667" sex="1" military="68" intelligence="53"
+            mount="" weapon="" prop=""/>
+    <person name="钟繇" code="668" sex="1" military="18" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="隐蕃" code="669" sex="1" military="28" intelligence="90"
+            mount="253" weapon="92" prop="747"/>
+    <person name="韩玄" code="670" sex="1" military="68" intelligence="33"
+            mount="" weapon="" prop=""/>
+    <person name="韩忠" code="671" sex="1" military="69" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="韩浩" code="672" sex="1" military="78" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="韩嵩" code="673" sex="1" military="28" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="韩当" code="674" sex="1" military="75" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="韩遂" code="675" sex="1" military="63" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="韩福" code="676" sex="1" military="52" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="韩暹" code="677" sex="1" military="66" intelligence="32"
+            mount="" weapon="" prop=""/>
+    <person name="韩融" code="678" sex="1" military="62" intelligence="56"
+            mount="" weapon="" prop=""/>
+    <person name="韩黛" code="679" sex="0" military="78" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="韩馥" code="680" sex="1" military="69" intelligence="46"
+            mount="" weapon="" prop=""/>
+    <person name="摄龙宗" code="681" sex="1" military="73" intelligence="68"
+            mount="" weapon="" prop=""/>
+    <person name="简雍" code="682" sex="1" military="34" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="聂友" code="683" sex="1" military="54" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="颜良" code="684" sex="1" military="93" intelligence="37"
+            mount="639" weapon="111" prop="745"/>
+    <person name="魏攸" code="685" sex="1" military="71" intelligence="30"
+            mount="" weapon="" prop=""/>
+    <person name="魏延" code="686" sex="1" military="94" intelligence="70"
+            mount="639" weapon="792" prop="746"/>
+    <person name="魏讽" code="687" sex="1" military="56" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="魏腾" code="688" sex="1" military="72" intelligence="43"
+            mount="" weapon="" prop=""/>
+    <person name="魏续" code="689" sex="1" military="71" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="庞统" code="690" sex="1" military="54" intelligence="98"
+            mount="230" weapon="780" prop="752"/>
+    <person name="庞义" code="691" sex="1" military="29" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="庞德" code="692" sex="1" military="93" intelligence="76"
+            mount="228" weapon="850" prop="745"/>
+    <person name="谭雄" code="693" sex="1" military="81" intelligence="34"
+            mount="641" weapon="802" prop="757"/>
+    <person name="谯周" code="694" sex="1" military="16" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="边张" code="695" sex="1" military="68" intelligence="63"
+            mount="" weapon="" prop=""/>
+    <person name="关平" code="696" sex="1" military="83" intelligence="70"
+            mount="246" weapon="786" prop="757"/>
+    <person name="关羽" code="697" sex="1" military="98" intelligence="82"
+            mount="226" weapon="792" prop="751"/>
+    <person name="关索" code="698" sex="1" military="84" intelligence="64"
+            mount="236" weapon="112" prop="757"/>
+    <person name="关统" code="699" sex="1" military="85" intelligence="72"
+            mount="242" weapon="787" prop="744"/>
+    <person name="关凤" code="700" sex="0" military="80" intelligence="76"
+            mount="243" weapon="786" prop="744"/>
+    <person name="关兴" code="701" sex="1" military="87" intelligence="71"
+            mount="242" weapon="793" prop="739"/>
+    <person name="曲义" code="702" sex="1" military="77" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="曲演" code="703" sex="1" military="65" intelligence="60"
+            mount="" weapon="" prop=""/>
+    <person name="祢衡" code="704" sex="1" military="20" intelligence="91"
+            mount="253" weapon="92" prop="747"/>
+    <person name="严白虎" code="705" sex="1" military="79" intelligence="43"
+            mount="" weapon="" prop=""/>
+    <person name="严如意" code="706" sex="0" military="78" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="严政" code="707" sex="1" military="74" intelligence="47"
+            mount="" weapon="" prop=""/>
+    <person name="严畯" code="708" sex="1" military="24" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="严纲" code="709" sex="1" military="68" intelligence="49"
+            mount="" weapon="" prop=""/>
+    <person name="严兴" code="710" sex="1" military="76" intelligence="45"
+            mount="" weapon="" prop=""/>
+    <person name="严颜" code="711" sex="1" military="89" intelligence="72"
+            mount="242" weapon="803" prop="739"/>
+    <person name="苏飞" code="712" sex="1" military="73" intelligence="42"
+            mount="" weapon="" prop=""/>
+    <person name="阚泽" code="713" sex="1" military="48" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="顾雍" code="714" sex="1" military="22" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="龚英莲" code="715" sex="0" military="85" intelligence="45"
+            mount="242" weapon="814" prop="744"/>
+    <person name="龚都" code="716" sex="1" military="72" intelligence="28"
+            mount="" weapon="" prop=""/>
+    <person name="龚景" code="717" sex="1" military="34" intelligence="72"
+            mount="" weapon="" prop=""/>
+    <person name="丘力居" code="718" sex="1" military="71" intelligence="29"
+            mount="" weapon="" prop=""/>
+    <person name="北宫伯玉" code="719" sex="1" military="58" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="去卑" code="720" sex="1" military="80" intelligence="34"
+            mount="247" weapon="802" prop="755"/>
+    <person name="白虎文" code="721" sex="1" military="75" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="步度根" code="722" sex="1" military="77" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="拓拔力微" code="723" sex="1" military="65" intelligence="58"
+            mount="" weapon="" prop=""/>
+    <person name="于扶罗" code="724" sex="1" military="75" intelligence="54"
+            mount="" weapon="" prop=""/>
+    <person name="越吉" code="725" sex="1" military="77" intelligence="62"
+            mount="" weapon="" prop=""/>
+    <person name="雅丹" code="726" sex="1" military="56" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="彻里吉" code="727" sex="1" military="83" intelligence="49"
+            mount="247" weapon="802" prop="757"/>
+    <person name="符健" code="728" sex="1" military="78" intelligence="69"
+            mount="" weapon="" prop=""/>
+    <person name="素利" code="729" sex="1" military="82" intelligence="31"
+            mount="247" weapon="802" prop="757"/>
+    <person name="能臣抵之" code="730" sex="1" military="70" intelligence="56"
+            mount="" weapon="" prop=""/>
+    <person name="厥机" code="731" sex="1" military="65" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="普卢" code="732" sex="1" military="67" intelligence="60"
+            mount="" weapon="" prop=""/>
+    <person name="无臣氐" code="733" sex="1" military="85" intelligence="22"
+            mount="247" weapon="787" prop="757"/>
+    <person name="弥加" code="734" sex="1" military="51" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="左贤王" code="735" sex="1" military="64" intelligence="77"
+            mount="" weapon="" prop=""/>
+    <person name="那楼" code="736" sex="1" military="76" intelligence="24"
+            mount="" weapon="" prop=""/>
+    <person name="呼厨泉" code="737" sex="1" military="91" intelligence="21"
+            mount="247" weapon="803" prop="744"/>
+    <person name="速仆丸" code="738" sex="1" military="77" intelligence="52"
+            mount="" weapon="" prop=""/>
+    <person name="楼班" code="739" sex="1" military="67" intelligence="35"
+            mount="" weapon="" prop=""/>
+    <person name="蹋顿" code="740" sex="1" military="79" intelligence="56"
+            mount="" weapon="" prop=""/>
+    <person name="泄归泥" code="741" sex="1" military="67" intelligence="55"
+            mount="" weapon="" prop=""/>
+    <person name="治元多" code="742" sex="1" military="71" intelligence="60"
+            mount="" weapon="" prop=""/>
+    <person name="治无戴" code="743" sex="1" military="70" intelligence="44"
+            mount="" weapon="" prop=""/>
+    <person name="千万" code="744" sex="1" military="83" intelligence="35"
+            mount="247" weapon="802" prop="757"/>
+    <person name="俄何烧戈" code="745" sex="1" military="60" intelligence="71"
+            mount="" weapon="" prop=""/>
+    <person name="月牙儿" code="746" sex="0" military="85" intelligence="51"
+            mount="247" weapon="814" prop="744"/>
+    <person name="依尔伦" code="747" sex="0" military="80" intelligence="46"
+            mount="247" weapon="802" prop="754"/>
+    <person name="喀丽儿" code="748" sex="0" military="71" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="呼兰" code="749" sex="0" military="61" intelligence="84"
+            mount="" weapon="" prop=""/>
+    <person name="叶丝婉" code="750" sex="0" military="52" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="华黎" code="751" sex="0" military="78" intelligence="67"
+            mount="" weapon="" prop=""/>
+    <person name="穆塔儿" code="752" sex="0" military="60" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="兀突骨" code="761" sex="1" military="88" intelligence="18"
+            mount="247" weapon="788" prop="744"/>
+    <person name="孟香" code="762" sex="0" military="85" intelligence="55"
+            mount="247" weapon="814" prop="744"/>
+    <person name="孟优" code="763" sex="1" military="85" intelligence="28"
+            mount="247" weapon="787" prop="757"/>
+    <person name="孟获" code="764" sex="1" military="89" intelligence="52"
+            mount="247" weapon="788" prop="744"/>
+    <person name="祝融夫人" code="765" sex="0" military="84" intelligence="44"
+            mount="247" weapon="814" prop="757"/>
+    <person name="木鹿大王" code="766" sex="1" military="78" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="朵思大王" code="767" sex="1" military="80" intelligence="65"
+            mount="247" weapon="802" prop="754"/>
+    <person name="沙摩柯" code="768" sex="1" military="92" intelligence="21"
+            mount="247" weapon="803" prop="745"/>
+    <person name="金环三结" code="769" sex="1" military="78" intelligence="16"
+            mount="" weapon="" prop=""/>
+    <person name="迷当大王" code="770" sex="1" military="81" intelligence="36"
+            mount="247" weapon="802" prop="757"/>
+    <person name="带来洞主" code="771" sex="1" military="70" intelligence="26"
+            mount="" weapon="" prop=""/>
+    <person name="忙牙长" code="772" sex="1" military="69" intelligence="27"
+            mount="" weapon="" prop=""/>
+    <person name="阿会喃" code="773" sex="1" military="77" intelligence="28"
+            mount="" weapon="" prop=""/>
+    <person name="董荼那" code="774" sex="1" military="78" intelligence="34"
+            mount="" weapon="" prop=""/>
+    <person name="轲比能" code="775" sex="1" military="85" intelligence="41"
+            mount="247" weapon="787" prop="757"/>
+    <person name="孟鹰" code="776" sex="1" military="88" intelligence="50"
+            mount="247" weapon="788" prop="744"/>
+    <person name="孟狼" code="777" sex="1" military="90" intelligence="31"
+            mount="247" weapon="791" prop="744"/>
+    <person name="黑龙洞主" code="778" sex="1" military="61" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="孟节" code="779" sex="1" military="21" intelligence="93"
+            mount="253" weapon="92" prop="749"/>
+    <person name="哈尼" code="780" sex="1" military="36" intelligence="73"
+            mount="" weapon="" prop=""/>
+    <person name="杨锋" code="781" sex="1" military="70" intelligence="36"
+            mount="" weapon="" prop=""/>
+    <person name="孔雀" code="782" sex="0" military="77" intelligence="76"
+            mount="" weapon="" prop=""/>
+    <person name="阿诗玛" code="783" sex="0" military="34" intelligence="88"
+            mount="" weapon="" prop=""/>
+    <person name="莎雅" code="784" sex="0" military="42" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="麻荷萝" code="785" sex="0" military="76" intelligence="78"
+            mount="" weapon="" prop=""/>
+    <person name="银花夫人" code="786" sex="0" military="63" intelligence="79"
+            mount="" weapon="" prop=""/>
+    <person name="翠娃" code="787" sex="0" military="65" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="须佐之男" code="801" sex="1" military="88" intelligence="40"
+            mount="242" weapon="788" prop="744"/>
+    <person name="大国主" code="802" sex="1" military="81" intelligence="65"
+            mount="641" weapon="802" prop="757"/>
+    <person name="建御名方" code="803" sex="1" military="90" intelligence="28"
+            mount="645" weapon="791" prop="744"/>
+    <person name="少彦名" code="804" sex="1" military="29" intelligence="85"
+            mount="" weapon="" prop=""/>
+    <person name="大物主" code="805" sex="1" military="74" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="建御雷" code="806" sex="1" military="90" intelligence="25"
+            mount="645" weapon="791" prop="744"/>
+    <person name="迩迩艺" code="807" sex="1" military="62" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="山幸彦" code="808" sex="1" military="70" intelligence="70"
+            mount="" weapon="" prop=""/>
+    <person name="海幸彦" code="809" sex="1" military="65" intelligence="66"
+            mount="" weapon="" prop=""/>
+    <person name="天手力男" code="810" sex="1" military="83" intelligence="29"
+            mount="246" weapon="820" prop="757"/>
+    <person name="小碓皇子" code="811" sex="1" military="90" intelligence="76"
+            mount="228" weapon="791" prop="739"/>
+    <person name="迦具土" code="812" sex="1" military="85" intelligence="40"
+            mount="247" weapon="822" prop="744"/>
+    <person name="大山津见" code="813" sex="1" military="75" intelligence="83"
+            mount="" weapon="" prop=""/>
+    <person name="久久能智" code="814" sex="1" military="58" intelligence="74"
+            mount="" weapon="" prop=""/>
+    <person name="志那都彦" code="815" sex="1" military="79" intelligence="64"
+            mount="" weapon="" prop=""/>
+    <person name="棉津见" code="816" sex="1" military="59" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="阿昙" code="817" sex="1" military="82" intelligence="66"
+            mount="246" weapon="814" prop="757"/>
+    <person name="隼人" code="818" sex="1" military="79" intelligence="40"
+            mount="" weapon="" prop=""/>
+    <person name="神武" code="819" sex="1" military="85" intelligence="81"
+            mount="247" weapon="814" prop="739"/>
+    <person name="五濑" code="820" sex="1" military="82" intelligence="46"
+            mount="246" weapon="802" prop="757"/>
+    <person name="月读" code="821" sex="0" military="73" intelligence="91"
+            mount="253" weapon="92" prop="748"/>
+    <person name="玉依姬" code="822" sex="0" military="63" intelligence="81"
+            mount="" weapon="" prop=""/>
+    <person name="市寸岛姬" code="823" sex="0" military="62" intelligence="75"
+            mount="" weapon="" prop=""/>
+    <person name="多纪理姬" code="824" sex="0" military="66" intelligence="89"
+            mount="" weapon="" prop=""/>
+    <person name="多岐都姬" code="825" sex="0" military="83" intelligence="42"
+            mount="246" weapon="814" prop="757"/>
+    <person name="佐久夜姬" code="826" sex="0" military="42" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="弟橘姬" code="827" sex="0" military="55" intelligence="82"
+            mount="" weapon="" prop=""/>
+    <person name="须势理姬" code="828" sex="0" military="81" intelligence="69"
+            mount="641" weapon="813" prop="757"/>
+    <person name="丰玉姬" code="829" sex="0" military="70" intelligence="80"
+            mount="" weapon="" prop=""/>
+    <person name="栉名田姬" code="830" sex="0" military="51" intelligence="86"
+            mount="" weapon="" prop=""/>
+    <person name="卑弥呼" code="831" sex="0" military="90" intelligence="93"
+            mount="227" weapon="771" prop="740"/>
+    <person name="黄月英" code="880" sex="0" military="75" intelligence="100"
+            mount="229" weapon="780" prop="752"/>
+    <person name="章云" code="65829" sex="1" military="95" intelligence="69"
+            mount="225" weapon="792" prop="751"/>
+    <person name="奚圆圆" code="65875" sex="0" military="66" intelligence="95"
+            mount="226" weapon="832" prop="752"/>
+    <person name="李兆玲" code="66078" sex="0" military="95" intelligence="65"
+            mount="638" weapon="792" prop="746"/>
+    <person name="荚荣荣" code="66086" sex="0" military="64" intelligence="95"
+            mount="253" weapon="781" prop="749"/>
+    <person name="王君" code="66087" sex="0" military="57" intelligence="95"
+            mount="253" weapon="781" prop="749"/>
+</root>

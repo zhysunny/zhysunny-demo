@@ -93,6 +93,11 @@
                 <artifactId>zhysunny-common</artifactId>
                 <version>${zhysunny.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.zhysunny.utils</groupId>
+                <artifactId>zhysunny-io</artifactId>
+                <version>${zhysunny.version}</version>
+            </dependency>
             <!-- zhysunny end -->
             <!-- netty start -->
             <dependency>
