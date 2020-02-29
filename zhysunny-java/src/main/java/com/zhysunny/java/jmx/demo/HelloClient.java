@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class HelloClient {
 
     public static void main(String[] args) throws Exception {
-        String jmxURL = "service:jmx:rmi:///jndi/rmi://10.45.144.76:1000/jmxrmi";
+        String jmxURL = "service:jmx:rmi:///jndi/rmi://127.0.0.1:1000/jmxrmi";
         JMXServiceURL serviceURL = new JMXServiceURL(jmxURL);
         JMXConnector connector = JMXConnectorFactory.connect(serviceURL);
         MBeanServerConnection mbsc = connector.getMBeanServerConnection();
