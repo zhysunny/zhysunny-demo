@@ -1,8 +1,7 @@
-package com.zhysunny.java.jmx.bean;
+package com.zhysunny.java.jmx.remote;
 
 import com.zhysunny.common.util.UnitUtils;
 import javax.management.ObjectName;
-import java.util.Arrays;
 
 /**
  * 直接缓存池

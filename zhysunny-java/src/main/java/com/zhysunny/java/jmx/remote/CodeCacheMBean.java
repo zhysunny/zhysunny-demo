@@ -1,18 +1,18 @@
-package com.zhysunny.java.jmx.bean;
+package com.zhysunny.java.jmx.remote;
 
 import javax.management.ObjectName;
 import java.util.Arrays;
 
 /**
- * 压缩类空间
+ * 代码缓存器
  * @author 章云
  * @date 2019/12/24 8:51
  */
-public class CompressedClassSpaceMBean extends JmxUrl {
+public class CodeCacheMBean extends JmxUrl {
 
     public static void main(String[] args) throws Exception {
         // MBean名称
-        ObjectName objectName = new ObjectName("java.lang:type=MemoryPool,name=Compressed Class Space");
+        ObjectName objectName = new ObjectName("java.lang:type=MemoryPool,name=Code Cache");
         // String
         System.out.println("MBean名称:" + mbsc.getAttribute(objectName, "Name"));
         // String[]

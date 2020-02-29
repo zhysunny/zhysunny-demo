@@ -1,7 +1,6 @@
-package com.zhysunny.java.jmx.bean;
+package com.zhysunny.java.jmx.remote;
 
 import javax.management.ObjectName;
-import java.util.Arrays;
 
 /**
  * 内存

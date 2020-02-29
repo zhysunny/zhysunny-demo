@@ -1,18 +1,18 @@
-package com.zhysunny.java.jmx.bean;
+package com.zhysunny.java.jmx.remote;
 
 import javax.management.ObjectName;
 import java.util.Arrays;
 
 /**
- * 新生代GC
+ * 并发标记扫描
  * @author 章云
- * @date 2019/12/23 19:19
+ * @date 2019/12/23 18:58
  */
-public class ParNewMBean extends JmxUrl {
+public class ConcurrentMarkSweepMBean extends JmxUrl {
 
     public static void main(String[] args) throws Exception {
         // MBean名称
-        ObjectName objectName = new ObjectName("java.lang:type=GarbageCollector,name=ParNew");
+        ObjectName objectName = new ObjectName("java.lang:type=GarbageCollector,name=ConcurrentMarkSweep");
         // String
         System.out.println("MBean名称:" + mbsc.getAttribute(objectName, "Name"));
         // String[]

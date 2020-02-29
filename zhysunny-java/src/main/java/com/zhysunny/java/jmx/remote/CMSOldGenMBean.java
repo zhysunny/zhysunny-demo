@@ -1,18 +1,18 @@
-package com.zhysunny.java.jmx.bean;
+package com.zhysunny.java.jmx.remote;
 
 import javax.management.ObjectName;
 import java.util.Arrays;
 
 /**
- * 新生代伊甸园空间
+ * 老年代内存
  * @author 章云
  * @date 2019/12/24 8:51
  */
-public class ParEdenSpaceMBean extends JmxUrl {
+public class CMSOldGenMBean extends JmxUrl {
 
     public static void main(String[] args) throws Exception {
         // MBean名称
-        ObjectName objectName = new ObjectName("java.lang:type=MemoryPool,name=Par Eden Space");
+        ObjectName objectName = new ObjectName("java.lang:type=MemoryPool,name=CMS Old Gen");
         // String
         System.out.println("MBean名称:" + mbsc.getAttribute(objectName, "Name"));
         // String[]
@@ -34,11 +34,11 @@ public class ParEdenSpaceMBean extends JmxUrl {
         // javax.management.openmbean.CompositeData
         System.out.println("使用:" + mbsc.getAttribute(objectName, "Usage"));
         // long
-//        System.out.println("使用阈值:" + mbsc.getAttribute(objectName, "UsageThreshold"));
+        System.out.println("使用阈值:" + mbsc.getAttribute(objectName, "UsageThreshold"));
         // long
-//        System.out.println("使用阈值个数:" + mbsc.getAttribute(objectName, "UsageThresholdCount"));
+        System.out.println("使用阈值个数:" + mbsc.getAttribute(objectName, "UsageThresholdCount"));
         // boolean
-//        System.out.println("是否超过使用阈值:" + mbsc.getAttribute(objectName, "UsageThresholdExceeded"));
+        System.out.println("是否超过使用阈值:" + mbsc.getAttribute(objectName, "UsageThresholdExceeded"));
         // boolean
         System.out.println("是否支持使用阈值:" + mbsc.getAttribute(objectName, "UsageThresholdSupported"));
         // boolean

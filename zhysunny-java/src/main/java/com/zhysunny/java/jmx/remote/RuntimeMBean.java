@@ -1,4 +1,4 @@
-package com.zhysunny.java.jmx.bean;
+package com.zhysunny.java.jmx.remote;
 
 import com.zhysunny.common.date.DateUtils;
 import javax.management.ObjectName;
