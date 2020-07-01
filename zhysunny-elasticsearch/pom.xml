@@ -15,7 +15,7 @@
 
     <properties>
         <elasticsearch.version>5.4.0</elasticsearch.version>
-        <elasticsearch.log4j.version>2.7</elasticsearch.log4j.version>
+        <elasticsearch.log4j.version>2.13.3</elasticsearch.log4j.version>
     </properties>
 
     <dependencies>
