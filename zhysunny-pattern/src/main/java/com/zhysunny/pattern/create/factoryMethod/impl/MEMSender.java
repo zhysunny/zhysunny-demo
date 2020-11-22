@@ -9,8 +9,6 @@ import com.zhysunny.pattern.create.factoryMethod.Sender;
  */
 public class MEMSender implements Sender {
 
-	public static final String TYPE = "MEM";
-
 	@Override
 	public void send() {
 		System.out.println("发送短信");

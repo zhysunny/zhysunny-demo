@@ -9,8 +9,6 @@ import com.zhysunny.pattern.create.factoryMethod.Sender;
  */
 public class MMSSender implements Sender {
 
-	public static final String TYPE = "MMS";
-
 	@Override
 	public void send() {
 		System.out.println("发送彩信");

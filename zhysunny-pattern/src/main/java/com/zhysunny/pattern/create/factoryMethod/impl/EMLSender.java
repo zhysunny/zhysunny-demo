@@ -9,8 +9,6 @@ import com.zhysunny.pattern.create.factoryMethod.Sender;
  */
 public class EMLSender implements Sender {
 
-    public static final String TYPE = "EML";
-
     @Override
     public void send() {
         System.out.println("发送邮件");
