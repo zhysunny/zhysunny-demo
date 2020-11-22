@@ -10,7 +10,7 @@ import com.zhysunny.pattern.structure.proxy.Printer;
  */
 public class Main {
     public static void main(String[] args) {
-        LoggerHanlder lh = new LoggerHanlder(new Printer("zhy"));
+        LoggerHandler lh = new LoggerHandler(new Printer("zhy"));
         Printable printer = (Printable) lh.newProxyInstance();
         printer.print("Hello World");
     }

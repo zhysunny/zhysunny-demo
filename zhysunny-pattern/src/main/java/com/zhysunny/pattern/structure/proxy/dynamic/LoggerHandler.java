@@ -7,9 +7,9 @@ import java.lang.reflect.Method;
  * @author 章云
  * @date 2019/6/18 21:52
  */
-public class LoggerHanlder extends AbstractInvocationHanlder {
+public class LoggerHandler extends AbstractInvocationHandler {
 
-    public LoggerHanlder(Object target) {
+    public LoggerHandler(Object target) {
         super(target);
     }
 

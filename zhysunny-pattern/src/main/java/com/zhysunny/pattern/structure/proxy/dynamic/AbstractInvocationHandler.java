@@ -9,11 +9,11 @@ import java.lang.reflect.Proxy;
  * @author 章云
  * @date 2019/6/18 21:49
  */
-public abstract class AbstractInvocationHanlder implements InvocationHandler {
+public abstract class AbstractInvocationHandler implements InvocationHandler {
 
     protected Object target;
 
-    AbstractInvocationHanlder(Object target) {
+    AbstractInvocationHandler(Object target) {
         this.target = target;
     }
 
