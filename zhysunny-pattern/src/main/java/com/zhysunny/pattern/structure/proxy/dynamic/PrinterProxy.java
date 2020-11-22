@@ -1,16 +1,24 @@
 package com.zhysunny.pattern.structure.proxy.dynamic;
 
+import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
  * 对代理类的功能增强
  * @author 章云
  * @date 2019/6/18 21:52
  */
-public class LoggerHandler extends AbstractInvocationHandler {
+public class PrinterProxy implements InvocationHandler {
 
-    public LoggerHandler(Object target) {
-        super(target);
+    private Object target;
+
+    public PrinterProxy(Object target) {
+        this.target = target;
+    }
+
+    public final Object newProxyInstance() {
+        return Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
 
     @Override

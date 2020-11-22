@@ -11,21 +11,20 @@ import com.zhysunny.pattern.structure.proxy.Printer;
 public class PrinterProxy implements Printable {
 
     private Printer printer;
-    private String name;
 
-    public PrinterProxy(String name) {
-        this.name = name;
+    public PrinterProxy(Printer printer) {
+        this.printer = printer;
     }
 
     /**
      * 希望执行print方法前实例化被代理对象
      */
     private void before() {
-        printer = new Printer(this.name);
+        System.out.println("执行方法前");
     }
 
     private void after() {
-        System.out.println("调用after方法");
+        System.out.println("执行方法后");
     }
 
     @Override

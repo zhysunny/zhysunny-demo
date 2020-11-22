@@ -13,4 +13,11 @@
     <name>Zhysunny Demo: Pattern</name>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

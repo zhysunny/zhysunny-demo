@@ -1,6 +1,7 @@
 package com.zhysunny.pattern.structure.proxy.simple;
 
 import com.zhysunny.pattern.structure.proxy.Printable;
+import com.zhysunny.pattern.structure.proxy.Printer;
 
 /**
  * 代理模式(简单)测试类
@@ -9,7 +10,7 @@ import com.zhysunny.pattern.structure.proxy.Printable;
  */
 public class Main {
     public static void main(String[] args) {
-        Printable printer = new PrinterProxy("zhy");
+        Printable printer = new PrinterProxy(new Printer("zhy"));
         printer.print("Hello World");
     }
 }
